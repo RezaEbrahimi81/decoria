@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <!-- === Meta ===-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 not found</title>
+    <meta
+      name="description"
+      content="Decoria — online store for furniture, lighting, decor and office equipment. Carefully selected pieces for modern homes and offices."
+    />
+    <meta name="theme-color" content="#f7f5f2" />
+
+    <!-- === Favicon (inline SVG — no image file needed) ===-->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛋️</text></svg>"
+    />
+
+    <!-- === Fonts (Google Fonts) ===-->
+    <!-- preconnect: opens the connection to font servers early → faster font download -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Inter = body text | Playfair Display = headings (font-display) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- === Icons (Font Awesome) ===-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- === Styles (compiled Tailwind output — do NOT edit dist files) === -->
+    <link rel="stylesheet" href="/dist/css/main.css" />
+  </head>
+
+  <body data-page="404" class="bg-surface font-sans text-neutral-900">
+    <!-- ==== Header (injected by src/js/components/header.js) === -->
+    <div id="site-header"></div>
+
+    <!-- === Main content (unique per page) === --><!doctype html>
+    <html lang="en" class="scroll-smooth">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>404 not found — Decoria</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet"
+        />
+
+        <!-- Icons -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+
+        <!-- Styles (compiled Tailwind) -->
+        <link rel="stylesheet" href="/dist/css/main.css" />
+      </head>
+      <body data-page="404" class="bg-surface font-sans text-neutral-900">
+        <!-- Header mount point (injected by main.js) -->
+        <div id="site-header"></div>
+
+        <main>
+          <div class="mx-auto max-w-7xl px-4 py-16">
+            <h1 class="font-display text-4xl text-primary">404 not found</h1>
+            <!-- product grid → next step -->
+          </div>
+        </main>
+
+        <!-- Footer mount point -->
+        <div id="site-footer"></div>
+
+        <!-- Entry point -->
+        <script type="module" src="/src/js/main.js"></script>
+      </body>
+    </html>
+
+    <main>
+      <!-- Hero section → added in the next step -->
+    </main>
+
+    <!-- ==== Footer (injected by src/js/components/footer.js) === -->
+    <div id="site-footer"></div>
+
+    <!-- === Scripts (ES module — deferred by default, runs after HTML is parsed) ===-->
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>

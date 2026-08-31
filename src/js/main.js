@@ -1,11 +1,19 @@
-async function pingApi() {
-  try {
-    const res = await fetch("http://localhost:3000/products?_limit=2");
-    const products = await res.json();
-    console.log("Mock API is working:", products);
-  } catch {
-    console.error("API is not running. Run: npm run api");
-  }
-}
+import { initHeader } from "./components/header.js";
+import { initFooter } from "./components/footer.js";
+import { initHome } from "./pages/home.js";
 
-pingApi();
+// 1) Shared components — run on every page
+initHeader();
+initFooter();
+
+// 2) Page router — maps body[data-page] to its init function.
+//    Each HTML page declares which module it needs via data-page.
+const routes = {
+  home: initHome,
+  // shop: initShop,      // uncomment when src/js/pages/shop.js exists
+  // product: initProduct,
+  // cart: initCart,
+};
+
+const initPage = routes[document.body.dataset.page];
+if (initPage) initPage();
