@@ -1,0 +1,45 @@
+{
+  "categories": [
+    { "id": 1, "slug": "furniture", "name": "Furniture" },
+    { "id": 2, "slug": "lighting", "name": "Lighting" },
+    { "id": 3, "slug": "decor", "name": "Decor" },
+    { "id": 4, "slug": "storage", "name": "Storage" },
+    { "id": 5, "slug": "home-office", "name": "Home Office" },
+    { "id": 6, "slug": "art", "name": "Frames & Art" },
+    { "id": 7, "slug": "textiles", "name": "Textiles" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Oak Lounge Chair",
+      "category": "furniture",
+      "subcategory": "chairs",
+      "price": 240,
+      "oldPrice": 290,
+      "images": ["/src/assets/images/products/oak-lounge-chair-1.jpg"],
+      "colors": ["Natural Oak", "Walnut"],
+      "material": "Solid Oak",
+      "dimensions": "70×75×80 cm",
+      "description": "Handcrafted Scandinavian lounge chair with a solid oak frame.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true
+    },
+    {
+      "id": 2,
+      "name": "Brass Table Lamp",
+      "category": "lighting",
+      "subcategory": "lamps",
+      "price": 89,
+      "oldPrice": null,
+      "images": ["/src/assets/images/products/brass-lamp-1.jpg"],
+      "colors": ["Brass", "Matte Black"],
+      "material": "Brass & Linen",
+      "dimensions": "30×30×45 cm",
+      "description": "Warm ambient table lamp with an opal glass shade.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false
+    }
+  ]
+}

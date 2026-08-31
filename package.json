@@ -1,0 +1,19 @@
+{
+  "name": "decoria",
+  "version": "1.0.0",
+  "description": "Online store for home & office decoration",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/css/main.css -o ./dist/css/main.css --watch",
+    "build": "tailwindcss -i ./src/css/main.css -o ./dist/css/main.css --minify",
+    "api": "json-server db.json --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "json-server": "^1.0.0-beta.15",
+    "tailwindcss": "^4.3.3"
+  }
+}
