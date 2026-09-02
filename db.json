@@ -11,35 +11,923 @@
   "products": [
     {
       "id": 1,
-      "name": "Oak Lounge Chair",
+      "name": "1927 Easy Chair",
       "category": "furniture",
-      "subcategory": "chairs",
-      "price": 240,
-      "oldPrice": 290,
-      "images": ["/src/assets/images/products/oak-lounge-chair-1.jpg"],
-      "colors": ["Natural Oak", "Walnut"],
-      "material": "Solid Oak",
-      "dimensions": "70×75×80 cm",
-      "description": "Handcrafted Scandinavian lounge chair with a solid oak frame.",
+      "subcategory": "seating",
+      "price": 650,
+      "oldPrice": 795,
+      "images": [
+        "/src/assets/images/products/furniture-seating-1927-easy-chair-1.jpg",
+        "/src/assets/images/products/furniture-seating-1927-easy-chair-2.jpg",
+        "/src/assets/images/products/furniture-seating-1927-easy-chair-3.jpg"
+      ],
+      "material": "Beech & Linen",
+      "dimensions": "68×82×96 cm",
+      "description": "A Swedish Grace easy chair with carved dark-stained armrests and freshly reupholstered cream linen over the seat and back.",
       "inStock": true,
-      "rating": 4.7,
-      "isNew": true
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
     },
     {
       "id": 2,
-      "name": "Brass Table Lamp",
-      "category": "lighting",
-      "subcategory": "lamps",
-      "price": 89,
+      "name": "42 Small Paimio Armchair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 880,
       "oldPrice": null,
-      "images": ["/src/assets/images/products/brass-lamp-1.jpg"],
-      "colors": ["Brass", "Matte Black"],
-      "material": "Brass & Linen",
-      "dimensions": "30×30×45 cm",
-      "description": "Warm ambient table lamp with an opal glass shade.",
+      "images": [
+        "/src/assets/images/products/furniture-seating-42-small-paimio-armchair-1.jpg",
+        "/src/assets/images/products/furniture-seating-42-small-paimio-armchair-2.jpg",
+        "/src/assets/images/products/furniture-seating-42-small-paimio-armchair-3.jpg"
+      ],
+      "material": "Bent Birch Plywood",
+      "dimensions": "60×78×78 cm",
+      "description": "Alvar Aalto's iconic Paimio lounge chair in warm honey-toned bent birch plywood. The sculptural scroll-shaped frame and continuous laminated armrests make it one of the most recognizable classics of Nordic functionalism. This compact 'small 42' size suits both living rooms and reading corners.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 3,
+      "name": "Guldhøj Folding Stool",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 440,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-Guldhøj-folding-stool-1.jpg",
+        "/src/assets/images/products/furniture-seating-Guldhøj-folding-stool-2.jpg",
+        "/src/assets/images/products/furniture-seating-Guldhøj-folding-stool-3.jpg"
+      ],
+      "material": "Oak & Aniline Leather",
+      "dimensions": "52×32×46 cm",
+      "description": "A solid oak X-frame folding stool with a cognac saddle-leather seat laced to the frame with leather cord, inspired by ancient Egyptian prototypes.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 4,
+      "name": "L-Shape White Corner Sofa",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1850,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-L-shape-white-corner-sofa-1.jpg",
+        "/src/assets/images/products/furniture-seating-L-shape-white-corner-sofa-2.jpg",
+        "/src/assets/images/products/furniture-seating-L-shape-white-corner-sofa-3.jpg"
+      ],
+      "material": "Cane & Bouclé",
+      "dimensions": "245×185×72 cm",
+      "description": "An elegant L-shaped corner sofa with a handwoven cane base and cream upholstered cushions, typical of mid-century salon design. The curved wraparound back and tapered beech legs keep it visually weightless in the room.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 5,
+      "name": "LillaM Children's Chair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 120,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-LillaM-children's-chair-1.jpg",
+        "/src/assets/images/products/furniture-seating-LillaM-children's-chair-2.jpg",
+        "/src/assets/images/products/furniture-seating-LillaM-children's-chair-3.jpg"
+      ],
+      "material": "Molded Black Plywood",
+      "dimensions": "34×32×52 cm",
+      "description": "A sculptural children's chair in matte black molded plywood with a continuous S-curved seat and back.",
       "inStock": true,
       "rating": 4.5,
-      "isNew": false
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 6,
+      "name": "LouisGT Hiersen Chaise Longue",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1350,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-LouisGTHiersen-chaise-longue-1.jpg",
+        "/src/assets/images/products/furniture-seating-LouisGTHiersen-chaise-longue-2.jpg",
+        "/src/assets/images/products/furniture-seating-LouisGTHiersen-chaise-longue-3.jpg"
+      ],
+      "material": "Lacquered Wood & Linen",
+      "dimensions": "162×62×88 cm",
+      "description": "An Empire-style chaise longue with rolled scroll ends, ivory linen upholstery and a black lacquered base trimmed with a gilt greek-key motif.",
+      "inStock": false,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 7,
+      "name": "NV53 Brazilian Rosewood & Savak Wool Armchair & Sofa",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 2400,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-NV53-brazilianrosewood&savakwool-armchair&sofa-2.jpg",
+        "/src/assets/images/products/furniture-seating-NV53-brazilianrosewood&savakwool-armchair&sofa-1.jpg",
+        "/src/assets/images/products/furniture-seating-NV53-brazilianrosewood&savakwool-armchair&sofa-3.jpg"
+      ],
+      "material": "Brazilian Rosewood & Wool",
+      "dimensions": "160×78×68 cm",
+      "description": "A two-piece lounge set comprising a two-seat sofa and matching armchair, with sculpted dark rosewood frames and loose savak wool cushions in ivory.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 8,
+      "name": "Pernilla 3 Lounge Chair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 840,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-Pernilla3-lounge-chair-1.jpg",
+        "/src/assets/images/products/furniture-seating-Pernilla3-lounge-chair-2.jpg",
+        "/src/assets/images/products/furniture-seating-Pernilla3-lounge-chair-3.jpg"
+      ],
+      "material": "Birch & Woven Fabric Webbing",
+      "dimensions": "66×95×90 cm",
+      "description": "Bruno Mathsson's Pernilla 3 lounge chair with its signature reclined birch frame and hand-woven brick-red fabric webbing. The curved armrests and adjustable back strap cradle the body, making it as comfortable as it is sculptural. A definitive piece of Swedish modern design.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 9,
+      "name": "Ashwood & Rattan Easy Chairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 620,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-ashwood&rattan-easy-chair-1.jpg",
+        "/src/assets/images/products/furniture-seating-ashwood&rattan-easy-chair-2.jpg",
+        "/src/assets/images/products/furniture-seating-ashwood&rattan-easy-chair-3.jpg"
+      ],
+      "material": "Ash & Cane",
+      "dimensions": "62×70×82 cm",
+      "description": "A pair of light ash easy chairs with open woven cane backs and plump off-white seat cushions.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 10,
+      "name": "Basket Club Armchairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 700,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-basket-club-armchairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-basket-club-armchairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-basket-club-armchairs-3.jpg"
+      ],
+      "material": "Rattan & Beech",
+      "dimensions": "66×72×78 cm",
+      "description": "A pair of basket-style club chairs with hand-woven rattan bowl seats on stained beech frames.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 11,
+      "name": "Bruno Mathsson Blue Sofa",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1600,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-bruno-mathsson-blue-sofa-1.jpg",
+        "/src/assets/images/products/furniture-seating-bruno-mathsson-blue-sofa-2.jpg",
+        "/src/assets/images/products/furniture-seating-bruno-mathsson-blue-sofa-3.jpg"
+      ],
+      "material": "Wool & Beech",
+      "dimensions": "198×82×68 cm",
+      "description": "A compact three-seat sofa in steel-blue wool with a boxy silhouette, low arms and visible wooden feet.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 12,
+      "name": "Calm Armchair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 780,
+      "oldPrice": 930,
+      "images": [
+        "/src/assets/images/products/furniture-seating-calm-armchairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-calm-armchairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-calm-armchairs-3.jpg"
+      ],
+      "material": "Sheepskin & Beech",
+      "dimensions": "68×74×88 cm",
+      "description": "A cozy armchair upholstered in cream tufted sheepskin over a curved beech frame with sabre legs.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 13,
+      "name": "Canvas & Leather Beech Armchair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 560,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-canvas&leather-beech-armchair-1.jpg",
+        "/src/assets/images/products/furniture-seating-canvas&leather-beech-armchair-2.jpg",
+        "/src/assets/images/products/furniture-seating-canvas&leather-beech-armchair-3.jpg"
+      ],
+      "material": "Beech & Canvas",
+      "dimensions": "58×76×72 cm",
+      "description": "A sculptural beech lounge chair with a taut canvas sling seat and back, in the style of 1960s Danish craftsmanship.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 14,
+      "name": "Chieftain Armchair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 890,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-chieftain-armchair-1.jpg",
+        "/src/assets/images/products/furniture-seating-chieftain-armchair-2.jpg",
+        "/src/assets/images/products/furniture-seating-chieftain-armchair-3.jpg"
+      ],
+      "material": "Full-Grain Leather & Teak",
+      "dimensions": "76×82×86 cm",
+      "description": "A commanding chieftain armchair with deep-buttoned cognac leather and a sculpted teak frame. The sweeping curved headrest and bold armrests showcase the very best of 1940s Danish cabinetmaking. Striking from every angle, it anchors any living room or study.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 15,
+      "name": "Classic Addition Sofa",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1280,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-classic-addition-sofa-1.jpg",
+        "/src/assets/images/products/furniture-seating-classic-addition-sofa-2.jpg",
+        "/src/assets/images/products/furniture-seating-classic-addition-sofa-3.jpg"
+      ],
+      "material": "Aniline Leather & Teak",
+      "dimensions": "152×78×80 cm",
+      "description": "A button-tufted two-seat settee in aged cognac leather with clean teak legs and a low profile.",
+      "inStock": false,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 16,
+      "name": "Corall Armchairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 380,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-corall-armchairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-corall-armchairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-corall-armchairs-3.jpg"
+      ],
+      "material": "Lacquered Beech & Wool",
+      "dimensions": "46×52×80 cm",
+      "description": "A pair of ebonized side chairs with striped wool seats in plum, cream and charcoal.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 17,
+      "name": "Easy Chairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 830,
+      "oldPrice": 1020,
+      "images": [
+        "/src/assets/images/products/furniture-seating-easy-chairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-easy-chairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-easy-chairs-3.jpg"
+      ],
+      "material": "Aniline Leather & Mahogany",
+      "dimensions": "70×82×94 cm",
+      "description": "A pair of winged easy chairs in patinated cognac leather with nailhead trim and carved frames.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 18,
+      "name": "Easy Vintage Armchair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 610,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-easy-vintage-armchair-1.jpg",
+        "/src/assets/images/products/furniture-seating-easy-vintage-armchair-2.jpg",
+        "/src/assets/images/products/furniture-seating-easy-vintage-armchair-3.jpg"
+      ],
+      "material": "Linen & Beech",
+      "dimensions": "72×74×70 cm",
+      "description": "A vintage easy chair with a rounded sculptural back and seat in ivory upholstery on warm beech legs.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 19,
+      "name": "Elizabeth Armchairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 920,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-elizabeth-armchairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-elizabeth-armchairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-elizabeth-armchairs-3.jpg"
+      ],
+      "material": "Black Leather & Rosewood",
+      "dimensions": "58×74×74 cm",
+      "description": "A pair of Elizabeth lounge chairs in patinated black leather on slender rosewood frames with curved backrests.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 20,
+      "name": "Elizabeth Sofa",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1580,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-elizabeth-sofa-1.jpg",
+        "/src/assets/images/products/furniture-seating-elizabeth-sofa-2.jpg",
+        "/src/assets/images/products/furniture-seating-elizabeth-sofa-3.jpg"
+      ],
+      "material": "Black Leather & Rosewood",
+      "dimensions": "178×80×70 cm",
+      "description": "A matching Elizabeth sofa with a scooped black leather seat suspended on an elegant rosewood frame.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 21,
+      "name": "Flage Halyard Chair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1180,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-flage-halyard-chair-1.jpg",
+        "/src/assets/images/products/furniture-seating-flage-halyard-chair-2.jpg",
+        "/src/assets/images/products/furniture-seating-flage-halyard-chair-3.jpg"
+      ],
+      "material": "Steel, Halyard Rope & Sheepskin",
+      "dimensions": "92×100×78 cm",
+      "description": "The legendary flag halyard chair with a hand-woven natural rope seat, polished steel legs and a long-hair sheepskin throw. Its floating silhouette remains one of the most photographed pieces of Danish modernism. Includes a turquoise accent pillow as shown.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 22,
+      "name": "Henningsen Sofa",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1880,
+      "oldPrice": 2250,
+      "images": [
+        "/src/assets/images/products/furniture-seating-henningsen-sofa-1.jpg",
+        "/src/assets/images/products/furniture-seating-henningsen-sofa-2.jpg",
+        "/src/assets/images/products/furniture-seating-henningsen-sofa-3.jpg"
+      ],
+      "material": "Aniline Leather & Mahogany",
+      "dimensions": "192×84×78 cm",
+      "description": "A stately three-seat sofa in cognac aniline leather with gracefully curved armrests and a mahogany base.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 23,
+      "name": "High-Backed Sofa",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1680,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-high-backed-sofa-1.jpg",
+        "/src/assets/images/products/furniture-seating-high-backed-sofa-2.jpg",
+        "/src/assets/images/products/furniture-seating-high-backed-sofa-3.jpg"
+      ],
+      "material": "Aniline Leather & Beech",
+      "dimensions": "148×88×112 cm",
+      "description": "A high-backed two-seat sofa in oxblood leather with winged sides, offering a private lounge-like seating nook.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 24,
+      "name": "Lacquered Wood & Gold Armchair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 520,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-armchairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-armchairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-armchairs-3.jpg"
+      ],
+      "material": "Lacquered Wood & Gold Leaf",
+      "dimensions": "62×56×98 cm",
+      "description": "A Gustavian-style armchair with a powder-green lacquered frame, gilt accents and a crisply upholstered white seat.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 25,
+      "name": "Lacquered Wood & Gold Tabouret",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 340,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-tabouret-1.jpg",
+        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-tabouret-2.jpg",
+        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-tabouret-3.jpg"
+      ],
+      "material": "Lacquered Wood & Gold Leaf",
+      "dimensions": "56×42×46 cm",
+      "description": "A Gustavian tabouret in sage-green lacquer with hand-gilt laurel detailing and a linen cushion.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 26,
+      "name": "Leather & Birch Eva Armchairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 860,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-leather&birch-Eva-armchairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-leather&birch-Eva-armchairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-leather&birch-Eva-armchairs-3.jpg"
+      ],
+      "material": "Birch & Woven Leather",
+      "dimensions": "56×82×88 cm",
+      "description": "A pair of Eva armchairs in warm birch with cognac woven-leather webbing across the seat and back.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 27,
+      "name": "Magareta Side Chairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 315,
+      "oldPrice": 385,
+      "images": [
+        "/src/assets/images/products/furniture-seating-magareta-side-chairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-magareta-side-chairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-magareta-side-chairs-3.jpg"
+      ],
+      "material": "Beech & Cane",
+      "dimensions": "46×50×80 cm",
+      "description": "A pair of slim side chairs with woven cane backs, blond beech frames and terracotta wool seat cushions.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 28,
+      "name": "Model 1057 Easy Chairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 640,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-model-1057-easy-chairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-model-1057-easy-chairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-model-1057-easy-chairs-3.jpg"
+      ],
+      "material": "Wool & Steel",
+      "dimensions": "62×74×82 cm",
+      "description": "A set of three scissor-base lounge chairs in charcoal fabric sling upholstery with angled wooden leg frames.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 29,
+      "name": "Model 4032 Rocking Chair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 460,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-model-4032-rocking-chair-1.jpg",
+        "/src/assets/images/products/furniture-seating-model-4032-rocking-chair-2.jpg",
+        "/src/assets/images/products/furniture-seating-model-4032-rocking-chair-3.jpg"
+      ],
+      "material": "Chrome-Plated Steel",
+      "dimensions": "68×88×76 cm",
+      "description": "A minimalist rocking chair in polished chrome-plated steel with a linear rod seat and rocking base.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 30,
+      "name": "Model 350 Armchairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1350,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-model350-armchairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-model350-armchairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-model350-armchairs-3.jpg"
+      ],
+      "material": "Teak & Cane",
+      "dimensions": "54×56×76 cm",
+      "description": "A set of six teak dining armchairs with sculpted backrests and hand-woven cane seats.",
+      "inStock": false,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 31,
+      "name": "Model 465 Dining Chairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 540,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-model465-dining-chairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-model465-dining-chairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-model465-dining-chairs-3.jpg"
+      ],
+      "material": "Rosewood & Wool",
+      "dimensions": "48×50×77 cm",
+      "description": "A set of four rosewood dining chairs with gently curved top rails and bright cobalt wool seat cushions.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 32,
+      "name": "Oxford Dining Set",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 2350,
+      "oldPrice": 2790,
+      "images": [
+        "/src/assets/images/products/furniture-seating-oxford-dining-set-1.jpg",
+        "/src/assets/images/products/furniture-seating-oxford-dining-set-2.jpg",
+        "/src/assets/images/products/furniture-seating-oxford-dining-set-3.jpg"
+      ],
+      "material": "Rosewood",
+      "dimensions": "125×125×74 cm",
+      "description": "A complete rosewood dining set pairing a round pedestal table with four tall-backed swivel Oxford chairs. The dramatic fan-shaped chair backs and mirror-smooth rosewood surfaces create a sculptural dining room statement. Seats four comfortably around the 125 cm top.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 33,
+      "name": "Pine & Fabric Berdga Stools",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 255,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-pin&fabric-berdga-stools-1.jpg",
+        "/src/assets/images/products/furniture-seating-pin&fabric-berdga-stools-2.jpg",
+        "/src/assets/images/products/furniture-seating-pin&fabric-berdga-stools-3.jpg"
+      ],
+      "material": "Solid Pine & Wool",
+      "dimensions": "46×34×42 cm",
+      "description": "A pair of chunky solid-pine stools with saddle-style wool cushions in mustard and sage.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 34,
+      "name": "Reclining Chaise Lounge",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 760,
+      "oldPrice": 920,
+      "images": [
+        "/src/assets/images/products/furniture-seating-reclining-chaise-lounge-1.jpg",
+        "/src/assets/images/products/furniture-seating-reclining-chaise-lounge-2.jpg",
+        "/src/assets/images/products/furniture-seating-reclining-chaise-lounge-3.jpg"
+      ],
+      "material": "Beech & Cotton Webbing",
+      "dimensions": "62×158×84 cm",
+      "description": "A reclining chaise lounge with black woven webbing on a bent beech frame, complete with a detachable gray headrest pillow.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 35,
+      "name": "Red Dining Chairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1080,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-red-dining-chairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-red-dining-chairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-red-dining-chairs-3.jpg"
+      ],
+      "material": "Leather & Mahogany",
+      "dimensions": "48×52×88 cm",
+      "description": "A set of mahogany dining chairs with oxblood leather seats and backs, edged with hand-driven nailhead trim.",
+      "inStock": false,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 36,
+      "name": "Red Stained Wood Leg Armchair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 690,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-red-stainedwoodleg-armchairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-red-stainedwoodleg-armchairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-red-stainedwoodleg-armchairs-3.jpg"
+      ],
+      "material": "Velvet & Stained Beech",
+      "dimensions": "68×80×102 cm",
+      "description": "A high-back armchair in crimson upholstery with hand-stitched seams on red-stained wooden legs.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 37,
+      "name": "Rosewood, Birch & Fabric Red Daybed",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1120,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-rosewood&birch&fabric-red-daybed-1.jpg",
+        "/src/assets/images/products/furniture-seating-rosewood&birch&fabric-red-daybed-2.jpg",
+        "/src/assets/images/products/furniture-seating-rosewood&birch&fabric-red-daybed-3.jpg"
+      ],
+      "material": "Rosewood & Fabric",
+      "dimensions": "188×68×66 cm",
+      "description": "A rosewood daybed with book-matched figured veneer panels and a cream fabric mattress, doubling as a sofa.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 38,
+      "name": "Rosewood & Linen Upholstery White Daybed",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 960,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-rosewood&linenupholstery-white-daybed-1.jpg",
+        "/src/assets/images/products/furniture-seating-rosewood&linenupholstery-white-daybed-2.jpg",
+        "/src/assets/images/products/furniture-seating-rosewood&linenupholstery-white-daybed-3.jpg"
+      ],
+      "material": "Rosewood & Linen",
+      "dimensions": "184×66×38 cm",
+      "description": "A minimalist rosewood daybed with an asymmetrical curved top upholstered in white linen.",
+      "inStock": false,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 39,
+      "name": "Snake Chair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 530,
+      "oldPrice": 640,
+      "images": [
+        "/src/assets/images/products/furniture-seating-snake-chair-1.jpg",
+        "/src/assets/images/products/furniture-seating-snake-chair-2.jpg",
+        "/src/assets/images/products/furniture-seating-snake-chair-3.jpg"
+      ],
+      "material": "Chrome-Plated Steel & Tartan Wool",
+      "dimensions": "44×62×82 cm",
+      "description": "A playful snake chair with a polished chrome S-curve base and tartan plaid upholstery on the round seat and backrest.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 40,
+      "name": "Star Easy Chair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 610,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-star-easy-chairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-star-easy-chairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-star-easy-chairs-3.jpg"
+      ],
+      "material": "Leather & Chrome",
+      "dimensions": "66×70×74 cm",
+      "description": "A tub-style easy chair in smooth black leather on a polished chrome frame, with an exposed natural-fiber side panel.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 41,
+      "name": "Swedish Armchairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 745,
+      "oldPrice": 890,
+      "images": [
+        "/src/assets/images/products/furniture-seating-swedish-armchairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-swedish-armchairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-swedish-armchairs-3.jpg"
+      ],
+      "material": "Mahogany & Leather",
+      "dimensions": "56×58×74 cm",
+      "description": "A pair of Swedish Grace armchairs in mahogany with sabre-like curved arms and cognac leather seats.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 42,
+      "name": "Teak Bench Model 852",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 545,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-teak-bench-model-852-1.jpg",
+        "/src/assets/images/products/furniture-seating-teak-bench-model-852-2.jpg",
+        "/src/assets/images/products/furniture-seating-teak-bench-model-852-3.jpg"
+      ],
+      "material": "Solid Teak",
+      "dimensions": "152×40×32 cm",
+      "description": "A long slatted teak bench with gently splayed legs, equally at home in an entryway or at the foot of a bed.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 43,
+      "name": "Velvet Upholstery L-Shape Sofa",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1880,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-velvetUpholstery-L-shape-sofa-1.jpg",
+        "/src/assets/images/products/furniture-seating-velvetUpholstery-L-shape-sofa-2.jpg",
+        "/src/assets/images/products/furniture-seating-velvetUpholstery-L-shape-sofa-3.jpg"
+      ],
+      "material": "Velvet & Beech",
+      "dimensions": "262×192×74 cm",
+      "description": "A generous L-shaped corner sofa in light-gray velvet with rounded scroll arms and a low plinth base.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 44,
+      "name": "Walnut & Cane Daybed",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 1020,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-walnut&cane-daybed-1.jpg",
+        "/src/assets/images/products/furniture-seating-walnut&cane-daybed-2.jpg",
+        "/src/assets/images/products/furniture-seating-walnut&cane-daybed-3.jpg"
+      ],
+      "material": "Walnut & Cane",
+      "dimensions": "188×64×36 cm",
+      "description": "A refined walnut daybed with a hand-woven cane surface and a plush sheepskin bolster pillow. The low, platform-like silhouette blends Japanese minimalism with Scandinavian warmth. Equally striking styled as a reading daybed or an extra seat for guests.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 45,
+      "name": "White Butterfly Dining Chair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 240,
+      "oldPrice": 290,
+      "images": [
+        "/src/assets/images/products/furniture-seating-white-butterfly-dining-chair-2.jpg",
+        "/src/assets/images/products/furniture-seating-white-butterfly-dining-chair-1.jpg",
+        "/src/assets/images/products/furniture-seating-white-butterfly-dining-chair-3.jpg"
+      ],
+      "material": "Rosewood & Linen",
+      "dimensions": "46×50×80 cm",
+      "description": "A rosewood dining chair with a distinctive white butterfly-shaped backrest and linen upholstered seat.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 46,
+      "name": "Wing Back Chair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 870,
+      "oldPrice": 1050,
+      "images": [
+        "/src/assets/images/products/furniture-seating-wing-back-chair-1.jpg",
+        "/src/assets/images/products/furniture-seating-wing-back-chair-2.jpg",
+        "/src/assets/images/products/furniture-seating-wing-back-chair-3.jpg"
+      ],
+      "material": "Aniline Leather & Beech",
+      "dimensions": "72×86×112 cm",
+      "description": "A tall wing-back armchair in patinated cognac leather with button detailing and carved cabriole-style legs.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
     }
   ]
 }
