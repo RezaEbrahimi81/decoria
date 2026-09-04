@@ -31,6 +31,27 @@
         <h1 class="font-display text-4xl text-primary">Product</h1>
         <!-- product grid → next step -->
       </div>
+       <!-- Minimal skeleton: gallery + specs come in the next iterations -->
+    <div class="grid grid-cols-1 items-start gap-10 md:grid-cols-2">
+      <img id="product-image" alt="" class="aspect-[4/3] w-full rounded bg-white object-cover" />
+
+      <div>
+        <p id="product-category" class="text-xs font-semibold uppercase tracking-widest text-neutral-500"></p>
+        <h1 id="product-name" class="mt-2 font-display text-4xl text-primary"></p></h1>
+
+        <!-- Price + currency dropdown, modernity-style -->
+        <div class="mt-4 flex items-center gap-3">
+          <span id="product-price" class="font-display text-3xl text-primary"></span>
+          <select id="currency-select" aria-label="Currency"
+            class="border border-neutral-300 bg-white px-2 py-1 text-sm outline-none focus:border-accent">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+          </select>
+        </div>
+
+        <p id="product-description" class="mt-6 leading-7 text-neutral-600"></p>
+      </div>
+    </div>
     </main>
 
     <!-- Footer mount point -->

@@ -1,29 +1,172 @@
 {
   "categories": [
-    { "id": 1, "slug": "furniture", "name": "Furniture" },
-    { "id": 2, "slug": "lighting", "name": "Lighting" },
-    { "id": 3, "slug": "decor", "name": "Decor" },
-    { "id": 4, "slug": "storage", "name": "Storage" },
-    { "id": 5, "slug": "home-office", "name": "Home Office" },
-    { "id": 6, "slug": "art", "name": "Frames & Art" },
-    { "id": 7, "slug": "textiles", "name": "Textiles" }
+    {
+      "id": 1,
+      "slug": "furniture",
+      "name": "Furniture",
+      "image": null,
+      "subcategories": [
+        {
+          "slug": "seating",
+          "name": "Seating"
+        },
+        {
+          "slug": "tables",
+          "name": "Tables"
+        },
+        {
+          "slug": "storage",
+          "name": "Storage"
+        },
+        {
+          "slug": "other",
+          "name": "Other"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "glass",
+      "name": "Glass",
+      "image": null,
+      "subcategories": [
+        {
+          "slug": "glassware",
+          "name": "Glassware"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "ceramics",
+      "name": "Ceramics",
+      "image": null,
+      "subcategories": []
+    },
+    {
+      "id": 4,
+      "slug": "lighting",
+      "name": "Lighting",
+      "image": null,
+      "subcategories": [
+        {
+          "slug": "ceiling-lamps",
+          "name": "Ceiling Lamps"
+        },
+        {
+          "slug": "wall-lamps",
+          "name": "Wall Lamps"
+        },
+        {
+          "slug": "floor-lamps",
+          "name": "Floor Lamps"
+        },
+        {
+          "slug": "table-lamps",
+          "name": "Table Lamps"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "art",
+      "name": "Art",
+      "image": null,
+      "subcategories": [
+        {
+          "slug": "painting",
+          "name": "Painting"
+        },
+        {
+          "slug": "sculpture",
+          "name": "Sculpture"
+        },
+        {
+          "slug": "work-on-paper",
+          "name": "Work on Paper"
+        },
+        {
+          "slug": "other",
+          "name": "Other"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "textile",
+      "name": "Textile",
+      "image": null,
+      "subcategories": [
+        {
+          "slug": "rugs",
+          "name": "Rugs"
+        },
+        {
+          "slug": "tapestries",
+          "name": "Tapestries"
+        },
+        {
+          "slug": "fabrics",
+          "name": "Fabrics"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "jewellery",
+      "name": "Jewellery",
+      "image": null,
+      "subcategories": [
+        {
+          "slug": "bracelets",
+          "name": "Bracelets"
+        },
+        {
+          "slug": "brooches",
+          "name": "Brooches"
+        },
+        {
+          "slug": "necklaces",
+          "name": "Necklaces"
+        },
+        {
+          "slug": "earrings",
+          "name": "Earrings"
+        },
+        {
+          "slug": "rings",
+          "name": "Rings"
+        },
+        {
+          "slug": "other",
+          "name": "Other"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "various",
+      "name": "Various",
+      "image": null,
+      "subcategories": []
+    }
   ],
   "products": [
     {
       "id": 1,
-      "name": "1927 Easy Chair",
+      "name": "Pair of armchairs model 3758 A designed by Kaare Klint for Rud. Rasmussen",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 650,
-      "oldPrice": 795,
+      "price": 6752,
+      "oldPrice": 7695,
       "images": [
-        "/src/assets/images/products/furniture-seating-1927-easy-chair-1.jpg",
-        "/src/assets/images/products/furniture-seating-1927-easy-chair-2.jpg",
-        "/src/assets/images/products/furniture-seating-1927-easy-chair-3.jpg"
+        "/src/assets/images/products/furniture-seating-a_pair_of_armchairs_model_ek_8919-red_beech_and_leather-1.jpg",
+        "/src/assets/images/products/furniture-seating-a_pair_of_armchairs_model_ek_8919-red_beech_and_leather-2.jpg",
+        "/src/assets/images/products/furniture-seating-a_pair_of_armchairs_model_ek_8919-red_beech_and_leather-3.jpg"
       ],
-      "material": "Beech & Linen",
-      "dimensions": "68×82×96 cm",
-      "description": "A Swedish Grace easy chair with carved dark-stained armrests and freshly reupholstered cream linen over the seat and back.",
+      "material": "Red beech and leather",
+      "dimensions": "62×54×71 cm",
+      "description": "Model designed in 1927 for the Danish Museum of Decorative Art, produced by Rud Rasmussen in the 1940's. Kaare Klint was the father of Scandinavian modernism and is responsible for bringing Danish design to the centre stage.",
       "inStock": true,
       "rating": 4.6,
       "isNew": false,
@@ -31,339 +174,339 @@
     },
     {
       "id": 2,
-      "name": "42 Small Paimio Armchair",
+      "name": "Pair of stools",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 880,
+      "price": 540,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-42-small-paimio-armchair-1.jpg",
-        "/src/assets/images/products/furniture-seating-42-small-paimio-armchair-2.jpg",
-        "/src/assets/images/products/furniture-seating-42-small-paimio-armchair-3.jpg"
+        "/src/assets/images/products/furniture-seating-a_pair_of_stools_model_berga-pine_and_fabric-1.jpg",
+        "/src/assets/images/products/furniture-seating-a_pair_of_stools_model_berga-pine_and_fabric-2.jpg",
+        "/src/assets/images/products/furniture-seating-a_pair_of_stools_model_berga-pine_and_fabric-3.jpg"
       ],
-      "material": "Bent Birch Plywood",
-      "dimensions": "60×78×78 cm",
-      "description": "Alvar Aalto's iconic Paimio lounge chair in warm honey-toned bent birch plywood. The sculptural scroll-shaped frame and continuous laminated armrests make it one of the most recognizable classics of Nordic functionalism. This compact 'small 42' size suits both living rooms and reading corners.",
-      "inStock": true,
-      "rating": 4.9,
+      "material": "Pine and wool upholstery",
+      "dimensions": "45×35×65 cm",
+      "description": "Beech wood frames raised on four tapered legs. Gently curved, saddle-shaped seats offering good comfort.",
+      "inStock": false,
+      "rating": 4,
       "isNew": false,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": 3,
-      "name": "Guldhøj Folding Stool",
+      "name": "A set of six armchairs 'Model 350' designed by Peter Hvidt and Orla Mølgaard-Nielsen for Søborg Møbler",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 440,
+      "price": 11253,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-Guldhøj-folding-stool-1.jpg",
-        "/src/assets/images/products/furniture-seating-Guldhøj-folding-stool-2.jpg",
-        "/src/assets/images/products/furniture-seating-Guldhøj-folding-stool-3.jpg"
+        "/src/assets/images/products/furniture-seating-a_set_of_six_armchaires_model_350-teak_rosewood_and_wicker-1.jpg",
+        "/src/assets/images/products/furniture-seating-a_set_of_six_armchaires_model_350-teak_rosewood_and_wicker-2.jpg",
+        "/src/assets/images/products/furniture-seating-a_set_of_six_armchaires_model_350-teak_rosewood_and_wicker-3.jpg"
       ],
-      "material": "Oak & Aniline Leather",
-      "dimensions": "52×32×46 cm",
-      "description": "A solid oak X-frame folding stool with a cognac saddle-leather seat laced to the frame with leather cord, inspired by ancient Egyptian prototypes.",
+      "material": "Teak, rosewood and woven cane",
+      "dimensions": "60×55×76 cm",
+      "description": "These 'Model 350' armchairs were designed by Peter Hvidt and Orla Mølgaard-Nielsen for Søborg Møbelfabrik and presented publicly at the Cabinetmakers’ Guild Exhibition in 1958. The chairs are constructed in teak, with a clearly articulated, architectural frame defined by straight lines, sharp angles and precise joinery.",
       "inStock": true,
-      "rating": 4.7,
+      "rating": 4.3,
       "isNew": false,
       "isFeatured": false
     },
     {
       "id": 4,
-      "name": "L-Shape White Corner Sofa",
+      "name": "Set of ten dining chairs designed by Aino Aalto for Artek",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 1850,
+      "price": 20953,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-L-shape-white-corner-sofa-1.jpg",
-        "/src/assets/images/products/furniture-seating-L-shape-white-corner-sofa-2.jpg",
-        "/src/assets/images/products/furniture-seating-L-shape-white-corner-sofa-3.jpg"
+        "/src/assets/images/products/furniture-seating-a_set_of_ten_red_chairs_model_sl_54-mahogany_and_niger_leather-1.jpg",
+        "/src/assets/images/products/furniture-seating-a_set_of_ten_red_chairs_model_sl_54-mahogany_and_niger_leather-2.jpg",
+        "/src/assets/images/products/furniture-seating-a_set_of_ten_red_chairs_model_sl_54-mahogany_and_niger_leather-3.jpg"
       ],
-      "material": "Cane & Bouclé",
-      "dimensions": "245×185×72 cm",
-      "description": "An elegant L-shaped corner sofa with a handwoven cane base and cream upholstered cushions, typical of mid-century salon design. The curved wraparound back and tapered beech legs keep it visually weightless in the room.",
+      "material": "Mahogany and Niger leather",
+      "dimensions": "45×50×85 cm",
+      "description": "A set of ten dining chairs designed by Aino Aalto for Artek, executed in mahogany with upholstered seats and backs in patinated Niger leather.",
       "inStock": true,
-      "rating": 4.8,
+      "rating": 4.2,
       "isNew": false,
-      "isFeatured": true
+      "isFeatured": false
     },
     {
       "id": 5,
-      "name": "LillaM Children's Chair",
+      "name": "Addition sofa model KK 8201",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 120,
+      "price": 48500,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-LillaM-children's-chair-1.jpg",
-        "/src/assets/images/products/furniture-seating-LillaM-children's-chair-2.jpg",
-        "/src/assets/images/products/furniture-seating-LillaM-children's-chair-3.jpg"
+        "/src/assets/images/products/furniture-seating-addition_sofa_model_kk_8201-mahogany_and_coloured_leather-1.jpg",
+        "/src/assets/images/products/furniture-seating-addition_sofa_model_kk_8201-mahogany_and_coloured_leather-2.jpg",
+        "/src/assets/images/products/furniture-seating-addition_sofa_model_kk_8201-mahogany_and_coloured_leather-3.jpg"
       ],
-      "material": "Molded Black Plywood",
-      "dimensions": "34×32×52 cm",
-      "description": "A sculptural children's chair in matte black molded plywood with a continuous S-curved seat and back.",
-      "inStock": true,
-      "rating": 4.5,
-      "isNew": true,
-      "isFeatured": false
-    },
-    {
-      "id": 6,
-      "name": "LouisGT Hiersen Chaise Longue",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 1350,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-LouisGTHiersen-chaise-longue-1.jpg",
-        "/src/assets/images/products/furniture-seating-LouisGTHiersen-chaise-longue-2.jpg",
-        "/src/assets/images/products/furniture-seating-LouisGTHiersen-chaise-longue-3.jpg"
-      ],
-      "material": "Lacquered Wood & Linen",
-      "dimensions": "162×62×88 cm",
-      "description": "An Empire-style chaise longue with rolled scroll ends, ivory linen upholstery and a black lacquered base trimmed with a gilt greek-key motif.",
-      "inStock": false,
-      "rating": 4.6,
-      "isNew": false,
-      "isFeatured": false
-    },
-    {
-      "id": 7,
-      "name": "NV53 Brazilian Rosewood & Savak Wool Armchair & Sofa",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 2400,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-NV53-brazilianrosewood&savakwool-armchair&sofa-2.jpg",
-        "/src/assets/images/products/furniture-seating-NV53-brazilianrosewood&savakwool-armchair&sofa-1.jpg",
-        "/src/assets/images/products/furniture-seating-NV53-brazilianrosewood&savakwool-armchair&sofa-3.jpg"
-      ],
-      "material": "Brazilian Rosewood & Wool",
-      "dimensions": "160×78×68 cm",
-      "description": "A two-piece lounge set comprising a two-seat sofa and matching armchair, with sculpted dark rosewood frames and loose savak wool cushions in ivory.",
-      "inStock": true,
-      "rating": 4.9,
-      "isNew": true,
-      "isFeatured": false
-    },
-    {
-      "id": 8,
-      "name": "Pernilla 3 Lounge Chair",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 840,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-Pernilla3-lounge-chair-1.jpg",
-        "/src/assets/images/products/furniture-seating-Pernilla3-lounge-chair-2.jpg",
-        "/src/assets/images/products/furniture-seating-Pernilla3-lounge-chair-3.jpg"
-      ],
-      "material": "Birch & Woven Fabric Webbing",
-      "dimensions": "66×95×90 cm",
-      "description": "Bruno Mathsson's Pernilla 3 lounge chair with its signature reclined birch frame and hand-woven brick-red fabric webbing. The curved armrests and adjustable back strap cradle the body, making it as comfortable as it is sculptural. A definitive piece of Swedish modern design.",
-      "inStock": true,
-      "rating": 4.8,
-      "isNew": false,
-      "isFeatured": true
-    },
-    {
-      "id": 9,
-      "name": "Ashwood & Rattan Easy Chairs",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 620,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-ashwood&rattan-easy-chair-1.jpg",
-        "/src/assets/images/products/furniture-seating-ashwood&rattan-easy-chair-2.jpg",
-        "/src/assets/images/products/furniture-seating-ashwood&rattan-easy-chair-3.jpg"
-      ],
-      "material": "Ash & Cane",
-      "dimensions": "62×70×82 cm",
-      "description": "A pair of light ash easy chairs with open woven cane backs and plump off-white seat cushions.",
-      "inStock": true,
-      "rating": 4.6,
-      "isNew": false,
-      "isFeatured": false
-    },
-    {
-      "id": 10,
-      "name": "Basket Club Armchairs",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 700,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-basket-club-armchairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-basket-club-armchairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-basket-club-armchairs-3.jpg"
-      ],
-      "material": "Rattan & Beech",
-      "dimensions": "66×72×78 cm",
-      "description": "A pair of basket-style club chairs with hand-woven rattan bowl seats on stained beech frames.",
+      "material": "Mahogany and coloured leather",
+      "dimensions": "128×70×75 cm",
+      "description": "Two-seat addition sofa with button-tufted leather upholstery on a solid mahogany frame, in the manner of 1940s Swedish cabinetmaker furniture.",
       "inStock": true,
       "rating": 4.7,
       "isNew": true,
       "isFeatured": false
     },
     {
-      "id": 11,
-      "name": "Bruno Mathsson Blue Sofa",
+      "id": 6,
+      "name": "Armchair 42 'Small Paimio' designed by Alvar Aalto",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 1600,
-      "oldPrice": null,
+      "price": 20255,
+      "oldPrice": 23900,
       "images": [
-        "/src/assets/images/products/furniture-seating-bruno-mathsson-blue-sofa-1.jpg",
-        "/src/assets/images/products/furniture-seating-bruno-mathsson-blue-sofa-2.jpg",
-        "/src/assets/images/products/furniture-seating-bruno-mathsson-blue-sofa-3.jpg"
+        "/src/assets/images/products/furniture-seating-armchair_42_small_paimio-bent_birch_and_lacquered_plywood-1.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_42_small_paimio-bent_birch_and_lacquered_plywood-2.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_42_small_paimio-bent_birch_and_lacquered_plywood-3.jpg"
       ],
-      "material": "Wool & Beech",
-      "dimensions": "198×82×68 cm",
-      "description": "A compact three-seat sofa in steel-blue wool with a boxy silhouette, low arms and visible wooden feet.",
+      "material": "Bent birch and lacquered plywood",
+      "dimensions": "49×52×68 cm",
+      "description": "Armchair 42 – or “Small Paimio” – was designed by Alvar Aalto for the Paimio Sanatorium in 1931. The frame is made from laminated birch shaped to produce a cantilevered chair; the seat and back are created from one piece of form-pressed plywood.",
       "inStock": true,
-      "rating": 4.5,
+      "rating": 4.7,
       "isNew": false,
       "isFeatured": false
     },
     {
-      "id": 12,
-      "name": "Calm Armchair",
+      "id": 7,
+      "name": "A pair of armchairs and sofa for Paul Boman",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 780,
-      "oldPrice": 930,
+      "price": 14404,
+      "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-calm-armchairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-calm-armchairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-calm-armchairs-3.jpg"
+        "/src/assets/images/products/furniture-seating-armchair_and_sofa_model_nv53-brazilian_rosewood_and_savak_wool_upholstery-1.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_and_sofa_model_nv53-brazilian_rosewood_and_savak_wool_upholstery-2.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_and_sofa_model_nv53-brazilian_rosewood_and_savak_wool_upholstery-3.jpg"
       ],
-      "material": "Sheepskin & Beech",
-      "dimensions": "68×74×88 cm",
-      "description": "A cozy armchair upholstered in cream tufted sheepskin over a curved beech frame with sabre legs.",
+      "material": "Brazilian rosewood and savak wool upholstery",
+      "dimensions": "170×70×72 cm",
+      "description": "Sofa and armchair set with sculptural rosewood frames and ivory savak wool upholstery, made for cabinetmaker Paul Boman.",
       "inStock": true,
-      "rating": 4.8,
+      "rating": 4.9,
       "isNew": false,
       "isFeatured": false
     },
     {
-      "id": 13,
-      "name": "Canvas & Leather Beech Armchair",
+      "id": 8,
+      "name": "Chieftain armchair",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 560,
+      "price": 49900,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-canvas&leather-beech-armchair-1.jpg",
-        "/src/assets/images/products/furniture-seating-canvas&leather-beech-armchair-2.jpg",
-        "/src/assets/images/products/furniture-seating-canvas&leather-beech-armchair-3.jpg"
+        "/src/assets/images/products/furniture-seating-armchair_chieftain-teak_and_oridinal_leather-1.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_chieftain-teak_and_oridinal_leather-2.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_chieftain-teak_and_oridinal_leather-3.jpg"
       ],
-      "material": "Beech & Canvas",
-      "dimensions": "58×76×72 cm",
-      "description": "A sculptural beech lounge chair with a taut canvas sling seat and back, in the style of 1960s Danish craftsmanship.",
+      "material": "Teak and original leather",
+      "dimensions": "76×85×73 cm",
+      "description": "Chieftain armchair designed by Arne Norell, with a wide saddle-leather seat and back resting on a sculptural teak frame.",
+      "inStock": true,
+      "rating": 4.1,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 9,
+      "name": "Armchair designed by Frits Henningsen",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 6752,
+      "oldPrice": 7895,
+      "images": [
+        "/src/assets/images/products/furniture-seating-armchair_model_fh_8576_red-stained_wooden_legs_seat_and_back_upholstered_eith_wool-1.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_model_fh_8576_red-stained_wooden_legs_seat_and_back_upholstered_eith_wool-2.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_model_fh_8576_red-stained_wooden_legs_seat_and_back_upholstered_eith_wool-3.jpg"
+      ],
+      "material": "Stained wooden legs, seat and back upholstered in wool",
+      "dimensions": "72×75×85 cm",
+      "description": "This armchair is the work of Danish designer and cabinetmaker Frits Henningsen, who was active in the first half of the 20th century and is known for producing his furniture entirely within his own Copenhagen workshop. Rather than relying on external manufacturers, he oversaw each stage of construction himself, from joinery to final finishing.",
       "inStock": true,
       "rating": 4.4,
       "isNew": false,
       "isFeatured": false
     },
     {
-      "id": 14,
-      "name": "Chieftain Armchair",
+      "id": 10,
+      "name": "Armchair designed by Hans Frost Nielsen",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 890,
+      "price": 9048,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-chieftain-armchair-1.jpg",
-        "/src/assets/images/products/furniture-seating-chieftain-armchair-2.jpg",
-        "/src/assets/images/products/furniture-seating-chieftain-armchair-3.jpg"
+        "/src/assets/images/products/furniture-seating-armchair_model_hfn_8475-beech_canvas_and_leather-1.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_model_hfn_8475-beech_canvas_and_leather-2.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_model_hfn_8475-beech_canvas_and_leather-3.jpg"
       ],
-      "material": "Full-Grain Leather & Teak",
-      "dimensions": "76×82×86 cm",
-      "description": "A commanding chieftain armchair with deep-buttoned cognac leather and a sculpted teak frame. The sweeping curved headrest and bold armrests showcase the very best of 1940s Danish cabinetmaking. Striking from every angle, it anchors any living room or study.",
+      "material": "Beech, canvas and leather",
+      "dimensions": "62×88×79 cm",
+      "description": "This armchair was designed in 1974 by the Danish craftsman Hans Frost Nielsen. This armchair is a rare example of a full-scale furniture design produced under his own name.",
       "inStock": true,
-      "rating": 4.9,
+      "rating": 4,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 11,
+      "name": "An Art Nouveau armchair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 4051,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-armchair_model_sl_11-lacquered_wood_and_gold-1.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_model_sl_11-lacquered_wood_and_gold-2.jpg",
+        "/src/assets/images/products/furniture-seating-armchair_model_sl_11-lacquered_wood_and_gold-3.jpg"
+      ],
+      "material": "Lacquered wood and gilt details",
+      "dimensions": "60×55×100 cm",
+      "description": "Gustavian style armchair with a pale grey-green lacquered frame, gilded detailing and white upholstered seat and back.",
+      "inStock": true,
+      "rating": 4.2,
       "isNew": false,
       "isFeatured": true
     },
     {
-      "id": 15,
-      "name": "Classic Addition Sofa",
+      "id": 12,
+      "name": "Bench designed by Hans Wegner for Johannes Hansen",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 1280,
+      "price": 19805,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-classic-addition-sofa-1.jpg",
-        "/src/assets/images/products/furniture-seating-classic-addition-sofa-2.jpg",
-        "/src/assets/images/products/furniture-seating-classic-addition-sofa-3.jpg"
+        "/src/assets/images/products/furniture-seating-bench-model_hjw_852-teak-1.jpg",
+        "/src/assets/images/products/furniture-seating-bench-model_hjw_852-teak-2.jpg",
+        "/src/assets/images/products/furniture-seating-bench-model_hjw_852-teak-3.jpg"
       ],
-      "material": "Aniline Leather & Teak",
-      "dimensions": "152×78×80 cm",
-      "description": "A button-tufted two-seat settee in aged cognac leather with clean teak legs and a low profile.",
+      "material": "Teak",
+      "dimensions": "165×44×30 cm",
+      "description": "Reflecting Wegner’s characteristic design philosophy, this bench is a masterpiece of simplicity, functionality, and timeless beauty. The sturdy, tapered legs provide a strong foundation while maintaining a light visual presence.",
       "inStock": false,
       "rating": 4.5,
       "isNew": false,
       "isFeatured": false
     },
     {
-      "id": 16,
-      "name": "Corall Armchairs",
+      "id": 13,
+      "name": "Chaise lounge designed by Bruno Mathsson",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 380,
+      "price": 4951,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-corall-armchairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-corall-armchairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-corall-armchairs-3.jpg"
+        "/src/assets/images/products/furniture-seating-chaise lounge-model_bm_8800-beech_saddle_strap_made_of_black_natural_flax_neck_pillow_of_grey_wool-1.jpg",
+        "/src/assets/images/products/furniture-seating-chaise lounge-model_bm_8800-beech_saddle_strap_made_of_black_natural_flax_neck_pillow_of_grey_wool-2.jpg",
+        "/src/assets/images/products/furniture-seating-chaise lounge-model_bm_8800-beech_saddle_strap_made_of_black_natural_flax_neck_pillow_of_grey_wool-3.jpg"
       ],
-      "material": "Lacquered Beech & Wool",
-      "dimensions": "46×52×80 cm",
-      "description": "A pair of ebonized side chairs with striped wool seats in plum, cream and charcoal.",
+      "material": "Beech, saddle strap of black natural flax, neck pillow of grey wool",
+      "dimensions": "118×60×80 cm",
+      "description": "This reclining chaise lounge, model 36 by Bruno Mathsson, is a quintessential example of Swedish modernism and Scandinavian design. Designed with Mathsson’s characteristic focus on ergonomics, the beech frame is elegantly bent into a continuous, flowing line that follows the natural contours of the body.",
       "inStock": true,
-      "rating": 4.3,
+      "rating": 4,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 14,
+      "name": "Chaise longue for Louis G Thiersen",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 36009,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-chaise_longue_model_7544-lacquered_wood_with_quilded_details-1.jpg",
+        "/src/assets/images/products/furniture-seating-chaise_longue_model_7544-lacquered_wood_with_quilded_details-2.jpg",
+        "/src/assets/images/products/furniture-seating-chaise_longue_model_7544-lacquered_wood_with_quilded_details-3.jpg"
+      ],
+      "material": "Lacquered wood with gilt details",
+      "dimensions": "162×64×97 cm",
+      "description": "This chaise longue reflects a restrained neoclassical influence within early 20th-century Danish furniture design. The elongated form is defined by a single scrolled backrest and a continuous upholstered seat, allowing for a reclining position while maintaining a compact footprint.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 15,
+      "name": "Children’s chair 'Lilla M' designed by Caroline Schlyter",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 765,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-childrens_chair_lilla_m-lacquered_plywood-1.jpg",
+        "/src/assets/images/products/furniture-seating-childrens_chair_lilla_m-lacquered_plywood-2.jpg",
+        "/src/assets/images/products/furniture-seating-childrens_chair_lilla_m-lacquered_plywood-3.jpg"
+      ],
+      "material": "Lacquered plywood",
+      "dimensions": "34×40×51 cm",
+      "description": "Lacquered plywood construction formed from a single continuous curve. Sculptural, flowing profile integrating seat, backrest and base, with a circular cut-out detail to the back.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 16,
+      "name": "'Clam' Chair designed by Arnold Madsen for Madsen & Schubell",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 13504,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-clam_armchair-sheepskin-1.jpg",
+        "/src/assets/images/products/furniture-seating-clam_armchair-sheepskin-2.jpg",
+        "/src/assets/images/products/furniture-seating-clam_armchair-sheepskin-3.jpg"
+      ],
+      "material": "Sheepskin and rosewood",
+      "dimensions": "84×78×92 cm",
+      "description": "The ‘Clam’, upholstered in soft sheepskin, is among the most comfortable chairs imaginable – it is both a recognisable and desirable Scandinavian design. As the name indicates, the design resembles the sea creature with a shell in two parts.",
+      "inStock": true,
+      "rating": 4.5,
       "isNew": true,
       "isFeatured": false
     },
     {
       "id": 17,
-      "name": "Easy Chairs",
+      "name": "Corner sofa 'Athén'",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 830,
-      "oldPrice": 1020,
+      "price": 68500,
+      "oldPrice": 79900,
       "images": [
-        "/src/assets/images/products/furniture-seating-easy-chairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-easy-chairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-easy-chairs-3.jpg"
+        "/src/assets/images/products/furniture-seating-corner_sofa_athén-rattan_and_upholstery-1.jpg",
+        "/src/assets/images/products/furniture-seating-corner_sofa_athén-rattan_and_upholstery-2.jpg",
+        "/src/assets/images/products/furniture-seating-corner_sofa_athén-rattan_and_upholstery-3.jpg"
       ],
-      "material": "Aniline Leather & Mahogany",
-      "dimensions": "70×82×94 cm",
-      "description": "A pair of winged easy chairs in patinated cognac leather with nailhead trim and carved frames.",
+      "material": "Rattan and upholstery",
+      "dimensions": "225×155×75 cm",
+      "description": "Corner sofa with a woven rattan frame and cream upholstered cushions, in the manner of 1940s Swedish modernism.",
       "inStock": true,
-      "rating": 4.7,
+      "rating": 4.2,
       "isNew": false,
       "isFeatured": false
     },
     {
       "id": 18,
-      "name": "Easy Vintage Armchair",
+      "name": "Daybed designed by Erik Riisager Hansen for Haslev, Denmark.",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 610,
-      "oldPrice": null,
+      "price": 20255,
+      "oldPrice": 22900,
       "images": [
-        "/src/assets/images/products/furniture-seating-easy-vintage-armchair-1.jpg",
-        "/src/assets/images/products/furniture-seating-easy-vintage-armchair-2.jpg",
-        "/src/assets/images/products/furniture-seating-easy-vintage-armchair-3.jpg"
+        "/src/assets/images/products/furniture-seating-daybed_model_cm_8005-rosewood_birch_and_fabric-1.jpg",
+        "/src/assets/images/products/furniture-seating-daybed_model_cm_8005-rosewood_birch_and_fabric-2.jpg",
+        "/src/assets/images/products/furniture-seating-daybed_model_cm_8005-rosewood_birch_and_fabric-3.jpg"
       ],
-      "material": "Linen & Beech",
-      "dimensions": "72×74×70 cm",
-      "description": "A vintage easy chair with a rounded sculptural back and seat in ivory upholstery on warm beech legs.",
+      "material": "Rosewood, birch and fabric",
+      "dimensions": "188×68×81 cm",
+      "description": "This daybed, designed by Erik Riisager and produced by Haslev in the 1950s, reflects the restrained and functional approach characteristic of Danish furniture from the period. The piece is defined by its elongated, slightly tapered form and subtly raised ends, which provide both visual balance and practical support.",
       "inStock": true,
       "rating": 4.6,
       "isNew": false,
@@ -371,561 +514,1381 @@
     },
     {
       "id": 19,
-      "name": "Elizabeth Armchairs",
+      "name": "Daybed designed by Erik Riisager Hansen for Haslev, Denmark.",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 920,
+      "price": 20255,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-elizabeth-armchairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-elizabeth-armchairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-elizabeth-armchairs-3.jpg"
+        "/src/assets/images/products/furniture-seating-daybed_model_er_8072-rosewood_and_linen_upholstery-1.jpg",
+        "/src/assets/images/products/furniture-seating-daybed_model_er_8072-rosewood_and_linen_upholstery-2.jpg",
+        "/src/assets/images/products/furniture-seating-daybed_model_er_8072-rosewood_and_linen_upholstery-3.jpg"
       ],
-      "material": "Black Leather & Rosewood",
-      "dimensions": "58×74×74 cm",
-      "description": "A pair of Elizabeth lounge chairs in patinated black leather on slender rosewood frames with curved backrests.",
-      "inStock": true,
+      "material": "Rosewood and linen upholstery",
+      "dimensions": "190×80×32 cm",
+      "description": "This daybed, designed by Erik Riisager and produced by Haslev in the 1950s, reflects the restrained and functional approach characteristic of Danish furniture from the period. The piece is defined by its elongated, slightly tapered form and subtly raised ends, which provide both visual balance and practical support.",
+      "inStock": false,
       "rating": 4.8,
       "isNew": false,
       "isFeatured": false
     },
     {
       "id": 20,
-      "name": "Elizabeth Sofa",
+      "name": "Daybed designed by Ib Kofod-Larsen",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 1580,
+      "price": 18005,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-elizabeth-sofa-1.jpg",
-        "/src/assets/images/products/furniture-seating-elizabeth-sofa-2.jpg",
-        "/src/assets/images/products/furniture-seating-elizabeth-sofa-3.jpg"
+        "/src/assets/images/products/furniture-seating-daybed_model_ibkl_8779-walnut_and_cane-1.jpg",
+        "/src/assets/images/products/furniture-seating-daybed_model_ibkl_8779-walnut_and_cane-2.jpg",
+        "/src/assets/images/products/furniture-seating-daybed_model_ibkl_8779-walnut_and_cane-3.jpg"
       ],
-      "material": "Black Leather & Rosewood",
-      "dimensions": "178×80×70 cm",
-      "description": "A matching Elizabeth sofa with a scooped black leather seat suspended on an elegant rosewood frame.",
+      "material": "Walnut and cane",
+      "dimensions": "190×68×38 cm",
+      "description": "The daybed reflects Ib Kofod-Larsen’s approach to functional furniture developed during the post-war period in Denmark. The design combines a solid walnut frame with a cane sleeping surface, allowing the piece to function both as seating and as a bed.",
       "inStock": true,
-      "rating": 4.7,
-      "isNew": false,
+      "rating": 4,
+      "isNew": true,
       "isFeatured": false
     },
     {
       "id": 21,
-      "name": "Flage Halyard Chair",
+      "name": "Easy chair designed by Otto Schulz for Boet, Sweden, 1940s",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 1180,
+      "price": 15754,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-flage-halyard-chair-1.jpg",
-        "/src/assets/images/products/furniture-seating-flage-halyard-chair-2.jpg",
-        "/src/assets/images/products/furniture-seating-flage-halyard-chair-3.jpg"
+        "/src/assets/images/products/furniture-seating-easy_chair_model_gb_12-stained_birch_with_fabric_upholstery-1.jpg",
+        "/src/assets/images/products/furniture-seating-easy_chair_model_gb_12-stained_birch_with_fabric_upholstery-2.jpg",
+        "/src/assets/images/products/furniture-seating-easy_chair_model_gb_12-stained_birch_with_fabric_upholstery-3.jpg"
       ],
-      "material": "Steel, Halyard Rope & Sheepskin",
-      "dimensions": "92×100×78 cm",
-      "description": "The legendary flag halyard chair with a hand-woven natural rope seat, polished steel legs and a long-hair sheepskin throw. Its floating silhouette remains one of the most photographed pieces of Danish modernism. Includes a turquoise accent pillow as shown.",
-      "inStock": true,
-      "rating": 4.9,
-      "isNew": true,
-      "isFeatured": true
-    },
-    {
-      "id": 22,
-      "name": "Henningsen Sofa",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 1880,
-      "oldPrice": 2250,
-      "images": [
-        "/src/assets/images/products/furniture-seating-henningsen-sofa-1.jpg",
-        "/src/assets/images/products/furniture-seating-henningsen-sofa-2.jpg",
-        "/src/assets/images/products/furniture-seating-henningsen-sofa-3.jpg"
-      ],
-      "material": "Aniline Leather & Mahogany",
-      "dimensions": "192×84×78 cm",
-      "description": "A stately three-seat sofa in cognac aniline leather with gracefully curved armrests and a mahogany base.",
-      "inStock": true,
-      "rating": 4.9,
-      "isNew": false,
-      "isFeatured": false
-    },
-    {
-      "id": 23,
-      "name": "High-Backed Sofa",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 1680,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-high-backed-sofa-1.jpg",
-        "/src/assets/images/products/furniture-seating-high-backed-sofa-2.jpg",
-        "/src/assets/images/products/furniture-seating-high-backed-sofa-3.jpg"
-      ],
-      "material": "Aniline Leather & Beech",
-      "dimensions": "148×88×112 cm",
-      "description": "A high-backed two-seat sofa in oxblood leather with winged sides, offering a private lounge-like seating nook.",
-      "inStock": true,
-      "rating": 4.6,
-      "isNew": false,
-      "isFeatured": false
-    },
-    {
-      "id": 24,
-      "name": "Lacquered Wood & Gold Armchair",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 520,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-armchairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-armchairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-armchairs-3.jpg"
-      ],
-      "material": "Lacquered Wood & Gold Leaf",
-      "dimensions": "62×56×98 cm",
-      "description": "A Gustavian-style armchair with a powder-green lacquered frame, gilt accents and a crisply upholstered white seat.",
-      "inStock": true,
-      "rating": 4.7,
-      "isNew": false,
-      "isFeatured": false
-    },
-    {
-      "id": 25,
-      "name": "Lacquered Wood & Gold Tabouret",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 340,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-tabouret-1.jpg",
-        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-tabouret-2.jpg",
-        "/src/assets/images/products/furniture-seating-lacqueredwood&goold-tabouret-3.jpg"
-      ],
-      "material": "Lacquered Wood & Gold Leaf",
-      "dimensions": "56×42×46 cm",
-      "description": "A Gustavian tabouret in sage-green lacquer with hand-gilt laurel detailing and a linen cushion.",
-      "inStock": true,
-      "rating": 4.6,
-      "isNew": false,
-      "isFeatured": false
-    },
-    {
-      "id": 26,
-      "name": "Leather & Birch Eva Armchairs",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 860,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-leather&birch-Eva-armchairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-leather&birch-Eva-armchairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-leather&birch-Eva-armchairs-3.jpg"
-      ],
-      "material": "Birch & Woven Leather",
-      "dimensions": "56×82×88 cm",
-      "description": "A pair of Eva armchairs in warm birch with cognac woven-leather webbing across the seat and back.",
+      "material": "Stained birch with fabric upholstery",
+      "dimensions": "70×80×92 cm",
+      "description": "This vintage armchair is a refined example of Otto Schulz’s distinctive contribution to Swedish design. Inspired by the classical Greek klismos chair as well as his own well-known “Sulla” model, Schulz developed a broad, sculptural seat with a softly curved backrest that embraces the sitter.",
       "inStock": true,
       "rating": 4.8,
       "isNew": false,
       "isFeatured": false
     },
     {
-      "id": 27,
-      "name": "Magareta Side Chairs",
+      "id": 22,
+      "name": "Easy chair 'Star', designed by Mats Theselius for Källemo,",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 315,
-      "oldPrice": 385,
-      "images": [
-        "/src/assets/images/products/furniture-seating-magareta-side-chairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-magareta-side-chairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-magareta-side-chairs-3.jpg"
-      ],
-      "material": "Beech & Cane",
-      "dimensions": "46×50×80 cm",
-      "description": "A pair of slim side chairs with woven cane backs, blond beech frames and terracotta wool seat cushions.",
-      "inStock": true,
-      "rating": 4.4,
-      "isNew": false,
-      "isFeatured": false
-    },
-    {
-      "id": 28,
-      "name": "Model 1057 Easy Chairs",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 640,
+      "price": 8552,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-model-1057-easy-chairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-model-1057-easy-chairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-model-1057-easy-chairs-3.jpg"
+        "/src/assets/images/products/furniture-seating-easy_chair_star-leather_tubular_frame_and_mouldings_of_chromed_metal-1.jpg",
+        "/src/assets/images/products/furniture-seating-easy_chair_star-leather_tubular_frame_and_mouldings_of_chromed_metal-2.jpg",
+        "/src/assets/images/products/furniture-seating-easy_chair_star-leather_tubular_frame_and_mouldings_of_chromed_metal-3.jpg"
       ],
-      "material": "Wool & Steel",
-      "dimensions": "62×74×82 cm",
-      "description": "A set of three scissor-base lounge chairs in charcoal fabric sling upholstery with angled wooden leg frames.",
+      "material": "Leather, tubular frame and mouldings of chromed metal",
+      "dimensions": "72×75×80 cm",
+      "description": "“Star” is an armchair conceived by Swedish designer Mats Theselius in collaboration with the manufacturer Källemo. Executed circa 2009, this limited‑edition piece (of a run of 360) blends sculptural presence with refined materiality.",
       "inStock": true,
-      "rating": 4.5,
+      "rating": 4.7,
       "isNew": true,
-      "isFeatured": false
-    },
-    {
-      "id": 29,
-      "name": "Model 4032 Rocking Chair",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 460,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-model-4032-rocking-chair-1.jpg",
-        "/src/assets/images/products/furniture-seating-model-4032-rocking-chair-2.jpg",
-        "/src/assets/images/products/furniture-seating-model-4032-rocking-chair-3.jpg"
-      ],
-      "material": "Chrome-Plated Steel",
-      "dimensions": "68×88×76 cm",
-      "description": "A minimalist rocking chair in polished chrome-plated steel with a linear rod seat and rocking base.",
-      "inStock": true,
-      "rating": 4.4,
-      "isNew": true,
-      "isFeatured": false
-    },
-    {
-      "id": 30,
-      "name": "Model 350 Armchairs",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 1350,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-model350-armchairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-model350-armchairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-model350-armchairs-3.jpg"
-      ],
-      "material": "Teak & Cane",
-      "dimensions": "54×56×76 cm",
-      "description": "A set of six teak dining armchairs with sculpted backrests and hand-woven cane seats.",
-      "inStock": false,
-      "rating": 4.6,
-      "isNew": false,
-      "isFeatured": false
-    },
-    {
-      "id": 31,
-      "name": "Model 465 Dining Chairs",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 540,
-      "oldPrice": null,
-      "images": [
-        "/src/assets/images/products/furniture-seating-model465-dining-chairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-model465-dining-chairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-model465-dining-chairs-3.jpg"
-      ],
-      "material": "Rosewood & Wool",
-      "dimensions": "48×50×77 cm",
-      "description": "A set of four rosewood dining chairs with gently curved top rails and bright cobalt wool seat cushions.",
-      "inStock": true,
-      "rating": 4.5,
-      "isNew": false,
-      "isFeatured": false
-    },
-    {
-      "id": 32,
-      "name": "Oxford Dining Set",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 2350,
-      "oldPrice": 2790,
-      "images": [
-        "/src/assets/images/products/furniture-seating-oxford-dining-set-1.jpg",
-        "/src/assets/images/products/furniture-seating-oxford-dining-set-2.jpg",
-        "/src/assets/images/products/furniture-seating-oxford-dining-set-3.jpg"
-      ],
-      "material": "Rosewood",
-      "dimensions": "125×125×74 cm",
-      "description": "A complete rosewood dining set pairing a round pedestal table with four tall-backed swivel Oxford chairs. The dramatic fan-shaped chair backs and mirror-smooth rosewood surfaces create a sculptural dining room statement. Seats four comfortably around the 125 cm top.",
-      "inStock": true,
-      "rating": 4.9,
-      "isNew": false,
       "isFeatured": true
     },
     {
-      "id": 33,
-      "name": "Pine & Fabric Berdga Stools",
+      "id": 23,
+      "name": "The Flag Halyard chair",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 255,
+      "price": 79500,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-pin&fabric-berdga-stools-1.jpg",
-        "/src/assets/images/products/furniture-seating-pin&fabric-berdga-stools-2.jpg",
-        "/src/assets/images/products/furniture-seating-pin&fabric-berdga-stools-3.jpg"
+        "/src/assets/images/products/furniture-seating-easy_chair_the_flag_halyard_chair-original_green_lacquered_steel_frame_with_beech_shoes-1.jpg",
+        "/src/assets/images/products/furniture-seating-easy_chair_the_flag_halyard_chair-original_green_lacquered_steel_frame_with_beech_shoes-2.jpg",
+        "/src/assets/images/products/furniture-seating-easy_chair_the_flag_halyard_chair-original_green_lacquered_steel_frame_with_beech_shoes-3.jpg"
       ],
-      "material": "Solid Pine & Wool",
-      "dimensions": "46×34×42 cm",
-      "description": "A pair of chunky solid-pine stools with saddle-style wool cushions in mustard and sage.",
+      "material": "Original green lacquered steel frame with beech shoes, halyard line and sheepskin",
+      "dimensions": "98×92×73 cm",
+      "description": "Flag Halyard chair designed by Hans J. Wegner, with a halyard-line seat, green lacquered steel frame and long-haired sheepskin throw.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 24,
+      "name": "Easy chair Designed by Otto Schulz for Boet",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 15754,
+      "oldPrice": 17900,
+      "images": [
+        "/src/assets/images/products/furniture-seating-easy_chaire_model_sulla_8645-1.jpg",
+        "/src/assets/images/products/furniture-seating-easy_chaire_model_sulla_8645-2.jpg",
+        "/src/assets/images/products/furniture-seating-easy_chaire_model_sulla_8645-3.jpg"
+      ],
+      "material": "Beech and original upholstery",
+      "dimensions": "68×75×72 cm",
+      "description": "This vintage furniture armchair is an elegant example of Otto Schulz’s sophisticated Swedish design language. Drawing on the classical Greek klismos and his own “Sulla” model, Schulz developed a generous, sculptural seat with a sweeping back that curves gently around the sitter.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 25,
+      "name": "Easy chairs designed by Bodil Kjaer for Harbo Sølvsten",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 15239,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-easy_chairs_model_bk_1057-oak_and_original_fabric-1.jpg",
+        "/src/assets/images/products/furniture-seating-easy_chairs_model_bk_1057-oak_and_original_fabric-2.jpg",
+        "/src/assets/images/products/furniture-seating-easy_chairs_model_bk_1057-oak_and_original_fabric-3.jpg"
+      ],
+      "material": "Oak and original fabric",
+      "dimensions": "58×72×88 cm",
+      "description": "\"The chairs were designed for the modernist house \"Doktorn 5\" in the town Laholm, Sweden, in 1956, by architect Svend Bøgh-Andersen (1916-1984), who built and decorated it for him and his wife Hanne (1920-2015)\" Four available. Sold individually.",
+      "inStock": true,
+      "rating": 5,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 26,
+      "name": "Folding stool 'Guldhøj’ designed by Poul Hundevad",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 4051,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-folding_stool_guldhøj-rosewood_and_leather-1.jpg",
+        "/src/assets/images/products/furniture-seating-guldhøj-folding-stool-2.jpg",
+        "/src/assets/images/products/furniture-seating-folding_stool_guldhøj-rosewood_and_leather-3.jpg"
+      ],
+      "material": "Rosewood and leather",
+      "dimensions": "56×44×47 cm",
+      "description": "This stool’s design was inspired by a fascinating piece of Danish history. In 1891, a team of archaeologists led by Vilhelm Boye excavated the Guldhøj burial mound in southern Jutland; a burial site dating back to around 1400 BCE.",
       "inStock": true,
       "rating": 4.3,
       "isNew": false,
       "isFeatured": false
     },
     {
-      "id": 34,
-      "name": "Reclining Chaise Lounge",
+      "id": 27,
+      "name": "Sofa designed by N.D. Hansen and Flemming Johansen for cabinetmaker Ove Lander",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 760,
-      "oldPrice": 920,
+      "price": 36009,
+      "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-reclining-chaise-lounge-1.jpg",
-        "/src/assets/images/products/furniture-seating-reclining-chaise-lounge-2.jpg",
-        "/src/assets/images/products/furniture-seating-reclining-chaise-lounge-3.jpg"
+        "/src/assets/images/products/furniture-seating-high_backed_two_seat_sofa_model_fh_8917-leather_and_oak-1.jpg",
+        "/src/assets/images/products/furniture-seating-high_backed_two_seat_sofa_model_fh_8917-leather_and_oak-2.jpg",
+        "/src/assets/images/products/furniture-seating-high_backed_two_seat_sofa_model_fh_8917-leather_and_oak-3.jpg"
       ],
-      "material": "Beech & Cotton Webbing",
-      "dimensions": "62×158×84 cm",
-      "description": "A reclining chaise lounge with black woven webbing on a bent beech frame, complete with a detachable gray headrest pillow.",
+      "material": "Leather and oak",
+      "dimensions": "142×80×103 cm",
+      "description": "This very rare three-seater sofa was first exhibited at the 1936 Copenhagen Cabinetmakers’ Guild Exhibition, an annual furniture exhibition and competition held from 1927 to 1966. The sofa was made by the master cabinetmaker Ole Lander and was produced in very small numbers, if at all.",
+      "inStock": false,
+      "rating": 4.1,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 28,
+      "name": "Lounge chair 'Pernilla 3' designed by Bruno Mathsson for Karl Mathsson",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 8552,
+      "oldPrice": 9895,
+      "images": [
+        "/src/assets/images/products/furniture-seating-lounge_chair_pernilla_3-laminated_birch_and_paper_webbing-1.jpg",
+        "/src/assets/images/products/furniture-seating-lounge_chair_pernilla_3-laminated_birch_and_paper_webbing-2.jpg",
+        "/src/assets/images/products/furniture-seating-lounge_chair_pernilla_3-laminated_birch_and_paper_webbing-3.jpg"
+      ],
+      "material": "Laminated birch and paper webbing",
+      "dimensions": "62×92×72 cm",
+      "description": "The lounge chair ‘Pernilla 3’ was designed in 1944 by Bruno Mathsson. The model was named after the journalist Pernilla Thunberger who visited Bruno Mathsson for an interview earlier that same year.",
+      "inStock": true,
+      "rating": 4.1,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 29,
+      "name": "Oxford dining set model AJ 711",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 65000,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-oxford_dining_set_model_aj_711-1.jpg",
+        "/src/assets/images/products/furniture-seating-oxford_dining_set_model_aj_711-2.jpg",
+        "/src/assets/images/products/furniture-seating-oxford_dining_set_model_aj_711-3.jpg"
+      ],
+      "material": "Rosewood",
+      "dimensions": "110×110×72 cm",
+      "description": "Dining set comprising a round pedestal table and four high-backed Oxford chairs, all in polished rosewood.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 30,
+      "name": "Pair of 'Basket Club' armchairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 26500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-pair_of_armchairs_basket_club-rosewood_and_handwoven_cane-1.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_armchairs_basket_club-rosewood_and_handwoven_cane-2.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_armchairs_basket_club-rosewood_and_handwoven_cane-3.jpg"
+      ],
+      "material": "Rosewood and handwoven cane",
+      "dimensions": "68×64×76 cm",
+      "description": "Pair of basket armchairs with round handwoven cane seats set within sculpted rosewood frames.",
       "inStock": true,
       "rating": 4.6,
       "isNew": false,
       "isFeatured": false
     },
     {
-      "id": 35,
-      "name": "Red Dining Chairs",
+      "id": 31,
+      "name": "Pair of armchairs ‘Eva’ designed by Bruno Mathsson for Karl Mathsson",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 1080,
+      "price": 6302,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-red-dining-chairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-red-dining-chairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-red-dining-chairs-3.jpg"
+        "/src/assets/images/products/furniture-seating-pair_of_armchairs_eva-leather_and_birch-1.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_armchairs_eva-leather_and_birch-2.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_armchairs_eva-leather_and_birch-3.jpg"
       ],
-      "material": "Leather & Mahogany",
-      "dimensions": "48×52×88 cm",
-      "description": "A set of mahogany dining chairs with oxblood leather seats and backs, edged with hand-driven nailhead trim.",
-      "inStock": false,
+      "material": "Leather and birch",
+      "dimensions": "55×74×84 cm",
+      "description": "With its characteristically curved legs and armrests, this iconic chair model \"Eva\" exemplifies Swedish functionalism. The comfortable seat is composed of beautifully patinated plaited leather straps in cognac — \"Eva\" in leather was only introduced in the 1960s.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 32,
+      "name": "Pair of easy chairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 12603,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-pair_of_easy_chairs-mahogany_and_niger_leather-1.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_easy_chairs-mahogany_and_niger_leather-2.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_easy_chairs-mahogany_and_niger_leather-3.jpg"
+      ],
+      "material": "Mahogany and Niger leather",
+      "dimensions": "72×84×98 cm",
+      "description": "Pair of high-backed easy chairs in mahogany with buttoned upholstery in patinated Niger leather.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 33,
+      "name": "A set of four chair model 'Corall' designed by Axel Einar Hjorth for Nordiska Kompaniet, Sweden",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 10803,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-pair_of_easy_chairs_coroll-ebonised_birch_seat_in_woven_cane_with_a_loose_upholstered_cushion-1.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_easy_chairs_coroll-ebonised_birch_seat_in_woven_cane_with_a_loose_upholstered_cushion-2.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_easy_chairs_coroll-ebonised_birch_seat_in_woven_cane_with_a_loose_upholstered_cushion-3.jpg"
+      ],
+      "material": "Ebonised birch, woven cane, upholstered cushion",
+      "dimensions": "46×50×76 cm",
+      "description": "This set of four ‘Corall’ chairs, designed by Axel Einar Hjorth for Nordiska Kompaniet in 1937, reflects the practicality and simplicity characteristic of Swedish design during this period. Created for summer houses and cabins, the Corall series was designed to suit homes often located in natural or coastal environments.",
+      "inStock": true,
       "rating": 4.5,
       "isNew": false,
       "isFeatured": false
     },
     {
-      "id": 36,
-      "name": "Red Stained Wood Leg Armchair",
+      "id": 34,
+      "name": "Pair of easy chairs designed by Frits Schlegel",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 690,
+      "price": 14286,
+      "oldPrice": 15900,
+      "images": [
+        "/src/assets/images/products/furniture-seating-pair_of_easy_chairs_model_fs_8712-ash_wood_and_rattan-1.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_easy_chairs_model_fs_8712-ash_wood_and_rattan-2.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_easy_chairs_model_fs_8712-ash_wood_and_rattan-3.jpg"
+      ],
+      "material": "Ash wood and rattan",
+      "dimensions": "60×68×90 cm",
+      "description": "This pair of easy chairs was designed by Frits Schlegel in Denmark in the 1950s. The chairs are constructed in solid ash with backs and seats in woven rattan cane.",
+      "inStock": true,
+      "rating": 5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 35,
+      "name": "Pair of armchairs",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 11253,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-red-stainedwoodleg-armchairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-red-stainedwoodleg-armchairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-red-stainedwoodleg-armchairs-3.jpg"
+        "/src/assets/images/products/furniture-seating-pair_of_elizabeth_armchairs-rosewood_and_leather-1.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_elizabeth_armchairs-rosewood_and_leather-2.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_elizabeth_armchairs-rosewood_and_leather-3.jpg"
       ],
-      "material": "Velvet & Stained Beech",
-      "dimensions": "68×80×102 cm",
-      "description": "A high-back armchair in crimson upholstery with hand-stitched seams on red-stained wooden legs.",
+      "material": "Rosewood and leather",
+      "dimensions": "60×68×88 cm",
+      "description": "Pair of 'Elizabeth' armchairs with high winged backs in patinated black leather on rosewood frames, designed by Ib Kofod-Larsen.",
       "inStock": true,
       "rating": 4.4,
       "isNew": false,
       "isFeatured": false
     },
     {
-      "id": 37,
-      "name": "Rosewood, Birch & Fabric Red Daybed",
+      "id": 36,
+      "name": "Pair of chairs designed by Erik Chambert",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 1120,
+      "price": 5401,
+      "oldPrice": 6250,
+      "images": [
+        "/src/assets/images/products/furniture-seating-pair_of_side_chairs_margareta-birch_and_cane-1.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_side_chairs_margareta-birch_and_cane-2.jpg",
+        "/src/assets/images/products/furniture-seating-pair_of_side_chairs_margareta-birch_and_cane-3.jpg"
+      ],
+      "material": "Birch and cane",
+      "dimensions": "45×50×82 cm",
+      "description": "Pair of side chairs in birch with woven cane backs and rust-coloured upholstered seats.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 37,
+      "name": "Armchair",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 4456,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-rosewood&birch&fabric-red-daybed-1.jpg",
-        "/src/assets/images/products/furniture-seating-rosewood&birch&fabric-red-daybed-2.jpg",
-        "/src/assets/images/products/furniture-seating-rosewood&birch&fabric-red-daybed-3.jpg"
+        "/src/assets/images/products/furniture-seating-rare_wingback_chair_model_fh_8142-oak_legs_unholstered_with_original_natural_leather-1.jpg",
+        "/src/assets/images/products/furniture-seating-rare_wingback_chair_model_fh_8142-oak_legs_unholstered_with_original_natural_leather-2.jpg",
+        "/src/assets/images/products/furniture-seating-rare_wingback_chair_model_fh_8142-oak_legs_unholstered_with_original_natural_leather-3.jpg"
       ],
-      "material": "Rosewood & Fabric",
-      "dimensions": "188×68×66 cm",
-      "description": "A rosewood daybed with book-matched figured veneer panels and a cream fabric mattress, doubling as a sofa.",
+      "material": "Oak legs upholstered with original natural leather",
+      "dimensions": "68×82×108 cm",
+      "description": "Wingback armchair with sculpted oak legs and original natural leather upholstery in warm cognac.",
       "inStock": true,
-      "rating": 4.7,
+      "rating": 4.8,
       "isNew": false,
       "isFeatured": false
     },
     {
       "id": 38,
-      "name": "Rosewood & Linen Upholstery White Daybed",
+      "name": "Rocking chair model RA 4032",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 960,
+      "price": 21500,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-rosewood&linenupholstery-white-daybed-1.jpg",
-        "/src/assets/images/products/furniture-seating-rosewood&linenupholstery-white-daybed-2.jpg",
-        "/src/assets/images/products/furniture-seating-rosewood&linenupholstery-white-daybed-3.jpg"
+        "/src/assets/images/products/furniture-seating-rocking_chair_model_ra_4032-chromed_tubular_steel_and_vinyl_covered_springs-1.jpg",
+        "/src/assets/images/products/furniture-seating-rocking_chair_model_ra_4032-chromed_tubular_steel_and_vinyl_covered_springs-2.jpg",
+        "/src/assets/images/products/furniture-seating-rocking_chair_model_ra_4032-chromed_tubular_steel_and_vinyl_covered_springs-3.jpg"
       ],
-      "material": "Rosewood & Linen",
-      "dimensions": "184×66×38 cm",
-      "description": "A minimalist rosewood daybed with an asymmetrical curved top upholstered in white linen.",
-      "inStock": false,
+      "material": "Chromed tubular steel and vinyl covered springs",
+      "dimensions": "96×62×80 cm",
+      "description": "Rocking chaise with a bent chromed tubular steel frame and a vinyl-covered spring seat.",
+      "inStock": true,
       "rating": 4.6,
       "isNew": true,
       "isFeatured": false
     },
     {
       "id": 39,
-      "name": "Snake Chair",
+      "name": "Set of six dining chairs 'Model 465' designed by Helge Sibast & Børge Rammeskov for Sibast Møbler",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 530,
-      "oldPrice": 640,
-      "images": [
-        "/src/assets/images/products/furniture-seating-snake-chair-1.jpg",
-        "/src/assets/images/products/furniture-seating-snake-chair-2.jpg",
-        "/src/assets/images/products/furniture-seating-snake-chair-3.jpg"
-      ],
-      "material": "Chrome-Plated Steel & Tartan Wool",
-      "dimensions": "44×62×82 cm",
-      "description": "A playful snake chair with a polished chrome S-curve base and tartan plaid upholstery on the round seat and backrest.",
-      "inStock": true,
-      "rating": 4.5,
-      "isNew": true,
-      "isFeatured": false
-    },
-    {
-      "id": 40,
-      "name": "Star Easy Chair",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 610,
+      "price": 9903,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-star-easy-chairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-star-easy-chairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-star-easy-chairs-3.jpg"
+        "/src/assets/images/products/furniture-seating-set_of_six_dining_chairs_model_465-rosewood_and_blue_wool-1.jpg",
+        "/src/assets/images/products/furniture-seating-set_of_six_dining_chairs_model_465-rosewood_and_blue_wool-2.jpg",
+        "/src/assets/images/products/furniture-seating-set_of_six_dining_chairs_model_465-rosewood_and_blue_wool-3.jpg"
       ],
-      "material": "Leather & Chrome",
-      "dimensions": "66×70×74 cm",
-      "description": "A tub-style easy chair in smooth black leather on a polished chrome frame, with an exposed natural-fiber side panel.",
-      "inStock": true,
-      "rating": 4.6,
-      "isNew": true,
-      "isFeatured": false
-    },
-    {
-      "id": 41,
-      "name": "Swedish Armchairs",
-      "category": "furniture",
-      "subcategory": "seating",
-      "price": 745,
-      "oldPrice": 890,
-      "images": [
-        "/src/assets/images/products/furniture-seating-swedish-armchairs-1.jpg",
-        "/src/assets/images/products/furniture-seating-swedish-armchairs-2.jpg",
-        "/src/assets/images/products/furniture-seating-swedish-armchairs-3.jpg"
-      ],
-      "material": "Mahogany & Leather",
-      "dimensions": "56×58×74 cm",
-      "description": "A pair of Swedish Grace armchairs in mahogany with sabre-like curved arms and cognac leather seats.",
-      "inStock": true,
-      "rating": 4.7,
+      "material": "Rosewood and blue wool",
+      "dimensions": "46×50×79 cm",
+      "description": "These 'Model 465' dining chairs by Helge Sibast and Børge Rammeskov for Sibast Møbler represent a refined expression of Danish modern design. Crafted in rosewood, the frames display a rich, expressive grain that enhances the sculptural quality of the design, while the upholstered seats in blue wool introduce a soft contrast in both colour and texture.",
+      "inStock": false,
+      "rating": 4.9,
       "isNew": false,
       "isFeatured": false
     },
     {
-      "id": 42,
-      "name": "Teak Bench Model 852",
+      "id": 40,
+      "name": "Set of ten butterfly dining chairs",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 545,
+      "price": 22500,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-teak-bench-model-852-1.jpg",
-        "/src/assets/images/products/furniture-seating-teak-bench-model-852-2.jpg",
-        "/src/assets/images/products/furniture-seating-teak-bench-model-852-3.jpg"
+        "/src/assets/images/products/furniture-seating-set_of_ten_butterfly_dining_chairs-1.jpg",
+        "/src/assets/images/products/furniture-seating-set_of_ten_butterfly_dining_chairs-2.jpg",
+        "/src/assets/images/products/furniture-seating-set_of_ten_butterfly_dining_chairs-3.jpg"
       ],
-      "material": "Solid Teak",
-      "dimensions": "152×40×32 cm",
-      "description": "A long slatted teak bench with gently splayed legs, equally at home in an entryway or at the foot of a bed.",
+      "material": "Teak and painted wood",
+      "dimensions": "45×50×78 cm",
+      "description": "Set of ten dining chairs with sculpted butterfly-shaped backs in white above teak frames.",
       "inStock": true,
       "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 41,
+      "name": "Snake chair model PH 8849",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 13500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-snake_chair_model_ph_8849-chromed_metal-1.jpg",
+        "/src/assets/images/products/furniture-seating-snake_chair_model_ph_8849-chromed_metal-2.jpg",
+        "/src/assets/images/products/furniture-seating-snake_chair_model_ph_8849-chromed_metal-3.jpg"
+      ],
+      "material": "Chromed metal and tartan wool",
+      "dimensions": "46×64×98 cm",
+      "description": "Snake chair with a coiled chromed steel base and tartan plaid seat and back.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 42,
+      "name": "Sofa 'Elizabeth'",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 85500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-sofa_elizabeth-frame_in_rosewood_seat_and_back_upholstered_in_black-1.jpg",
+        "/src/assets/images/products/furniture-seating-sofa_elizabeth-frame_in_rosewood_seat_and_back_upholstered_in_black-3.jpg",
+        "/src/assets/images/products/furniture-seating-sofa_elizabeth-frame_in_rosewood_seat_and_back_upholstered_in_black2.jpg"
+      ],
+      "material": "Frame in rosewood, seat and back upholstered in black leather",
+      "dimensions": "155×78×74 cm",
+      "description": "Two-seat sofa with a curved rosewood frame and black leather seat and back, designed by Ib Kofod-Larsen.",
+      "inStock": true,
+      "rating": 4,
       "isNew": false,
       "isFeatured": false
     },
     {
       "id": 43,
-      "name": "Velvet Upholstery L-Shape Sofa",
+      "name": "Sofa designed by Axel Einar Hjorth for Nordiska Kompaniet",
       "category": "furniture",
       "subcategory": "seating",
-      "price": 1880,
+      "price": 16204,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-velvetUpholstery-L-shape-sofa-1.jpg",
-        "/src/assets/images/products/furniture-seating-velvetUpholstery-L-shape-sofa-2.jpg",
-        "/src/assets/images/products/furniture-seating-velvetUpholstery-L-shape-sofa-3.jpg"
+        "/src/assets/images/products/furniture-seating-sofa_model_aeh_7355-velvet_upholstery-1.jpg",
+        "/src/assets/images/products/furniture-seating-sofa_model_aeh_7355-velvet_upholstery-2.jpg",
+        "/src/assets/images/products/furniture-seating-sofa_model_aeh_7355-velvet_upholstery-3.jpg"
       ],
-      "material": "Velvet & Beech",
-      "dimensions": "262×192×74 cm",
-      "description": "A generous L-shaped corner sofa in light-gray velvet with rounded scroll arms and a low plinth base.",
+      "material": "Velvet upholstery",
+      "dimensions": "235×150×70 cm",
+      "description": "This corner sofa designed by Axel Einar Hjorth in the 1930s for Nordiska Kompaniet reflects the refined elegance of Swedish furniture from the transitional period between Swedish Grace and early functionalism. Upholstered in velvet, the sofa is composed of two gently angled sections that form a welcoming corner arrangement.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 44,
+      "name": "Sofa ‘Royal’ designed by Werner West for Oy Stockmann AB",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 13053,
+      "oldPrice": 14900,
+      "images": [
+        "/src/assets/images/products/furniture-seating-sofa_model_bm_8506_skyblue-1.jpg",
+        "/src/assets/images/products/furniture-seating-sofa_model_bm_8506_skyblue-2.jpg",
+        "/src/assets/images/products/furniture-seating-sofa_model_bm_8506_skyblue-3.jpg"
+      ],
+      "material": "Sky blue upholstery",
+      "dimensions": "195×82×72 cm",
+      "description": "The “Royal” sofa by Werner West is wonderfully comfortable and elegant with its high, enveloping backrest and integrated arms. The cut-out fronts and fine Boucle upholstery give the sizeable piece its modern aesthetic, while the tall back legs offer strong support by kicking out for extra balance.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 45,
+      "name": "Sofa model FH 8948",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 55000,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-sofa_model_fh_8948-mahogany_pearl_spiked_upholstery_in_red_leather-1.jpg",
+        "/src/assets/images/products/furniture-seating-sofa_model_fh_8948-mahogany_pearl_spiked_upholstery_in_red_leather-2.jpg",
+        "/src/assets/images/products/furniture-seating-sofa_model_fh_8948-mahogany_pearl_spiked_upholstery_in_red_leather-3.jpg"
+      ],
+      "material": "Mahogany and pearl spiked upholstery in red leather",
+      "dimensions": "188×82×78 cm",
+      "description": "Three-seat sofa with pearl-spiked red leather upholstery and curved mahogany armrests.",
+      "inStock": true,
+      "rating": 4.1,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 46,
+      "name": "Tabouret model SL 14",
+      "category": "furniture",
+      "subcategory": "seating",
+      "price": 9500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-seating-tabouret_model_sl_14-lacquered_wood_and_gold-1.jpg",
+        "/src/assets/images/products/furniture-seating-tabouret_model_sl_14-lacquered_wood_and_gold-2.jpg",
+        "/src/assets/images/products/furniture-seating-tabouret_model_sl_14-lacquered_wood_and_gold-3.jpg"
+      ],
+      "material": "Lacquered wood and gold",
+      "dimensions": "55×40×48 cm",
+      "description": "Gustavian style tabouret with a grey-green lacquered frame, gilded ornamental details and white upholstered seat.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 47,
+      "name": "Coffee table designed by Frode Holm for Illums Bolighus",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 3151,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-coffee_table_model_lvt_819-lacquered_steel-1.jpg",
+        "/src/assets/images/products/furniture-tables-coffee_table_model_lvt_819-lacquered_steel-2.jpg",
+        "/src/assets/images/products/furniture-tables-coffee_table_model_lvt_819-lacquered_steel-3.jpg"
+      ],
+      "material": "Lacquered steel",
+      "dimensions": "125×42×47 cm",
+      "description": "Coffee table with a red lacquered steel frame and top decorated with black and white enamel squares.",
+      "inStock": true,
+      "rating": 4.1,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 48,
+      "name": "Desk designed by Alvar Andersson for Hyresgästföreningen, retailed by G.A. Berg",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 11253,
+      "oldPrice": 12900,
+      "images": [
+        "/src/assets/images/products/furniture-tables-desk_mdel_ga_berg_7909-black_lacquered_birch_elm_and_pewter_inlay-1.jpg",
+        "/src/assets/images/products/furniture-tables-desk_mdel_ga_berg_7909-black_lacquered_birch_elm_and_pewter_inlay-2.jpg",
+        "/src/assets/images/products/furniture-tables-desk_mdel_ga_berg_7909-black_lacquered_birch_elm_and_pewter_inlay-3.jpg"
+      ],
+      "material": "Black lacquered birch, elm and pewter inlay",
+      "dimensions": "118×62×78 cm",
+      "description": "Gustaf Axel Berg ran his own shop and workshop on Kungsgatan in central Stockholm between 1933 and 1944. His production was mostly on commission for offices in the 1930s and, as functionalism slowly gained recognition, also for private interiors in the late 1930s and 1940s.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 49,
+      "name": "Desk designed by a Danish Cabinetmaker",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 6752,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-desk_model_dc_9011-root_wood_and_nutwood-1.jpg",
+        "/src/assets/images/products/furniture-tables-desk_model_dc_9011-root_wood_and_nutwood-2.jpg",
+        "/src/assets/images/products/furniture-tables-desk_model_dc_9011-root_wood_and_nutwood-3.jpg"
+      ],
+      "material": "Root wood and nutwood",
+      "dimensions": "120×65×76 cm",
+      "description": "This Danish cabinetmaker’s desk was made in the 1930s from root wood and nutwood. The front is arranged with five drawers, set within a rectilinear frame and raised on straight legs.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 50,
+      "name": "Desk model JH571 designed by Hans J. Wegner for Johannes Hansen",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 49513,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-desk_model_hjw_3907-brazilian_rosewood_and_chromed_steel-1.jpg",
+        "/src/assets/images/products/furniture-tables-desk_model_hjw_3907-brazilian_rosewood_and_chromed_steel-2.jpg",
+        "/src/assets/images/products/furniture-tables-desk_model_hjw_3907-brazilian_rosewood_and_chromed_steel-3.jpg"
+      ],
+      "material": "Brazilian rosewood and chromed steel",
+      "dimensions": "165×78×72 cm",
+      "description": "The Architect’s Desk, model JH571, was designed by Hans J. Wegner for the Copenhagen cabinetmaker Johannes Hansen in 1953 and first presented in 1954 at the Copenhagen Cabinetmakers’ Guild Exhibition.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 51,
+      "name": "Desk, designed by Helge Sibast for Sibast Furniture",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 6752,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-desk_model_hs_8292-rosewoode_and_brass-1.jpg",
+        "/src/assets/images/products/furniture-tables-desk_model_hs_8292-rosewoode_and_brass-2.jpg",
+        "/src/assets/images/products/furniture-tables-desk_model_hs_8292-rosewoode_and_brass-3.jpg"
+      ],
+      "material": "Rosewood and brass",
+      "dimensions": "162×78×74 cm",
+      "description": "This executive desk, designed by Helge Sibast exemplifies Danish modern design with its clean lines, refined craftsmanship, and functional elegance. Featuring ample storage, refined brass details, and clean architectural lines, it serves as both a practical workspace and a statement piece.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 52,
+      "name": "Desk designed by Tove Kindt-Larsen and Edvard Kindt-Larsen for Thorald Madsen. H.",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 30953,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-desk_model_nd_8949-rosewood-1.jpg",
+        "/src/assets/images/products/furniture-tables-desk_model_nd_8949-rosewood-2.jpg",
+        "/src/assets/images/products/furniture-tables-desk_model_nd_8949-rosewood-3.jpg"
+      ],
+      "material": "Rosewood",
+      "dimensions": "150×68×73 cm",
+      "description": "This freestanding desk by Tove and Edvard Kindt-Larsen is distinguished by the subtle shaping of the tabletop, where the edges rise slightly to form a shallow surround. Produced by cabinetmaker Thorald Madsen, the piece reflects a careful balance between utility and proportion typical of their work from the mid 20th century.",
+      "inStock": false,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 53,
+      "name": "Dining table model O.K.",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 28500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-dining_table_model_o.k-vavona_burl_top_base_in_stained_birch_labeled-1.jpg",
+        "/src/assets/images/products/furniture-tables-dining_table_model_o.k-vavona_burl_top_base_in_stained_birch_labeled-2.jpg",
+        "/src/assets/images/products/furniture-tables-dining_table_model_o.k-vavona_burl_top_base_in_stained_birch_labeled-3.jpg"
+      ],
+      "material": "Vavona burl top, base in stained birch",
+      "dimensions": "130×90×71 cm",
+      "description": "Extendable dining table with an oval vavona burl top on a stained birch pedestal base with curved legs.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 54,
+      "name": "Dining table",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 30953,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-dining_table_model_re_8380-oak_table_top_in__stone-1.jpg",
+        "/src/assets/images/products/furniture-tables-dining_table_model_re_8380-oak_table_top_in__stone-2.jpg",
+        "/src/assets/images/products/furniture-tables-dining_table_model_re_8380-oak_table_top_in__stone-3.jpg"
+      ],
+      "material": "Oak table top in stone",
+      "dimensions": "92×92×70 cm",
+      "description": "This Swedish Modern dining table from the 1930s/40s embodies the elegant simplicity and craftsmanship characteristic of the period. Constructed with a sturdy oak frame, the table features gently tapering legs that lend a refined, sculptural quality.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 55,
+      "name": "Dining table designed by Arne Vodder for Sibast",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 9903,
+      "oldPrice": 11500,
+      "images": [
+        "/src/assets/images/products/furniture-tables-dining_table_model_sl_7-rosewood-1.jpg",
+        "/src/assets/images/products/furniture-tables-dining_table_model_sl_7-rosewood-2.jpg",
+        "/src/assets/images/products/furniture-tables-dining_table_model_sl_7-rosewood-3.jpg"
+      ],
+      "material": "Rosewood",
+      "dimensions": "148×90×69 cm",
+      "description": "This rosewood dining table features a seamlessly integrated extendable design, allowing for effortless expansion to accommodate larger gatherings without compromising its elegant profile. Precision joinery and expert craftsmanship are evident in the table’s solid frame and smooth extension mechanism, ensuring stability and ease of use.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 56,
+      "name": "Dining table designed by Hans J. Wegner for Andreas Tuck",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 6257,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-dining_table_sabre_leg-teak_oak_and_brass-1.jpg",
+        "/src/assets/images/products/furniture-tables-dining_table_sabre_leg-teak_oak_and_brass-2.jpg",
+        "/src/assets/images/products/furniture-tables-dining_table_sabre_leg-teak_oak_and_brass-3.jpg"
+      ],
+      "material": "Teak, oak and brass",
+      "dimensions": "122×82×72 cm",
+      "description": "Drop-leaf dining table with crossed sabre legs in teak and oak, accented with brass fittings.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 57,
+      "name": "Dining table 'Pyramid' designed by Carl Malmsten for J.O Carlsson",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 6752,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-dininga_table_pyramid-mohogany_and_inlays-1.jpg",
+        "/src/assets/images/products/furniture-tables-dininga_table_pyramid-mohogany_and_inlays-2.jpg",
+        "/src/assets/images/products/furniture-tables-dininga_table_pyramid-mohogany_and_inlays-3.jpg"
+      ],
+      "material": "Mahogany and inlays",
+      "dimensions": "120×120×72 cm",
+      "description": "The Pyramid dining table was designed by Carl Malmsten in the early 1940s and produced in Sweden by J.O. Carlsson.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 58,
+      "name": "Occasional table",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 4051,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-game_table_model_el_1143-rosewood-1.jpg",
+        "/src/assets/images/products/furniture-tables-game_table_model_el_1143-rosewood-2.jpg",
+        "/src/assets/images/products/furniture-tables-game_table_model_el_1143-rosewood-3.jpg"
+      ],
+      "material": "Rosewood",
+      "dimensions": "88×88×74 cm",
+      "description": "Rosewood game table with a reversible chessboard top, fitted drawers and original casters.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 59,
+      "name": "Magazine table designed by Bruno Mathsson  for Firma Karl Mathsson",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 6752,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-magazine_table_model_bm_8765-top_masur_birch_leg_layer_glued_birch-1.jpg",
+        "/src/assets/images/products/furniture-tables-magazine_table_model_bm_8765-top_masur_birch_leg_layer_glued_birch-2.jpg",
+        "/src/assets/images/products/furniture-tables-magazine_table_model_bm_8765-top_masur_birch_leg_layer_glued_birch-3.jpg"
+      ],
+      "material": "Top in masur birch, legs of layer glued birch",
+      "dimensions": "82×50×58 cm",
+      "description": "This magazine table by Bruno Mathsson, produced by Firma Karl Mathsson in Värnamo and designed in 1964, is notable for combining a low table with integrated magazine storage in a single structure. The table belongs to a period in Mathsson’s career when he focused on lightweight wooden constructions and furniture intended for everyday use.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 60,
+      "name": "Occasional table / Bench model 5274, designed by Börge Mogensen for Fredericia Stolefabrik",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 4051,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-occasional_table_bench_model_5274-oak_and_cane-1.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_bench_model_5274-oak_and_cane-2.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_bench_model_5274-oak_and_cane-3.jpg"
+      ],
+      "material": "Oak and cane",
+      "dimensions": "98×52×44 cm",
+      "description": "This iconic design by Børge Mogensen, model 5274, was created for Fredericia Stolefabrik and remains a defining example of mid-century Danish modernism. The versatile piece is crafted with a solid oak frame and features a woven rattan top, often referred to as star weave or star rattan, which adds a distinctive texture to the piece.",
+      "inStock": false,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 61,
+      "name": "Occasional table model 2168 designed by Josef Frank for Svenskt Tenn",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 15754,
+      "oldPrice": 17900,
+      "images": [
+        "/src/assets/images/products/furniture-tables-occasional_table_model_2168-walnut_and_marble-1.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_2168-walnut_and_marble-2.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_2168-walnut_and_marble-3.jpg"
+      ],
+      "material": "Walnut and black marble",
+      "dimensions": "68×68×47 cm",
+      "description": "Josef Frank’s occasional table model 2168 is one of his rarer models. Its beautifully carved, turned legs give it a lighter and more playful aesthetic.",
+      "inStock": true,
+      "rating": 5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 62,
+      "name": "Occasional table 'Model AT-10' designed by Hans J Wegner for Andreas Tuck",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 5852,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-occasional_table_model_at_10-teak_and_cane-1.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_at_10-teak_and_cane-2.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_at_10-teak_and_cane-3.jpg"
+      ],
+      "material": "Teak and cane",
+      "dimensions": "148×40×46 cm",
+      "description": "The AT-10 occasional table, designed by Hans J. Wegner for Andreas Tuck in the 1950s, exemplifies Wegner's ability to combine functionality with simple, elegant design.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 63,
+      "name": "Occasional table designed by Frits Schlegel",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 17555,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-occasional_table_model_fs_254-rosewood_and_brass-1.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_fs_254-rosewood_and_brass-2.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_fs_254-rosewood_and_brass-3.jpg"
+      ],
+      "material": "Rosewood and brass",
+      "dimensions": "102×102×34 cm",
+      "description": "The intriguing combination of rosewood and patinated brass is emphasised by the shape of this large occasional table from 1949. The offset slats that make up the round shelf under the table’s surface create a diagonal pattern, which lightens the overall design.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 64,
+      "name": "Side table model 6 designed by Helge Vestergaard Jensen manufactured by Jason Møbler",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 5401,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-occasional_table_model_hvj_710-ebonised_wood_and_clear_glass-1.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_hvj_710-ebonised_wood_and_clear_glass-2.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_hvj_710-ebonised_wood_and_clear_glass-3.jpg"
+      ],
+      "material": "Ebonised wood and clear glass",
+      "dimensions": "118×42×40 cm",
+      "description": "Side table 'Model 6' in rosewood produced by Jason Møbler demonstrates Helge Vestergaard Jensen’s disciplined approach to proportion and material. Although Jensen’s output was relatively limited, this makes his pieces today highly collectible, valued for their refined detailing and material integrity.",
       "inStock": true,
       "rating": 4.7,
       "isNew": true,
       "isFeatured": false
     },
     {
-      "id": 44,
-      "name": "Walnut & Cane Daybed",
+      "id": 65,
+      "name": "Occasional table designed by Mogens Lassen for T. Madsen",
       "category": "furniture",
-      "subcategory": "seating",
-      "price": 1020,
+      "subcategory": "tables",
+      "price": 6752,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-walnut&cane-daybed-1.jpg",
-        "/src/assets/images/products/furniture-seating-walnut&cane-daybed-2.jpg",
-        "/src/assets/images/products/furniture-seating-walnut&cane-daybed-3.jpg"
+        "/src/assets/images/products/furniture-tables-occasional_table_model_ml_3432-1.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_ml_3432-2.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_ml_3432-3.jpg"
       ],
-      "material": "Walnut & Cane",
-      "dimensions": "188×64×36 cm",
-      "description": "A refined walnut daybed with a hand-woven cane surface and a plush sheepskin bolster pillow. The low, platform-like silhouette blends Japanese minimalism with Scandinavian warmth. Equally striking styled as a reading daybed or an extra seat for guests.",
+      "material": "Rosewood and cane",
+      "dimensions": "155×42×52 cm",
+      "description": "This occasional table was designed by Mogens Lassen for the Danish cabinetmaker T. Madsen in 1953.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 66,
+      "name": "Occasional table PK61 designed by Poul Kjaerholm for E. Kold Christensen",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 22506,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-occasional_table_model_pk_61-steel_and_porsgrunn_marble_with_fossils-1.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_pk_61-steel_and_porsgrunn_marble_with_fossils-2.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_pk_61-steel_and_porsgrunn_marble_with_fossils-3.jpg"
+      ],
+      "material": "Steel and Porsgrunn marble with fossils",
+      "dimensions": "75×75×35 cm",
+      "description": "The PK61 table, designed by Poul Kjærholm in 1956, is a clear expression of the designer’s philosophy of structural clarity and material honesty. The table consists of four identical brushed steel elements that support a square marble top, forming a composition in which every part of the construction is visible.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 67,
+      "name": "Occasional table designed by Thomas Sandell, for Asplund",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 4051,
+      "oldPrice": 4695,
+      "images": [
+        "/src/assets/images/products/furniture-tables-occasional_table_model_ts_152-birch_and_lacquerd_tubular_steel-1.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_ts_152-birch_and_lacquerd_tubular_steel-2.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_model_ts_152-birch_and_lacquerd_tubular_steel-3.jpg"
+      ],
+      "material": "Birch and lacquered tubular steel",
+      "dimensions": "92×42×46 cm",
+      "description": "The significance of this piece lies in its contrasts. Initially designed for the company Asplund, the table has a solid birch top with a built-in fruit bowl on a green lacquered base.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 68,
+      "name": "Occasional table",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 4051,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-occasional_table_the_egyption_table-mahogany_foldable_frame_and_top_raised_edge_brass_fittings-1.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_the_egyption_table-mahogany_foldable_frame_and_top_raised_edge_brass_fittings-2.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_the_egyption_table-mahogany_foldable_frame_and_top_raised_edge_brass_fittings-3.jpg"
+      ],
+      "material": "Mahogany foldable frame and top with raised edge, brass fittings",
+      "dimensions": "88×88×46 cm",
+      "description": "Brazillian rosewood.",
+      "inStock": true,
+      "rating": 4,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 69,
+      "name": "Occasional table 'Tulip' designed by Eero Saarinen for Knoll International",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 2656,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-occasional_table_tulip-carrara_marble_and_resin-1.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_tulip-carrara_marble_and_resin-2.jpg",
+        "/src/assets/images/products/furniture-tables-occasional_table_tulip-carrara_marble_and_resin-3.jpg"
+      ],
+      "material": "Carrara marble and resin",
+      "dimensions": "90×90×41 cm",
+      "description": "The Tulip table, designed by Eero Saarinen in the mid-1950s for Knoll, is one of the most recognisable pieces of twentieth-century modern furniture. The design pairs a circular Carrara marble top with a single pedestal base, creating a clear and elegant silhouette.",
+      "inStock": false,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 70,
+      "name": "Pair of bedside tables 'Model 914' designed by Josef Frank for Svenskt Tenn",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 8552,
+      "oldPrice": 9700,
+      "images": [
+        "/src/assets/images/products/furniture-tables-pair_of_bedside-tables_-model_914-mahogany-1.jpg",
+        "/src/assets/images/products/furniture-tables-pair_of_bedside-tables_-model_914-mahogany-2.jpg",
+        "/src/assets/images/products/furniture-tables-pair_of_bedside-tables_-model_914-mahogany-3.jpg"
+      ],
+      "material": "Mahogany",
+      "dimensions": "40×30×60 cm",
+      "description": "Model 914 is a refined bedside table designed by Josef Frank in the 1950s for Svenskt Tenn. Executed in mahogany, the design is defined by its clear proportions: a rectangular top with raised edges, a single drawer fitted with a curved brass handle, and an open shelf below for additional storage.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 71,
+      "name": "Pair of bedside tables for DUX",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 4951,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-pair_of_bedside_tables_model_dux_8924-cane_rattan_bamboo_and_teak-1.jpg",
+        "/src/assets/images/products/furniture-tables-pair_of_bedside_tables_model_dux_8924-cane_rattan_bamboo_and_teak-2.jpg",
+        "/src/assets/images/products/furniture-tables-pair_of_bedside_tables_model_dux_8924-cane_rattan_bamboo_and_teak-3.jpg"
+      ],
+      "material": "Cane, rattan, bamboo and teak",
+      "dimensions": "48×38×60 cm",
+      "description": "The colonial-style combination of cane, rattan, and teak makes this Scandinavian bedside table design particularly interesting. The woven edges and metal handles create a striking decorative contrast.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 72,
+      "name": "'Schroeder' occasional table designed by Gerrit Rietveld",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 40511,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-schroeder_occasional_table-red_white_black_yellow_and_blue_lacquered_wood-1.jpg",
+        "/src/assets/images/products/furniture-tables-schroeder_occasional_table-red_white_black_yellow_and_blue_lacquered_wood-2.jpg",
+        "/src/assets/images/products/furniture-tables-schroeder_occasional_table-red_white_black_yellow_and_blue_lacquered_wood-3.jpg"
+      ],
+      "material": "Red, white, black, yellow and blue lacquered wood",
+      "dimensions": "62×62×47 cm",
+      "description": "The ‘Schroeder’ side table is an excellent example of the bold geometry and visionary design of the De Stijl movement. Produced by G.A. van de Groenekan, the table features an eye-catching composition of primary colours paired with clean, angular lines.",
       "inStock": true,
       "rating": 4.9,
       "isNew": true,
       "isFeatured": true
     },
     {
-      "id": 45,
-      "name": "White Butterfly Dining Chair",
+      "id": 73,
+      "name": "Serving trolley model 756 designed by Josef Frank for Svenskt Tenn",
       "category": "furniture",
-      "subcategory": "seating",
-      "price": 240,
-      "oldPrice": 290,
+      "subcategory": "tables",
+      "price": 3196,
+      "oldPrice": 3695,
       "images": [
-        "/src/assets/images/products/furniture-seating-white-butterfly-dining-chair-2.jpg",
-        "/src/assets/images/products/furniture-seating-white-butterfly-dining-chair-1.jpg",
-        "/src/assets/images/products/furniture-seating-white-butterfly-dining-chair-3.jpg"
+        "/src/assets/images/products/furniture-tables-serving_trolley_model_756-veneered_walnut_and_brass-1.jpg",
+        "/src/assets/images/products/furniture-tables-serving_trolley_model_756-veneered_walnut_and_brass-2.jpg",
+        "/src/assets/images/products/furniture-tables-serving_trolley_model_756-veneered_walnut_and_brass-3.jpg"
       ],
-      "material": "Rosewood & Linen",
-      "dimensions": "46×50×80 cm",
-      "description": "A rosewood dining chair with a distinctive white butterfly-shaped backrest and linen upholstered seat.",
+      "material": "Veneered walnut and brass",
+      "dimensions": "84×48×75 cm",
+      "description": "This serving trolley, model 756, was designed by Josef Frank for Svenskt Tenn during the 1940s. Executed in veneered walnut with brass details, the piece is characterised by its balanced proportions and light construction.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 74,
+      "name": "Set of four nesting tables designed by Aksel Kjersgaard",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 6752,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-set_of_four_nesting_tablse_model_ak_8351-brazilian_rosewood-1.jpg",
+        "/src/assets/images/products/furniture-tables-set_of_four_nesting_tablse_model_ak_8351-brazilian_rosewood-2.jpg",
+        "/src/assets/images/products/furniture-tables-set_of_four_nesting_tablse_model_ak_8351-brazilian_rosewood-3.jpg"
+      ],
+      "material": "Brazilian rosewood",
+      "dimensions": "52×35×45 cm",
+      "description": "This set of four nesting tables, designed by Aksel Kjersgaard in Denmark during the 1960s, exemplifies the refined simplicity of Danish Modern design. Crafted from Brazilian rosewood, the tables feature clean lines and a minimalist rectangular form.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 75,
+      "name": "Sewing table designed by Josef Frank for Svenskt Tenn",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 5852,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-sewing_table_model_jf_8982-walnut_veneer_with_brass_fittings-1.jpg",
+        "/src/assets/images/products/furniture-tables-sewing_table_model_jf_8982-walnut_veneer_with_brass_fittings-2.jpg",
+        "/src/assets/images/products/furniture-tables-sewing_table_model_jf_8982-walnut_veneer_with_brass_fittings-3.jpg"
+      ],
+      "material": "Walnut veneer with brass fittings",
+      "dimensions": "62×46×73 cm",
+      "description": "This sewing table was designed by Josef Frank for Svenskt Tenn in Sweden during the mid-twentieth century. Veneered in walnut and fitted with brass details, it combines practical storage with the light, domestic character that defines much of Frank’s furniture.",
       "inStock": true,
       "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 76,
+      "name": "Side table designed by Anti Hakkarainen for Taidetakomo Hakkarainen",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 13053,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-side_table_model_ah_943-iron_and_stone_mosaic-1.jpg",
+        "/src/assets/images/products/furniture-tables-side_table_model_ah_943-iron_and_stone_mosaic-2.jpg",
+        "/src/assets/images/products/furniture-tables-side_table_model_ah_943-iron_and_stone_mosaic-3.jpg"
+      ],
+      "material": "Iron and stone mosaic",
+      "dimensions": "88×52×62 cm",
+      "description": "This side table, designed by Anti Hakkarainen in 1949 and produced by his workshop Taidetakomo Hakkarainen, combines expressive ironwork with a richly detailed mosaic surface. The wrought iron base is composed of slender legs shaped into rope-like twists, a technique closely associated with Hakkarainen’s metalwork.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 77,
+      "name": "Side table designed by Carl Axel Acking for Svenska Möbelfabrikerna Bodafors",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 4051,
+      "oldPrice": 4600,
+      "images": [
+        "/src/assets/images/products/furniture-tables-side_table_model_ca_1873-teak-1.jpg",
+        "/src/assets/images/products/furniture-tables-side_table_model_ca_1873-teak-2.jpg",
+        "/src/assets/images/products/furniture-tables-side_table_model_ca_1873-teak-3.jpg"
+      ],
+      "material": "Teak",
+      "dimensions": "128×38×60 cm",
+      "description": "Side table with a slatted teak top and softly bent legs, designed by Carl Axel Acking for Bodafors.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 78,
+      "name": "Side table designed by Jens Quistgaard",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 3151,
+      "oldPrice": 3595,
+      "images": [
+        "/src/assets/images/products/furniture-tables-side_table_model_jq_7961-teak-1.jpg",
+        "/src/assets/images/products/furniture-tables-side_table_model_jq_7961-teak-2.jpg",
+        "/src/assets/images/products/furniture-tables-side_table_model_jq_7961-teak-3.jpg"
+      ],
+      "material": "Teak",
+      "dimensions": "50×50×46 cm",
+      "description": "Executed in teak, the table features a circular top with a gently recessed centre, functioning as a removable tray. The top is constructed from multiple segments, carefully joined to emphasise the natural variation of the wood grain.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 79,
+      "name": "Side table designed by Sten Blomberg for David Blomberg AB",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 8552,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-side_table_model_sb_8979-black_painted_and_nickel_plated_top_and_fittings-1.jpg",
+        "/src/assets/images/products/furniture-tables-side_table_model_sb_8979-black_painted_and_nickel_plated_top_and_fittings-2.jpg",
+        "/src/assets/images/products/furniture-side_table_model_sb_8979-black_painted_and_nickel_plated_top_and_fittings-3.jpg"
+      ],
+      "material": "Black painted and nickel plated top and fittings",
+      "dimensions": "46×36×58 cm",
+      "description": "This side table was designed by Sten Blomberg for David Blomberg AB in Sweden in 1933. Executed in black-painted birch with a nickel-plated top and fittings, it reflects the shift in Swedish furniture design during the early 1930s, when the refinement of Swedish Grace began to give way to the more rational language of functionalism.",
+      "inStock": true,
+      "rating": 4.3,
       "isNew": true,
       "isFeatured": false
     },
     {
-      "id": 46,
-      "name": "Wing Back Chair",
+      "id": 80,
+      "name": "Sideboard designed by Axel Einar Hjorth",
       "category": "furniture",
-      "subcategory": "seating",
-      "price": 870,
-      "oldPrice": 1050,
+      "subcategory": "tables",
+      "price": 23810,
+      "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-seating-wing-back-chair-1.jpg",
-        "/src/assets/images/products/furniture-seating-wing-back-chair-2.jpg",
-        "/src/assets/images/products/furniture-seating-wing-back-chair-3.jpg"
+        "/src/assets/images/products/furniture-tables-sideboard_model_aeh_7249-oak_leather_and_brass-1.jpg",
+        "/src/assets/images/products/furniture-tables-sideboard_model_aeh_7249-oak_leather_and_brass-2.jpg",
+        "/src/assets/images/products/furniture-tables-sideboard_model_aeh_7249-oak_leather_and_brass-3.jpg"
       ],
-      "material": "Aniline Leather & Beech",
-      "dimensions": "72×86×112 cm",
-      "description": "A tall wing-back armchair in patinated cognac leather with button detailing and carved cabriole-style legs.",
+      "material": "Oak, leather and brass",
+      "dimensions": "152×46×76 cm",
+      "description": "Sideboard in solid oak with two drawers fitted with leather-covered handles and brass details, designed by Axel Einar Hjorth.",
       "inStock": true,
-      "rating": 4.8,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 81,
+      "name": "Table in the style of Josef Frank",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 4501,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-table_in_the_style_of_josef_frank-mahogany_base_and_walnut_root_top-1.jpg",
+        "/src/assets/images/products/furniture-tables-table_in_the_style_of_josef_frank-mahogany_base_and_walnut_root_top-2.jpg",
+        "/src/assets/images/products/furniture-tables-table_in_the_style_of_josef_frank-mahogany_base_and_walnut_root_top-3.jpg"
+      ],
+      "material": "Mahogany base and walnut root top",
+      "dimensions": "118×66×46 cm",
+      "description": "Free-form side table with a figured walnut root top on a mahogany base, made in the style of Josef Frank.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 82,
+      "name": "Table designed by Alvar Aalto for Artek",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 2386,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-table_model_aa_7864-lacquered_birch_and_laminate-1.jpg",
+        "/src/assets/images/products/furniture-tables-table_model_aa_7864-lacquered_birch_and_laminate-2.jpg",
+        "/src/assets/images/products/furniture-tables-table_model_aa_7864-lacquered_birch_and_laminate-3.jpg"
+      ],
+      "material": "Lacquered birch and laminate",
+      "dimensions": "120×42×44 cm",
+      "description": "This table, designed by Alvar Aalto for Artek in the 1970s, reflects Aalto’s hallmark design principles of simplicity and functionality. Constructed from lacquered birch with a durable laminate top, the table embodies the clean lines and natural materials central to Aalto’s modernist philosophy.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 83,
+      "name": "Table model 70 designed by Alvar Aalto for G. A. Berg",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 6667,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-table_model_ga_berg_70-birch_and_lacquer-1.jpg",
+        "/src/assets/images/products/furniture-tables-table_model_ga_berg_70-birch_and_lacquer-2.jpg",
+        "/src/assets/images/products/furniture-tables-table_model_ga_berg_70-birch_and_lacquer-3.jpg"
+      ],
+      "material": "Birch and lacquer",
+      "dimensions": "60×60×44 cm",
+      "description": "The Table, model 70, designed by Alvar Aalto for G. A.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 84,
+      "name": "Table with a pair of benches",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 2206,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-table_with_a_pair_of_benches_model_7457-varnished_pine-1.jpg",
+        "/src/assets/images/products/furniture-tables-table_with_a_pair_of_benches_model_7457-varnished_pine-2.jpg",
+        "/src/assets/images/products/furniture-tables-table_with_a_pair_of_benches_model_7457-varnished_pine-3.jpg"
+      ],
+      "material": "Varnished pine",
+      "dimensions": "108×58×44 cm",
+      "description": "Solid pine table with a live-edge top and a pair of matching benches, supported on organically shaped root bases.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 85,
+      "name": "Tray table designed by Rut Bryk for Arabia",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 17555,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-tray_table_model_rb_8564-rectangular_top_in_polychrome_painted_faience_with_incised_and_painted_decoration_depicting_a_wedding_couple_by_a_church-1.jpg",
+        "/src/assets/images/products/furniture-tables-tray_table_model_rb_8564-rectangular_top_in_polychrome_painted_faience_with_incised_and_painted_decoration_depicting_a_wedding_couple_by_a_church-2.jpg",
+        "/src/assets/images/products/furniture-tables-tray_table_model_rb_8564-rectangular_top_in_polychrome_painted_faience_with_incised_and_painted_decoration_depicting_a_wedding_couple_by_a_church-3.jpg"
+      ],
+      "material": "Rectangular top in polychrome painted faience",
+      "dimensions": "68×46×46 cm",
+      "description": "Between 1944 and 1947, Rut Bryk created a limited series of trays for Arabia, featuring motifs that ranged from still lifes to depictions of life events such as funerals and, as in this case, weddings. Interestingly, Rut Bryk married Tapio Wirkkala in 1945 — just one year before the tray in question was made.",
+      "inStock": false,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 86,
+      "name": "Trolley model 901 designed by Alvar Aalto",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 8552,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-trolley_model_901-frame_in_birch_panels_in_black_linoleum-1.jpg",
+        "/src/assets/images/products/furniture-tables-trolley_model_901-frame_in_birch_panels_in_black_linoleum-2.jpg",
+        "/src/assets/images/products/furniture-tables-trolley_model_901-frame_in_birch_panels_in_black_linoleum-3.jpg"
+      ],
+      "material": "Frame in birch, panels in black linoleum",
+      "dimensions": "88×52×48 cm",
+      "description": "Alvar Aalto designed the Tea Trolley 901 in 1936, during a highly productive period that included his architectural work for the Finnish Pavilion at the 1937 Paris World’s Fair. The trolley reflects his broader interest in creating a complete visual and spatial language for interiors — furniture that complemented his architecture both functionally and emotionally.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 87,
+      "name": "Wall hung table designed by Helge Vestergaard Jensen, for Peder Pedersen",
+      "category": "furniture",
+      "subcategory": "tables",
+      "price": 8552,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-tables-wall_hung_table_model_hvj_3935-brazilian_rosewood-1.jpg",
+        "/src/assets/images/products/furniture-tables-wall_hung_table_model_hvj_3935-brazilian_rosewood-2.jpg",
+        "/src/assets/images/products/furniture-tables-wall_hung_table_model_hvj_3935-brazilian_rosewood-3.jpg"
+      ],
+      "material": "Brazilian rosewood",
+      "dimensions": "85×55×50 cm",
+      "description": "Wall-hung drop-leaf table in brazilian rosewood, designed by Helge Vestergaard Jensen for Peder Pedersen.",
+      "inStock": true,
+      "rating": 5,
       "isNew": false,
       "isFeatured": false
     }
