@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "tailwindcss -i ./src/css/main.css -o ./dist/css/main.css --watch",
     "build": "tailwindcss -i ./src/css/main.css -o ./dist/css/main.css --minify",
-    "api": "json-server db.json --port 3000"
+    "api": "json-server db.json --port 3001"
   },
   "keywords": [],
   "author": "",

@@ -25,11 +25,14 @@
   <body data-page="shop" class="bg-surface font-sans text-neutral-900">
     <!-- Header mount point (injected by main.js) -->
     <div id="site-header"></div>
-
     <main>
-      <div class="mx-auto max-w-7xl px-4 py-16">
+      <div class="mx-auto max-w-7xl px-4 py-12">
         <h1 class="font-display text-4xl text-primary">Shop</h1>
-        <!-- product grid → next step -->
+        <!-- grid gets filled by JS -->
+        <div
+          id="product-grid"
+          class="mt-8 grid grid-cols-2 gap-x-6 gap-y-10 md:grid-cols-3 lg:grid-cols-4"
+        ></div>
       </div>
     </main>
 
