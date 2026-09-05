@@ -1,17 +1,10 @@
 <!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
-    <!-- === Meta ===-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Decoria — Home &amp; Office Decoration</title>
-    <meta
-      name="description"
-      content="Decoria — online store for furniture, lighting, decor and office equipment. Carefully selected pieces for modern homes and offices."
-    />
-    <meta name="theme-color" content="#f7f5f2" />
+    <title>Account — Decoria</title>
 
-    <!-- === Favicon (inline SVG — no image file needed) ===-->
     <!-- Favicon: brand armchair mark, matches header logo -->
     <link
       rel="icon"
@@ -19,19 +12,17 @@
       href="/src/assets/images/logos/favicon.svg"
     />
 
-    <!-- === Fonts (Google Fonts) ===-->
+    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <!-- === Icons (Font Awesome) ===-->
+    <!-- Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-
-    <!-- === Styles (compiled Tailwind output — do NOT edit dist files) === -->
     <!-- Theme bootstrap: apply saved theme before first paint (prevents flash) -->
     <script>
       try {
@@ -39,22 +30,24 @@
           document.documentElement.classList.add("dark");
       } catch (e) {}
     </script>
+    <!-- Styles (compiled Tailwind) -->
     <link rel="stylesheet" href="/dist/css/main.css" />
   </head>
-
-  <body data-page="home" class="bg-surface font-sans text-ink">
-    <!-- ==== Header (injected by src/js/components/header.js) === -->
+  <body data-page="account" class="bg-surface font-sans text-ink">
+    <!-- Header mount point (injected by main.js) -->
     <div id="site-header"></div>
 
-    <!-- === Main content (unique per page) === -->
     <main>
-      <!-- Hero section → added in the next step -->
+      <div class="mx-auto max-w-7xl px-4 py-16">
+        <h1 class="font-display text-4xl text-primary">Account</h1>
+        <!-- product grid → next step -->
+      </div>
     </main>
 
-    <!-- ==== Footer (injected by src/js/components/footer.js) === -->
+    <!-- Footer mount point -->
     <div id="site-footer"></div>
 
-    <!-- === Scripts (ES module — deferred by default, runs after HTML is parsed) ===-->
+    <!-- Entry point -->
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>

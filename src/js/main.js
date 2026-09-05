@@ -1,7 +1,7 @@
 import { initHeader } from "./components/header.js";
 import { initFooter } from "./components/footer.js";
 import { initHome } from "./pages/home.js";
-import { initShop } from "./pages/shop.js"; // ← اضافه شد؟
+import { initShop } from "./pages/shop.js";
 import { initProduct } from "./pages/product.js";
 
 initHeader();
@@ -9,7 +9,7 @@ initFooter();
 
 const routes = {
   home: initHome,
-  shop: initShop, // ← اضافه شد؟
+  shop: initShop,
   product: initProduct,
 };
 
