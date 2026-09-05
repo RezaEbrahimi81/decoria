@@ -37,7 +37,7 @@ export async function initProduct() {
       .map(
         (src, i) => `
       <button type="button" data-src="${src}" aria-label="View image ${i + 1}"
-        class="thumb overflow-hidden rounded-lg border-2 bg-white transition
+        class="thumb overflow-hidden rounded-lg border-2 bg-card transition
                ${i === 0 ? "border-accent" : "border-transparent opacity-70 hover:opacity-100"}">
         <img src="${src}" alt="" class="h-20 w-20 object-cover" />
       </button>
@@ -69,7 +69,7 @@ export async function initProduct() {
             : `<i class="fa-regular fa-star"></i>`,
         ).join("")}
       </span>
-      <span class="text-sm text-neutral-500">${p.rating.toFixed(1)}</span>
+      <span class="text-sm text-muted">${p.rating.toFixed(1)}</span>
     `;
 
     /* ---------- price (reactive to currency) ---------- */
@@ -101,8 +101,8 @@ export async function initProduct() {
       .map(
         ([k, v]) => `
       <div class="flex justify-between gap-4 py-3">
-        <dt class="font-medium text-neutral-500">${k}</dt>
-        <dd class="text-right text-neutral-800">${v}</dd>
+        <dt class="font-medium text-muted">${k}</dt>
+        <dd class="text-right text-ink">${v}</dd>
       </div>
     `,
       )
@@ -116,6 +116,13 @@ export async function initProduct() {
     } else {
       stockEl.innerHTML = `<span class="mr-1 inline-block h-2 w-2 rounded-full bg-red-500"></span> Out of stock`;
       btn.disabled = true;
+      if (p.inStock) {
+        stockEl.innerHTML = `<span class="mr-1 inline-block h-2 w-2 rounded-full bg-green-500"></span> In stock`;
+      } else {
+        stockEl.innerHTML = `<span class="mr-1 inline-block h-2 w-2 rounded-full bg-red-500"></span> Out of stock`;
+        btn.disabled = true;
+        document.getElementById("gallery-soldout")?.classList.remove("hidden");
+      }
     }
     // cart service comes in the next phase — placeholder for now
     btn.addEventListener("click", () =>

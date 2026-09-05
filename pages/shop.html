@@ -6,10 +6,8 @@
     <title>Shop — Decoria</title>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -18,11 +16,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-
+    <!-- Theme bootstrap: apply saved theme before first paint (prevents flash) -->
+    <script>
+      try {
+        if (localStorage.getItem("decoria-theme") === "dark")
+          document.documentElement.classList.add("dark");
+      } catch (e) {}
+    </script>
     <!-- Styles (compiled Tailwind) -->
     <link rel="stylesheet" href="/dist/css/main.css" />
   </head>
-  <body data-page="shop" class="bg-surface font-sans text-neutral-900">
+  <body data-page="shop" class="bg-surface font-sans text-ink">
     <!-- Header mount point (injected by main.js) -->
     <div id="site-header"></div>
     <main>

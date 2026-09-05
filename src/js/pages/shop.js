@@ -13,7 +13,7 @@ export async function initShop() {
     const { createProductCard } = await import("../components/product-card.js");
     grid.innerHTML = products.map(createProductCard).join("");
   } catch (err) {
-    grid.innerHTML = `<p class="col-span-full text-neutral-500">Could not load products.</p>`;
+    grid.innerHTML = `<p class="col-span-full text-muted">Could not load products.</p>`;
     console.error(err);
   }
 }

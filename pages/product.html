@@ -6,10 +6,8 @@
     <title>Product — Decoria</title>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -18,29 +16,37 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-
+    <!-- Theme bootstrap: apply saved theme before first paint (prevents flash) -->
+    <script>
+      try {
+        if (localStorage.getItem("decoria-theme") === "dark")
+          document.documentElement.classList.add("dark");
+      } catch (e) {}
+    </script>
     <!-- Styles (compiled Tailwind) -->
     <link rel="stylesheet" href="/dist/css/main.css" />
   </head>
-  <body data-page="product" class="bg-surface font-sans text-neutral-900">
+  <body data-page="product" class="bg-surface font-sans text-ink">
     <!-- Header mount point -->
     <div id="site-header"></div>
 
     <main class="mx-auto max-w-7xl px-4 py-10">
       <!-- Breadcrumb -->
-      <nav aria-label="Breadcrumb" class="text-sm text-neutral-500">
-        <a href="/index.html" class="transition hover:text-accent">Home</a>
+      <nav aria-label="Breadcrumb" class="text-sm text-muted">
+        <a href="/index.html" class="transition hover:text-accent-text">Home</a>
         <span class="mx-2">/</span>
-        <a href="/pages/shop.html" class="transition hover:text-accent">Shop</a>
+        <a href="/pages/shop.html" class="transition hover:text-accent-text"
+          >Shop</a
+        >
         <span class="mx-2">/</span>
-        <span id="breadcrumb-name" class="text-neutral-800"></span>
+        <span id="breadcrumb-name" class="text-ink"></span>
       </nav>
 
       <div class="mt-8 grid grid-cols-1 items-start gap-10 lg:grid-cols-2">
         <!-- ==================== Gallery ==================== -->
         <section aria-label="Product images">
           <!-- main image: swaps when a thumbnail is clicked -->
-          <div class="overflow-hidden rounded-xl bg-white shadow-sm">
+          <div class="overflow-hidden rounded-xl bg-card shadow-sm">
             <img
               id="gallery-main"
               alt=""
@@ -55,7 +61,7 @@
         <section>
           <p
             id="product-category"
-            class="text-xs font-semibold uppercase tracking-widest text-neutral-500"
+            class="text-xs font-semibold uppercase tracking-widest text-muted"
           ></p>
           <h1
             id="product-name"
@@ -71,24 +77,18 @@
               id="product-price"
               class="font-display text-3xl text-primary"
             ></span>
-            <del
-              id="product-oldprice"
-              class="hidden text-lg text-neutral-400"
-            ></del>
+            <del id="product-oldprice" class="hidden text-lg text-muted"></del>
             <select
               id="currency-select"
               aria-label="Currency"
-              class="border border-neutral-300 bg-white px-2 py-1 text-sm outline-none focus:border-accent"
+              class="border border-neutral-300 bg-card px-2 py-1 text-sm outline-none focus:border-accent"
             >
               <option value="EUR">EUR</option>
               <option value="USD">USD</option>
             </select>
           </div>
 
-          <p
-            id="product-description"
-            class="mt-6 leading-7 text-neutral-600"
-          ></p>
+          <p id="product-description" class="mt-6 leading-7 text-ink"></p>
 
           <!-- specs table (material, dimensions) — rows rendered by JS -->
           <dl
@@ -101,7 +101,7 @@
             <button
               id="add-to-cart"
               type="button"
-              class="bg-primary px-10 py-3.5 text-sm font-medium tracking-wide text-white transition hover:bg-black disabled:cursor-not-allowed disabled:opacity-40"
+              class="bg-accent px-10 py-3.5 text-sm font-medium tracking-wide text-accent-fg transition hover:bg-accent-strong disabled:cursor-not-allowed disabled:bg-line disabled:text-muted disabled:hover:bg-line"
             >
               <i class="fa-solid fa-bag-shopping mr-2"></i>Add to Cart
             </button>

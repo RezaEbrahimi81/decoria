@@ -18,12 +18,8 @@
     />
 
     <!-- === Fonts (Google Fonts) ===-->
-    <!-- preconnect: opens the connection to font servers early → faster font download -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Inter = body text | Playfair Display = headings (font-display) -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -34,10 +30,17 @@
     />
 
     <!-- === Styles (compiled Tailwind output — do NOT edit dist files) === -->
+    <!-- Theme bootstrap: apply saved theme before first paint (prevents flash) -->
+    <script>
+      try {
+        if (localStorage.getItem("decoria-theme") === "dark")
+          document.documentElement.classList.add("dark");
+      } catch (e) {}
+    </script>
     <link rel="stylesheet" href="/dist/css/main.css" />
   </head>
 
-  <body data-page="home" class="bg-surface font-sans text-neutral-900">
+  <body data-page="home" class="bg-surface font-sans text-ink">
     <!-- ==== Header (injected by src/js/components/header.js) === -->
     <div id="site-header"></div>
 
