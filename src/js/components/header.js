@@ -1,5 +1,6 @@
 import { apiGet } from "../api/client.js";
 import { toggleTheme, currentTheme } from "../services/theme.js";
+import { getCount } from "../services/cart.js";
 
 const icons = {
   armchair: `<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"/><path d="M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H7v-2a2 2 0 0 0-4 0Z"/><path d="M5 18v2"/><path d="M19 18v2"/></svg>`,
@@ -36,21 +37,25 @@ function navItem({ id, href, label, icon, dropdown = null }) {
 }
 
 // Shop mega panel — subcategory flyouts are PURE CSS (named group), zero JS
+// Shop mega panel — subcategory flyouts are PURE CSS (named group), zero JS.
+// Columns 3-4 (right half of the grid) fly out to the LEFT so they never
+// escape the viewport on narrower screens.
 function shopMegaPanel(cats) {
   return `
   <div data-panel class="invisible absolute left-0 top-full z-50 w-[36rem] -translate-y-1 rounded-xl border border-line bg-card p-4 opacity-0 shadow-xl transition-all duration-200 data-[open=true]:visible data-[open=true]:translate-y-0 data-[open=true]:opacity-100">
     <a href="/pages/shop.html" class="mb-3 block text-sm font-semibold text-accent-text hover:underline">View all products →</a>
     <div class="grid grid-cols-2 gap-1 md:grid-cols-4">
       ${cats
-        .map((c) => {
+        .map((c, i) => {
           const subs = c.subcategories ?? [];
+          const flyLeft = i % 4 >= 2; // columns 3 & 4 of the 4-col grid
           return `
         <div class="group/c relative rounded-lg p-2 transition hover:bg-accent-soft">
           <a href="/pages/shop.html?category=${c.slug}" class="block text-sm font-medium text-ink">${c.name}</a>
           ${
             subs.length
               ? `
-          <div class="invisible absolute left-full top-0 z-10 -ml-2 w-44 rounded-xl border border-line bg-card p-2 pl-4 opacity-0 shadow-xl transition-all duration-150 group-hover/c:visible group-hover/c:opacity-100">
+          <div class="invisible absolute top-0 z-10 w-44 rounded-xl border border-line bg-card p-2 opacity-0 shadow-xl transition-all duration-150 group-hover/c:visible group-hover/c:opacity-100 ${flyLeft ? "right-full mr-2" : "left-full -ml-2"}">
             ${subs
               .map(
                 (s) => `
@@ -230,6 +235,17 @@ export function initHeader() {
     ?.addEventListener("click", toggleTheme);
   window.addEventListener("themechange", syncThemeIcons);
   syncThemeIcons();
+
+  /* ---------- cart badge: reacts to any cart change ---------- */
+  const syncBadge = () => {
+    const badge = headerEl.querySelector("#cart-count");
+    if (!badge) return;
+    const n = getCount();
+    badge.textContent = String(n);
+    badge.classList.toggle("hidden", n === 0); // empty cart → no badge at all
+  };
+  window.addEventListener("cartchange", syncBadge);
+  syncBadge();
 
   /* ---------- data-driven Shop panel: inject, done. No post-injection queries
      (the previous header.js:256 null error lived exactly here) ---------- */

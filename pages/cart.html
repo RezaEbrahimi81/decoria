@@ -37,10 +37,59 @@
     <!-- Header mount point (injected by main.js) -->
     <div id="site-header"></div>
 
-    <main>
-      <div class="mx-auto max-w-7xl px-4 py-16">
-        <h1 class="font-display text-4xl text-primary">Cart</h1>
-        <!-- product grid → next step -->
+    <main class="mx-auto max-w-7xl px-4 py-12">
+      <h1 class="font-display text-4xl text-ink">Your Cart</h1>
+
+      <div
+        class="mt-8 grid grid-cols-1 items-start gap-10 lg:grid-cols-[1fr_360px]"
+      >
+        <!-- items rendered by JS -->
+        <div
+          id="cart-items"
+          class="divide-y divide-line rounded-xl border border-line bg-card"
+        ></div>
+
+        <!-- summary -->
+        <aside class="rounded-xl border border-line bg-card p-6">
+          <h2 class="text-sm font-semibold uppercase tracking-wider text-muted">
+            Order Summary
+          </h2>
+          <dl class="mt-4 space-y-3 text-sm">
+            <div class="flex justify-between">
+              <dt class="text-muted">Subtotal</dt>
+              <dd id="cart-subtotal" class="font-semibold text-ink">—</dd>
+            </div>
+            <div class="flex justify-between">
+              <dt class="text-muted">Shipping</dt>
+              <dd class="text-muted">Free over €500</dd>
+            </div>
+          </dl>
+          <button
+            id="checkout-btn"
+            type="button"
+            class="mt-6 w-full bg-accent py-3 text-sm font-medium text-accent-fg transition hover:bg-accent-strong disabled:cursor-not-allowed disabled:bg-line disabled:text-muted"
+          >
+            Proceed to Checkout
+          </button>
+          <a
+            href="/pages/shop.html"
+            class="mt-3 block text-center text-sm text-muted transition hover:text-accent-text"
+            >Continue shopping</a
+          >
+        </aside>
+      </div>
+
+      <!-- empty state (hidden by default) -->
+      <div id="cart-empty" class="hidden py-20 text-center">
+        <p class="font-display text-2xl text-ink">Your cart is empty</p>
+        <p class="mt-2 text-muted">
+          Looks like you haven't added anything yet.
+        </p>
+        <a
+          href="/pages/shop.html"
+          class="mt-6 inline-block bg-accent px-8 py-3 text-sm font-medium text-accent-fg transition hover:bg-accent-strong"
+          >Browse the shop</a
+        >
       </div>
     </main>
 

@@ -124,10 +124,8 @@ export async function initProduct() {
         document.getElementById("gallery-soldout")?.classList.remove("hidden");
       }
     }
-    // cart service comes in the next phase — placeholder for now
-    btn.addEventListener("click", () =>
-      console.log("add to cart:", p.id, p.name),
-    );
+    // hand the product id to the global delegated handler in main.js
+    btn.dataset.addToCart = p.id;
   } catch (err) {
     console.error(err);
     set("product-name", "Product not found");
