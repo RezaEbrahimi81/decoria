@@ -9,11 +9,13 @@ import { initCart } from "./pages/cart.js";
 import { addToCart } from "./services/cart.js";
 import { showToast } from "./components/toast.js";
 import { initTransition } from "./services/transition.js";
+import { initQuickView } from "./components/quick-view.js";
 
 // 1) Shared components — run on every page
 initHeader();
 initFooter();
 initTransition();
+initQuickView();
 
 // 2) Page router — maps body[data-page] to its init function
 const routes = {

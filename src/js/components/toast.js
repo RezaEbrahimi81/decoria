@@ -1,4 +1,3 @@
-// src/js/components/toast.js
 let timer;
 
 export function showToast(message) {

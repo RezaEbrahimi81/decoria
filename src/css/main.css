@@ -92,4 +92,7 @@ html.dark {
    still occupy layout and were creating document overflow. */
 html {
   overflow-x: clip;
+  /* NOTE: scrollbar-gutter: stable does NOT work here — overflow-x: clip
+     makes html a non-scroll-container in Chromium. Scroll-lock width
+     compensation is handled in JS (quick-view.js lockScroll). */
 }
