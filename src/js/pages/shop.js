@@ -1,9 +1,10 @@
 import { apiGet } from "../api/client.js";
-
+import { initLoader, showLoader, hideLoader } from "../components/loader.js";
 export async function initShop() {
   const grid = document.getElementById("product-grid");
   if (!grid) return;
-
+  initLoader();
+  showLoader();
   try {
     // json-server v1 quirk: bare _limit acts as a filter → empty array.
     // Fetch all (87 items is trivial) and slice client-side for now.
@@ -15,5 +16,7 @@ export async function initShop() {
   } catch (err) {
     grid.innerHTML = `<p class="col-span-full text-muted">Could not load products.</p>`;
     console.error(err);
+  } finally {
+    setTimeout(hideLoader, 400); // ← slight grace so it never flashes
   }
 }

@@ -43,3 +43,47 @@ html {
 html.dark {
   color-scheme: dark;
 }
+
+/* ===== Content loader (abajour + conic ring) ===== */
+
+/* the overlay itself is styled with utility classes in loader.js;
+   only the animated ring lives here as a custom component */
+
+.loader-ring {
+  /* color sweep: transparent → accent tones → transparent, spinning */
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    var(--color-accent) 90deg,
+    var(--color-accent-text) 200deg,
+    transparent 320deg
+  );
+
+  /* punch out the middle so only a thin ring ("border") remains */
+  -webkit-mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 3px),
+    #000 calc(100% - 2px)
+  );
+  mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 3px),
+    #000 calc(100% - 2px)
+  );
+
+  /* the sweep spins continuously */
+  animation: ring-spin 1s linear infinite;
+}
+
+@keyframes ring-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* accessibility: no motion for users who opted out */
+@media (prefers-reduced-motion: reduce) {
+  .loader-ring {
+    animation: none;
+  }
+}
