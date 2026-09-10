@@ -1720,9 +1720,9 @@
       "price": 8552,
       "oldPrice": null,
       "images": [
-        "/src/assets/images/products/furniture-tables-side_table_model_sb_8979-black_painted_and_nickel_plated_top_and_fittings-1.jpg",
-        "/src/assets/images/products/furniture-tables-side_table_model_sb_8979-black_painted_and_nickel_plated_top_and_fittings-2.jpg",
-        "/src/assets/images/products/furniture-side_table_model_sb_8979-black_painted_and_nickel_plated_top_and_fittings-3.jpg"
+        "/src/assets/images/products/furniture-tables-side-table-model-sb-8979-black-painted-and-nickel-plated-top-and-fittings-1.jpg",
+        "/src/assets/images/products/furniture-tables-side-table-model-sb-8979-black-painted-and-nickel-plated-top-and-fittings-2.jpg",
+        "/src/assets/images/products/furniture-tables-side-table-model-sb-8979-black-painted-and-nickel-plated-top-and-fittings-3.jpg"
       ],
       "material": "Black painted and nickel plated top and fittings",
       "dimensions": "46×36×58 cm",
@@ -1890,6 +1890,826 @@
       "inStock": true,
       "rating": 5,
       "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 88,
+      "name": "Bar cart 'Corall' model AEH SL 23",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 2746,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-bar-cart-corall-model-aeh-sl-23-lacquered-wood-elm-and-steel-2.jpg",
+        "/src/assets/images/products/furniture-storage-bar-cart-corall-model-aeh-sl-23-lacquered-wood-elm-and-steel-1.jpg",
+        "/src/assets/images/products/furniture-storage-bar-cart-corall-model-aeh-sl-23-lacquered-wood-elm-and-steel-3.jpg"
+      ],
+      "material": "Lacquered Wood & Elm & Steel",
+      "dimensions": "80×45×88 cm",
+      "description": "Swedish bar cart model AEH SL 23 in elm and black lacquered wood, opening to reveal red-painted bottle shelves and serving trays, mounted on castors with steel handles.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 89,
+      "name": "Bookshelf model 879 by Typenko",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 1975,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-bookshelf-typenko-model-879-ebonised-birch-1.jpg",
+        "/src/assets/images/products/furniture-storage-bookshelf-typenko-model-879-ebonised-birch-2.jpg",
+        "/src/assets/images/products/furniture-storage-bookshelf-typenko-model-879-ebonised-birch-3.jpg"
+      ],
+      "material": "Ebonised Birch",
+      "dimensions": "118×32×85 cm",
+      "description": "Sculptural bookshelf model 879 in ebonised birch, its asymmetric stepped silhouette giving the piece a strongly contemporary character.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 90,
+      "name": "Cabinet ‘Hug’ designed by Rasmus Appel",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 1120,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-cabinet-hug-model-ra-1638-oregon-pine-1.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-hug-model-ra-1638-oregon-pine-2.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-hug-model-ra-1638-oregon-pine-3.jpg"
+      ],
+      "material": "Pine",
+      "dimensions": "45×38×96 cm",
+      "description": "Cabinet 'Hug' in pine with a sculptural folding design, its doors opening outward to reveal coloured trays and compartments on a tall splayed frame.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 91,
+      "name": "Cabinet model 208 in Oregon pine",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 1640,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-cabinet-model-208-orengon-pine-1.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-model-208-orengon-pine-2.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-model-208-orengon-pine-3.jpg"
+      ],
+      "material": "Oregon Pine",
+      "dimensions": "82×40×108 cm",
+      "description": "Cabinet model 208 in warm Oregon pine, fitted with an interior of small drawers and open compartments, raised on square tapered legs.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 92,
+      "name": "Cabinet model 2135 designed by Josef Frank for Svenskt Tenn",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 32266,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-cabinet-model-2135-cherry-and-root-veneer-1.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-model-2135-cherry-and-root-veneer-2.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-model-2135-cherry-and-root-veneer-3.jpg"
+      ],
+      "material": "Veneer & Mahogany",
+      "dimensions": "106×44×140 cm",
+      "description": "The cabinet stands on slender legs, maintaining an airy, lightweight appearance that aligns with Frank’s preference for furniture that feels open rather than heavy or imposing. Josef Frank’s design philosophy, which emphasised both practicality and visual harmony, is evident in the cabinet’s thoughtful proportions and refined material choices.",
+      "inStock": false,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 93,
+      "name": "Cabinet",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 4437,
+      "oldPrice": 5100,
+      "images": [
+        "/src/assets/images/products/furniture-storage-cabinet-model-7663-beech-mahogany-marble-and-brass-1.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-model-7663-beech-mahogany-marble-and-brass-2.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-model-7663-beech-mahogany-marble-and-brass-3.jpg"
+      ],
+      "material": "Beech & Mahogany & Marble",
+      "dimensions": "71×42×70 cm",
+      "description": "Cabinet with four mahogany drawers fitted with brass swing handles, crowned by a black marble top and brass-capped feet.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 94,
+      "name": "Cabinet designed by Ole Wanscher for Illums Bolighus",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 26440,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-cabinet-model-ow-8496-rosewood-1.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-model-ow-8496-rosewood-2.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-model-ow-8496-rosewood-3.jpg"
+      ],
+      "material": "Rosewood & Brass",
+      "dimensions": "82×46×148 cm",
+      "description": "This beautiful rosewood cabinet by Ole Wanscher was retailed through the established interior firm Illums Bolighus set in Copenhagen during the mid-20th century. The cabinet has vertically ribbed tambour doors that slide to either side, concealing the storage compartment behind.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 95,
+      "name": "Cabinet 'Wellpappskapet' model 2192",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 3270,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-cabinet-wellpappskapet-model-2192-walnut-green-lacquered-wood-and-brass-details-1.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-wellpappskapet-model-2192-walnut-green-lacquered-wood-and-brass-details-2.jpg",
+        "/src/assets/images/products/furniture-storage-cabinet-wellpappskapet-model-2192-walnut-green-lacquered-wood-and-brass-details-3.jpg"
+      ],
+      "material": "Walnut & Green Lacquered Wood & Brass",
+      "dimensions": "92×42×96 cm",
+      "description": "Cabinet 'Wellpappskapet' model 2192 with a corrugated green-lacquered front, walnut frame and brass details, opening to reveal walnut-lined shelving.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 96,
+      "name": "Chest of drawers for DUX",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 3137,
+      "oldPrice": 3690,
+      "images": [
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-dux-9071-bamboo-and-rattan-1.jpg",
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-dux-9071-bamboo-and-rattan-2.jpg",
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-dux-9071-bamboo-and-rattan-3.jpg"
+      ],
+      "material": "Bamboo & Rattan & Cane",
+      "dimensions": "70×45×75 cm",
+      "description": "A chest of drawers produced by DUX during the 1960s, constructed from bamboo and woven rattan. The front is arranged with two smaller drawers above two wider drawers, framed by rounded bamboo elements and wrapped corner details.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 97,
+      "name": "Chest of drawers model OW 9042 in mahogany",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 2860,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-ow-9042-mahogany-and-brass-details-1.jpg",
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-ow-9042-mahogany-and-brass-details-2.jpg",
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-ow-9042-mahogany-and-brass-details-3.jpg"
+      ],
+      "material": "Mahogany & Brass",
+      "dimensions": "94×48×84 cm",
+      "description": "Chest of drawers model OW 9042 in flame-grained mahogany with brass swing handles and a gently bowed front, raised on tall tapered legs.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 98,
+      "name": "Chest of drawers model OW 9043 in mahogany",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 3160,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-ow-9043-mahogany-and-brass-details-1.jpg",
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-ow-9043-mahogany-and-brass-details-2.jpg",
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-ow-9043-mahogany-and-brass-details-3.jpg"
+      ],
+      "material": "Mahogany & Brass",
+      "dimensions": "56×40×122 cm",
+      "description": "Tall chest of drawers model OW 9043 in mahogany with eight drawers, brass swing handles and a curved front on splayed feet.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 99,
+      "name": "Chest of drawers 'Model RY 250' designed by Hans J. Wegner for Ry Møbler",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 7170,
+      "oldPrice": 8250,
+      "images": [
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-ry-250-veneered-with-rosewood-metal-handles-finished-on-round-leg-of-solid-dark-stained-oak-1.jpg",
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-ry-250-veneered-with-rosewood-metal-handles-finished-on-round-leg-of-solid-dark-stained-oak-2.jpg",
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-ry-250-veneered-with-rosewood-metal-handles-finished-on-round-leg-of-solid-dark-stained-oak-3.jpg"
+      ],
+      "material": "Veneer & Rosewood & Oak",
+      "dimensions": "100×49×74 cm",
+      "description": "The 'Model RY 250' chest of drawers designed by Hans J. Wegner and produced by Ry Møbler in Denmark in 1965 is veneered in rosewood, with four drawers, integrated metal handles and round legs in dark-stained solid oak. The model reflects Wegner’s precise understanding of proportion, craftsmanship and functional detail.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 100,
+      "name": "Chest of drawers from the 'Triva' series designed for Nordiska Kompaniet",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 851,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-triva-8725-teak-veneer-and-metal-frame-1.jpg",
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-triva-8725-teak-veneer-and-metal-frame-2.jpg",
+        "/src/assets/images/products/furniture-storage-chest-of-drawers-model-triva-8725-teak-veneer-and-metal-frame-3.jpg"
+      ],
+      "material": "Teak & Veneer & Lacquer",
+      "dimensions": "58×40×72 cm",
+      "description": "'Trivia' series chest of drawers designed for Nordiska Kompaniet and produced in the company’s own workshop in Nyköping, Sweden. Executed in teak veneer with contrasting black lacquered metal frame and legs, it features three drawers fitted with distinctive circular brass pulls, with the original key retained.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 101,
+      "name": "Dresser and Mirror set designed by Aksel Kjersgaard, Denmark",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 2644,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-dresser-and-mirror-set-model-ak-8041-rosewood-and-mirrored-glass-1.jpg",
+        "/src/assets/images/products/furniture-storage-dresser-and-mirror-set-model-ak-8041-rosewood-and-mirrored-glass-2.jpg",
+        "/src/assets/images/products/furniture-storage-dresser-and-mirror-set-model-ak-8041-rosewood-and-mirrored-glass-3.jpg"
+      ],
+      "material": "Rosewood & Glass",
+      "dimensions": "75×42×142 cm",
+      "description": "Dresser and mirror set in rosewood with three sculpted drawers and a tall rectangular mirror, designed by Aksel Kjersgaard.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 102,
+      "name": "Hall table",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 1120,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-hall-table-model-9045-lacquered-birch-turned-knobs-1.jpg",
+        "/src/assets/images/products/furniture-storage-hall-table-model-9045-lacquered-birch-turned-knobs-2.jpg",
+        "/src/assets/images/products/furniture-storage-hall-table-model-9045-lacquered-birch-turned-knobs-3.jpg"
+      ],
+      "material": "Lacquer",
+      "dimensions": "70×38×75 cm",
+      "description": "Hall table in yellow lacquer with a stepped asymmetric body combining a cabinet, a drawer and open storage on slender legs, finished with turned black knobs.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 103,
+      "name": "Pair of wall shelves",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 2644,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-pair-of-wall-shelves-model-8592-teak-1.jpg",
+        "/src/assets/images/products/furniture-storage-pair-of-wall-shelves-model-8592-teak-2.jpg",
+        "/src/assets/images/products/furniture-storage-pair-of-wall-shelves-model-8592-teak-3.jpg"
+      ],
+      "material": "Teak",
+      "dimensions": "90×18×30 cm",
+      "description": "This pair of wall-mounted shelves was produced in Sweden during the 1950s. Each unit features a rectilinear open cube flanked by a horizontal shelf, creating a composition that is both geometric and functional.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 104,
+      "name": "Room divider",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 9048,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-room-divider-model-8476-white-lacquered-plywood-2.jpg",
+        "/src/assets/images/products/furniture-storage-room-divider-model-8476-white-lacquered-plywood-1.jpg",
+        "/src/assets/images/products/furniture-storage-room-divider-model-8476-white-lacquered-plywood-3.jpg"
+      ],
+      "material": "Ash",
+      "dimensions": "90×28×45 cm",
+      "description": "Originally a fixture in Magasin du Nord in Aarhus, Denmark. Magasin du Nord in Aarhus is a department store located in the heart of the city, offering a curated selection of fashion, beauty, homeware, and lifestyle products.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 105,
+      "name": "Rosewood bar table by Leif Alring",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 2644,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-rosewood-bar-table-model-la-8224-a-roosewood-table-bar-with-folable-top-2.jpg",
+        "/src/assets/images/products/furniture-storage-rosewood-bar-table-model-la-8224-a-roosewood-table-bar-with-folable-top-1.jpg",
+        "/src/assets/images/products/furniture-storage-rosewood-bar-table-model-la-8224-a-roosewood-table-bar-with-folable-top-3.jpg"
+      ],
+      "material": "Rosewood",
+      "dimensions": "42×39×28 cm",
+      "description": "Compact bar table in rosewood by Leif Alring, its fold-down front revealing a red felt-lined interior with serving trays and bottle shelving.",
+      "inStock": false,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 106,
+      "name": "Rosewood dresser designed by Henning Korch for CFC Silkeborg",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 2644,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-rosewood-dresser-model-hk-8815-rosewwod-brass-1.jpg",
+        "/src/assets/images/products/furniture-storage-rosewood-dresser-model-hk-8815-rosewwod-brass-2.jpg",
+        "/src/assets/images/products/furniture-storage-rosewood-dresser-model-hk-8815-rosewwod-brass-3.jpg"
+      ],
+      "material": "Rosewood & Veneer & Brass",
+      "dimensions": "55×40×85 cm",
+      "description": "This dresser was designed by Henning Korch for the cabinetmaker C.F. Christensen in Silkeborg. It is constructed in rosewood with expressive palisander veneer creating a continuous surface so the natural grain becomes a defining element of the piece.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 107,
+      "name": "Secretary cabinet model 2113 in mahogany and walnut",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 2450,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-secretary-cabinet-model-2113-mahogany-and-walnut-2.jpg",
+        "/src/assets/images/products/furniture-storage-secretary-cabinet-model-2113-mahogany-and-walnut-1.jpg",
+        "/src/assets/images/products/furniture-storage-secretary-cabinet-model-2113-mahogany-and-walnut-3.jpg"
+      ],
+      "material": "Mahogany & Walnut",
+      "dimensions": "92×46×112 cm",
+      "description": "Secretary cabinet model 2113 in mahogany and walnut, with a fall-front writing surface, fitted pigeonholes and a bank of small drawers beside open shelving.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 108,
+      "name": "Serving trolley model 2777 designed by Josef Frank for Svenskt Tenn",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 8515,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-serving-trolley-model-2777-mahogany-whith-a-black-arborite-top-brass-handles-1.jpg",
+        "/src/assets/images/products/furniture-storage-serving-trolley-model-2777-mahogany-whith-a-black-arborite-top-brass-handles-2.jpg",
+        "/src/assets/images/products/furniture-storage-serving-trolley-model-2777-mahogany-whith-a-black-arborite-top-brass-handles-3.jpg"
+      ],
+      "material": "Mahogany & Brass",
+      "dimensions": "65×46×72 cm",
+      "description": "Josef Frank’s model 2777 serving trolley, designed in the 1950s, was crafted from mahogany and features a sleek black Arborite top with the same material used on both shelves below the surface. It has brass handles that add an elegant contrast and enhance its sophistication.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 109,
+      "name": "Serving trolley model 889 designed by Josef Frank for Svenskt Tenn, Sweden",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 13444,
+      "oldPrice": 15600,
+      "images": [
+        "/src/assets/images/products/furniture-storage-serving-trolley-model-889-brass-and-glass-1.jpg",
+        "/src/assets/images/products/furniture-storage-serving-trolley-model-889-brass-and-glass-2.jpg",
+        "/src/assets/images/products/furniture-storage-serving-trolley-model-889-brass-and-glass-3.jpg"
+      ],
+      "material": "Brass",
+      "dimensions": "68×48×68 cm",
+      "description": "The trolley, model 889, by Josef Frank is a prime example of design from the Swedish Grace movement. The design of the trolley references neoclassicism, drawing inspiration from objects found in Ancient Greece and Rome.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 110,
+      "name": "Set of eight shelves",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 3540,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-set-of-eight-shelves-model-93-1.jpg",
+        "/src/assets/images/products/furniture-storage-set-of-eight-shelves-model-93-2.jpg",
+        "/src/assets/images/products/furniture-storage-set-of-eight-shelves-model-93-3.jpg"
+      ],
+      "material": "Teak",
+      "dimensions": "54×27×18 cm",
+      "description": "Stackable.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 111,
+      "name": "Sewing box designed by Magnus L. Stephensen for Axel Søllner",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 4935,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-sewing-box-model-mls-978-1.jpg",
+        "/src/assets/images/products/furniture-storage-sewing-box-model-mls-978-2.jpg",
+        "/src/assets/images/products/furniture-storage-sewing-box-model-mls-978-3.jpg"
+      ],
+      "material": "Mahogany",
+      "dimensions": "48×32×74 cm",
+      "description": "Magnus Læssøe Stephensen was a renowned mid-century Danish architect whose revolutionary approach to design did away with the extravagant flourishes of the time. Inspired by the simplicity of Bauhaus and Japanese arts and crafts, Stephensen's designs focused on clean lines and practicality.",
+      "inStock": false,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 112,
+      "name": "Shelf designed by Alvar Andersson for Hyresgästernas Möbelaffär",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 6722,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-sgelf-model-av-7602-lacquered-wood-with-metal-inlays-1.jpg",
+        "/src/assets/images/products/furniture-storage-sgelf-model-av-7602-lacquered-wood-with-metal-inlays-2.jpg",
+        "/src/assets/images/products/furniture-storage-sgelf-model-av-7602-lacquered-wood-with-metal-inlays-3.jpg"
+      ],
+      "material": "Lacquer",
+      "dimensions": "84×32×112 cm",
+      "description": "Shelf in black lacquered wood with metal inlays along its edges, formed as a tall open bookcase on a recessed plinth.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 113,
+      "name": "Shelf 'Book crib' model T-709 designed by Bruno Mathsson for Firma Karl Mathsson",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 4033,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-shelf-book-crib-model-t-709-birch-1.jpg",
+        "/src/assets/images/products/furniture-storage-shelf-book-crib-model-t-709-birch-2.jpg",
+        "/src/assets/images/products/furniture-storage-shelf-book-crib-model-t-709-birch-3.jpg"
+      ],
+      "material": "Pine",
+      "dimensions": "50×28×26 cm",
+      "description": "Bruno Mathsson’s “Book crib” model T-709 is a refined example of Scandinavian vintage design where function and sculpture are perfectly aligned. Originally conceived in 1941, this piece was produced by Firma Karl Mathsson in 1964 and reflects the designer’s lifelong interest in reading, comfort and order.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 114,
+      "name": "Shelving unit 'K5 wall shelf Type 1' designed by Claesson Koivisto Rune for ADX",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 7626,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-shelving-unit-k5-wall-shelf-type-1-model-ck-444-1.jpg",
+        "/src/assets/images/products/furniture-storage-shelving-unit-k5-wall-shelf-type-1-model-ck-444-2.jpg",
+        "/src/assets/images/products/furniture-storage-shelving-unit-k5-wall-shelf-type-1-model-ck-444-3.jpg"
+      ],
+      "material": "Steel",
+      "dimensions": "130×33×130 cm",
+      "description": "Shelving unit from the K5 series in steel, a modular wall-hung square frame with shelving at two levels.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 115,
+      "name": "Sideboard model 1148 designed by Josef Frank for Svenskt Tenn",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 12996,
+      "oldPrice": 14300,
+      "images": [
+        "/src/assets/images/products/furniture-storage-sideboard-model-1148-walnut-and-alder-root-veneer-1.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-1148-walnut-and-alder-root-veneer-2.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-1148-walnut-and-alder-root-veneer-3.jpg"
+      ],
+      "material": "Walnut & Veneer & Brass",
+      "dimensions": "112×51×76 cm",
+      "description": "This sideboard, model 1148, was designed by Josef Frank in the 1950s for Svenskt Tenn and reflects the designer’s characteristic balance between elegance and practicality. Executed in walnut with surfaces in richly patterned alder root veneer, the piece combines restrained structural lines with gently curved details.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 116,
+      "name": "Sideboard model 2106 in pyramid mahogany",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 8900,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-sideboard-model-2106-pyramid-mahogany-whith-birch-edging-and-brass-1.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-2106-pyramid-mahogany-whith-birch-edging-and-brass-2.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-2106-pyramid-mahogany-whith-birch-edging-and-brass-3.jpg"
+      ],
+      "material": "Pyramid Mahogany & Birch & Brass",
+      "dimensions": "152×48×82 cm",
+      "description": "Sideboard model 2106 in pyramid mahogany with birch edging, four serpentine doors and brass fittings, raised on tapering legs.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 117,
+      "name": "Sideboard designed by Erik Wørts for Kjellerup Møbelfabrik",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 12100,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-sideboard-model-ew-8942-oak-and-wenge-1.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-ew-8942-oak-and-wenge-2.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-ew-8942-oak-and-wenge-3.jpg"
+      ],
+      "material": "Oak & Lacquer",
+      "dimensions": "150×46×71 cm",
+      "description": "This Danish sideboard by Erik Wørts for Kjellerup Møbelfabrik is a refined example of mid-century Scandinavian furniture, where practical storage is combined with disciplined proportions and carefully considered material contrast. The cabinet body is crafted in oak and the base and tapered legs are executed in wenge, introducing a darker visual anchor that emphasises the lightness of the upper form.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 118,
+      "name": "Sideboard model JF 8124 in walnut with brass hardware",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 6500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-sideboard-model-jf-8124-walnut-with-brass-handware-1.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-jf-8124-walnut-with-brass-handware-2.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-jf-8124-walnut-with-brass-handware-3.jpg"
+      ],
+      "material": "Lacquered Wood & Walnut & Brass",
+      "dimensions": "182×45×75 cm",
+      "description": "Long sideboard model JF 8124 with a white lacquered body, walnut top and brass hardware, its interior fitted with drawers, cabinets and open shelving.",
+      "inStock": false,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 119,
+      "name": "Sideboard model JF 8381 in walnut and brass",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 7200,
+      "oldPrice": 8400,
+      "images": [
+        "/src/assets/images/products/furniture-storage-sideboard-model-jf-8381-walnut-and-brass-1.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-jf-8381-walnut-and-brass-2.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-jf-8381-walnut-and-brass-3.jpg"
+      ],
+      "material": "Walnut & Brass",
+      "dimensions": "192×48×72 cm",
+      "description": "Sideboard model JF 8381 in walnut with brass swing handles, arranged with a central bank of small drawers between cabinet doors on slender legs.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 120,
+      "name": "Sideboard for Lysberg, Hansen & Therp",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 8515,
+      "oldPrice": 9895,
+      "images": [
+        "/src/assets/images/products/furniture-storage-sideboard-model-lh-8027-rosewood-with-brass-details-1.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-lh-8027-rosewood-with-brass-details-2.jpg",
+        "/src/assets/images/products/furniture-storage-sideboard-model-lh-8027-rosewood-with-brass-details-3.jpg"
+      ],
+      "material": "Rosewood & Brass",
+      "dimensions": "112×45×80 cm",
+      "description": "Sideboard in rosewood with brass details, its three central drawers flanked by cabinet doors and raised on slender tapering legs.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 121,
+      "name": "Storage box/container on wheels",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 4033,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-storage-box-container-on-wheels-model-8683-teak-1.jpg",
+        "/src/assets/images/products/furniture-storage-storage-box-container-on-wheels-model-8683-teak-2.jpg",
+        "/src/assets/images/products/furniture-storage-storage-box-container-on-wheels-model-8683-teak-3.jpg"
+      ],
+      "material": "Teak",
+      "dimensions": "48×44×50 cm",
+      "description": "Small rollable teak box Cubic shape with mitered edges and distinctive prong connections.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 122,
+      "name": "Unique cabinet model OS 8953 in burr ash",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 9500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-unique-cabinet-model-os-8953-burr-ash-veneered-wood-stained-birch-and-brass-1.jpg",
+        "/src/assets/images/products/furniture-storage-unique-cabinet-model-os-8953-burr-ash-veneered-wood-stained-birch-and-brass-2.jpg",
+        "/src/assets/images/products/furniture-storage-unique-cabinet-model-os-8953-burr-ash-veneered-wood-stained-birch-and-brass-3.jpg"
+      ],
+      "material": "Burr Ash Veneer & Stained Birch & Brass",
+      "dimensions": "96×48×108 cm",
+      "description": "Unique cabinet model OS 8953 in burr ash veneer on a stained birch stand, its doors incised with Nordic figurative motifs and finished with brass details.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 123,
+      "name": "Bar cabinet designed by Sture Lindholm for Per Jönssons Verkstäder",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 29129,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-wall-bar-cabinet-model-sl-8774-teak-with-tin-inlays.key-included-1.jpg",
+        "/src/assets/images/products/furniture-storage-wall-bar-cabinet-model-sl-8774-teak-with-tin-inlays.key-included-2.jpg",
+        "/src/assets/images/products/furniture-storage-wall-bar-cabinet-model-sl-8774-teak-with-tin-inlays.key-included-3.jpg"
+      ],
+      "material": "Teak",
+      "dimensions": "82×42×97 cm",
+      "description": "The cabinet is made of teak with darker-stained tapered legs. The front features two hinged doors with a central lock.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 124,
+      "name": "Wall cabinet",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 2647,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-wall-cabinet-model-7262-pine-1.jpg",
+        "/src/assets/images/products/furniture-storage-wall-cabinet-model-7262-pine-2.jpg",
+        "/src/assets/images/products/furniture-storage-wall-cabinet-model-7262-pine-3.jpg"
+      ],
+      "material": "Pine",
+      "dimensions": "48×26×68 cm",
+      "description": "Wall cabinet in pine with a gently bowed door and a single shelf inside, fitted with a simple turned wooden knob.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 125,
+      "name": "Wall cupboard designed by Lars Larsson and Stig Lönngren for HI-Gruppen",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 5832,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-wall-cupboard-model-ll-3960-3.jpg",
+        "/src/assets/images/products/furniture-storage-wall-cupboard-model-ll-3960-1.jpg",
+        "/src/assets/images/products/furniture-storage-wall-cupboard-model-ll-3960-2.jpg"
+      ],
+      "material": "Lacquer & Plywood",
+      "dimensions": "55×43×116 cm",
+      "description": "Wall cupboard in lacquered birch plywood. Closed, the piece presents as a compact, pared-back volume.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 126,
+      "name": "Wall hung cabinet for A. Lagerberg",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 8515,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-wall-hung-cabinet-model-al-2159-pinewood-1.jpg",
+        "/src/assets/images/products/furniture-storage-wall-hung-cabinet-model-al-2159-pinewood-2.jpg",
+        "/src/assets/images/products/furniture-storage-wall-hung-cabinet-model-al-2159-pinewood-3.jpg"
+      ],
+      "material": "Pine",
+      "dimensions": "88×26×86 cm",
+      "description": "An expressive allmoge inspired cabinet that reflects the late 19th century Swedish interest in vernacular craft, a direction championed by designers and workshops such as A. Lagerberg. The piece belongs to the same cultural moment in which Stockholm’s exhibitions of the 1890s highlighted a growing curiosity for new European ideas, alongside a reassessment of national traditions.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 127,
+      "name": "Wall mounted cocktail cabinet designed by Svend Langkilde for Langkilde Møbler",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 6722,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/furniture-storage-wall-mounted-cocktail-cabinet-model-sl-8903-rosewood-and-brass-fittings-1.jpg",
+        "/src/assets/images/products/furniture-storage-wall-mounted-cocktail-cabinet-model-sl-8903-rosewood-and-brass-fittings-2.jpg",
+        "/src/assets/images/products/furniture-storage-wall-mounted-cocktail-cabinet-model-sl-8903-rosewood-and-brass-fittings-3.jpg"
+      ],
+      "material": "Rosewood & Veneer & Brass",
+      "dimensions": "70×30×50 cm",
+      "description": "This wall-mounted cocktail cabinet was designed by Svend Langkilde and produced by Langkilde Møbler in Denmark during the 1950s. Constructed in rosewood, the cabinet is defined by the expressive grain of the veneer, arranged across the doors to create a balanced and visually rich surface.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 128,
+      "name": "Shelving system designed by Bruno Mathsson for Mathsson International",
+      "category": "furniture",
+      "subcategory": "storage",
+      "price": 11215,
+      "oldPrice": 12995,
+      "images": [
+        "/src/assets/images/products/furniture-storage-wall-shelves-model-mi-1050-pine-shelves-beech-wood-consoles-and-lacquered-steel-1.jpg",
+        "/src/assets/images/products/furniture-storage-wall-shelves-model-mi-1050-pine-shelves-beech-wood-consoles-and-lacquered-steel-2.jpg",
+        "/src/assets/images/products/furniture-storage-wall-shelves-model-mi-1050-pine-shelves-beech-wood-consoles-and-lacquered-steel-3.jpg"
+      ],
+      "material": "Beech & Lacquer & Steel",
+      "dimensions": "200×40×236 cm",
+      "description": "This wall-mounted shelving system, designed by Bruno Mathsson and produced by Mathsson International in the 1960s, embodies the principles of Scandinavian design with its elegant simplicity and functional versatility. Crafted from beech, the design features slender shelves that rest on gently curved wooden brackets, which extend from vertical wall-mounted rails.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
       "isFeatured": false
     }
   ]
