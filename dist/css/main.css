@@ -15,6 +15,7 @@
     --color-rose-200: oklch(89.2% 0.058 10.001);
     --color-neutral-200: oklch(92.2% 0 none);
     --color-neutral-300: oklch(87% 0 none);
+    --color-neutral-900: oklch(20.5% 0 none);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -257,6 +258,9 @@
   .top-3 {
     top: calc(var(--spacing) * 3);
   }
+  .top-24 {
+    top: calc(var(--spacing) * 24);
+  }
   .top-full {
     top: 100%;
   }
@@ -359,6 +363,9 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
+  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
@@ -373,6 +380,12 @@
   }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-6 {
+    margin-bottom: calc(var(--spacing) * 6);
   }
   .-ml-2 {
     margin-left: calc(var(--spacing) * -2);
@@ -436,6 +449,9 @@
   }
   .h-9 {
     height: calc(var(--spacing) * 9);
+  }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
   }
   .h-16 {
     height: calc(var(--spacing) * 16);
@@ -512,6 +528,9 @@
   .min-w-0 {
     min-width: 0px;
   }
+  .min-w-10 {
+    min-width: calc(var(--spacing) * 10);
+  }
   .flex-1 {
     flex: 1;
   }
@@ -543,6 +562,9 @@
   }
   .transform-gpu {
     transform: translateZ(0) var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -592,8 +614,16 @@
   .gap-6 {
     gap: calc(var(--spacing) * 6);
   }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
+  }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  :where(.space-y-1 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(var(--spacing) * var(--tw-space-y-reverse));
+    margin-block-end: calc(var(--spacing) * calc(1 - var(--tw-space-y-reverse)));
   }
   :where(.space-y-2 > :not(:last-child)) {
     --tw-space-y-reverse: 0;
@@ -756,6 +786,9 @@
   .object-cover {
     object-fit: cover;
   }
+  .p-1 {
+    padding: var(--spacing);
+  }
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
@@ -765,8 +798,14 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
+  }
   .p-6 {
     padding: calc(var(--spacing) * 6);
+  }
+  .px-1 {
+    padding-inline: var(--spacing);
   }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
@@ -937,6 +976,9 @@
   .text-muted {
     color: var(--color-muted);
   }
+  .text-neutral-900 {
+    color: var(--color-neutral-900);
+  }
   .text-primary {
     color: var(--color-primary);
   }
@@ -963,6 +1005,9 @@
   }
   .underline-offset-8 {
     text-underline-offset: 8px;
+  }
+  .accent-\[var\(--color-accent-text\)\] {
+    accent-color: var(--color-accent-text);
   }
   .opacity-0 {
     opacity: 0%;
@@ -1079,8 +1124,14 @@
     color: var(--color-muted);
   }
   @media (hover: hover) {
+    .hover\:border-accent:hover {
+      border-color: var(--color-accent);
+    }
     .hover\:border-accent-text:hover {
       border-color: var(--color-accent-text);
+    }
+    .hover\:bg-accent:hover {
+      background-color: var(--color-accent);
     }
     .hover\:bg-accent-soft:hover {
       background-color: var(--color-accent-soft);
@@ -1090,6 +1141,9 @@
     }
     .hover\:bg-card:hover {
       background-color: var(--color-card);
+    }
+    .hover\:text-accent-fg:hover {
+      color: var(--color-accent-fg);
     }
     .hover\:text-accent-text:hover {
       color: var(--color-accent-text);
@@ -1174,17 +1228,28 @@
     }
   }
   @media (width >= 64rem) {
+    .lg\:block {
+      display: block;
+    }
+    .lg\:hidden {
+      display: none;
+    }
     .lg\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .lg\:grid-cols-4 {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
     .lg\:grid-cols-\[1\.4fr_1fr_1fr_1\.4fr\] {
       grid-template-columns: 1.4fr 1fr 1fr 1.4fr;
     }
     .lg\:grid-cols-\[1fr_360px\] {
       grid-template-columns: 1fr 360px;
+    }
+    .lg\:grid-cols-\[260px_1fr\] {
+      grid-template-columns: 260px 1fr;
+    }
+  }
+  @media (width >= 80rem) {
+    .xl\:grid-cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
   .dark\:bg-white\/10:where(.dark, .dark *) {
