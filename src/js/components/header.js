@@ -16,6 +16,8 @@ const icons = {
   chevron: `<svg data-chevron class="h-3.5 w-3.5 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>`,
 };
 
+// nav item: text is EXPLICITLY ink (readable in both themes);
+// the active state tints text AND its icon
 function navItem({ id, href, label, icon, dropdown = null }) {
   return `
   <li class="relative" data-nav-item ${dropdown ? "data-hover-menu" : ""}>
@@ -23,13 +25,13 @@ function navItem({ id, href, label, icon, dropdown = null }) {
       dropdown
         ? `
     <button type="button" aria-haspopup="true" data-menu-btn
-      class="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition">
+      class="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-ink transition">
       <span class="text-muted">${icon}</span>${label}${icons.chevron}
     </button>
     ${dropdown}`
         : `
     <a href="${href}" data-nav-link="${id}"
-      class="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition">
+      class="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-ink transition">
       <span class="text-muted">${icon}</span>${label}
     </a>`
     }
@@ -37,9 +39,6 @@ function navItem({ id, href, label, icon, dropdown = null }) {
 }
 
 // Shop mega panel — subcategory flyouts are PURE CSS (named group), zero JS
-// Shop mega panel — subcategory flyouts are PURE CSS (named group), zero JS.
-// Columns 3-4 (right half of the grid) fly out to the LEFT so they never
-// escape the viewport on narrower screens.
 function shopMegaPanel(cats) {
   return `
   <div data-panel class="invisible absolute left-0 top-full z-50 w-[36rem] -translate-y-1 rounded-xl border border-line bg-card p-4 opacity-0 shadow-xl transition-all duration-200 data-[open=true]:visible data-[open=true]:translate-y-0 data-[open=true]:opacity-100">
@@ -48,7 +47,7 @@ function shopMegaPanel(cats) {
       ${cats
         .map((c, i) => {
           const subs = c.subcategories ?? [];
-          const flyLeft = i % 4 >= 2; // columns 3 & 4 of the 4-col grid
+          const flyLeft = i % 4 >= 2; // columns 3 & 4 fly out to the LEFT
           return `
         <div class="group/c relative rounded-lg p-2 transition hover:bg-accent-soft">
           <a href="/pages/shop.html?category=${c.slug}" class="block text-sm font-medium text-ink">${c.name}</a>
@@ -101,14 +100,14 @@ const headerHTML = `
         ${navItem({ id: "home", href: "/index.html", label: "Home", icon: icons.home })}
         <li class="relative" data-nav-item data-hover-menu>
           <button type="button" aria-haspopup="true" data-menu-btn
-            class="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition">
+            class="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-ink transition">
             <span class="text-muted">${icons.shop}</span>Shop${icons.chevron}
           </button>
           <div data-panel-slot></div>
         </li>
         <li class="relative" data-nav-item data-hover-menu>
           <button type="button" aria-haspopup="true" data-menu-btn
-            class="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition">
+            class="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-ink transition">
             <span class="text-muted">${icons.collection}</span>Collections${icons.chevron}
           </button>
           ${collectionsPanel}
@@ -193,15 +192,29 @@ export function initHeader() {
       headerEl.querySelector("#mobile-menu")?.classList.toggle("hidden"),
     );
 
-  /* ---------- active state: mark with classes (no boolean-attr trap) ---------- */
-  const markActive = (el) =>
-    el?.classList.add(
+  /* ---------- cart badge: reacts to any cart change ---------- */
+  const syncBadge = () => {
+    const badge = headerEl.querySelector("#cart-count");
+    if (!badge) return;
+    const n = getCount();
+    badge.textContent = String(n);
+    badge.classList.toggle("hidden", n === 0); // empty cart → no badge
+  };
+  window.addEventListener("cartchange", syncBadge);
+  syncBadge();
+
+  /* ---------- active state: tint text AND its icon ---------- */
+  const markActive = (el) => {
+    if (!el) return;
+    el.classList.add(
       "text-accent-text",
       "underline",
       "decoration-2",
       "underline-offset-8",
       "decoration-accent-text",
     );
+    el.querySelector("svg")?.classList.add("text-accent-text");
+  };
 
   const page = document.body.dataset.page;
   const params = new URLSearchParams(location.search);
@@ -236,19 +249,7 @@ export function initHeader() {
   window.addEventListener("themechange", syncThemeIcons);
   syncThemeIcons();
 
-  /* ---------- cart badge: reacts to any cart change ---------- */
-  const syncBadge = () => {
-    const badge = headerEl.querySelector("#cart-count");
-    if (!badge) return;
-    const n = getCount();
-    badge.textContent = String(n);
-    badge.classList.toggle("hidden", n === 0); // empty cart → no badge at all
-  };
-  window.addEventListener("cartchange", syncBadge);
-  syncBadge();
-
-  /* ---------- data-driven Shop panel: inject, done. No post-injection queries
-     (the previous header.js:256 null error lived exactly here) ---------- */
+  /* ---------- data-driven Shop panel: inject, done ---------- */
   apiGet("/categories")
     .then((cats) => {
       const slot = headerEl.querySelector("[data-panel-slot]");

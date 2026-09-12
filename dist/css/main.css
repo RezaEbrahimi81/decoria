@@ -1182,6 +1182,9 @@
       background-color: var(--color-line);
     }
   }
+  .data-\[active\=true\]\:text-accent-text[data-active="true"] {
+    color: var(--color-accent-text);
+  }
   .data-\[open\=true\]\:visible[data-open="true"] {
     visibility: visible;
   }
