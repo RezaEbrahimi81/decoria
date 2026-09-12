@@ -20,12 +20,15 @@
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-xs: 20rem;
+    --container-2xl: 42rem;
     --container-3xl: 48rem;
     --container-7xl: 80rem;
     --text-xs: 0.75rem;
     --text-xs--line-height: calc(1 / 0.75);
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
+    --text-base: 1rem;
+    --text-base--line-height: calc(1.5 / 1);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
     --text-xl: 1.25rem;
@@ -306,6 +309,9 @@
   .z-\[900\] {
     z-index: 900;
   }
+  .z-\[950\] {
+    z-index: 950;
+  }
   .z-\[999\] {
     z-index: 999;
   }
@@ -377,6 +383,9 @@
   }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
   }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
@@ -453,6 +462,9 @@
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
+  .h-14 {
+    height: calc(var(--spacing) * 14);
+  }
   .h-16 {
     height: calc(var(--spacing) * 16);
   }
@@ -464,6 +476,9 @@
   }
   .h-full {
     height: 100%;
+  }
+  .max-h-\[60vh\] {
+    max-height: 60vh;
   }
   .min-h-11 {
     min-height: calc(var(--spacing) * 11);
@@ -492,6 +507,9 @@
   .w-9 {
     width: calc(var(--spacing) * 9);
   }
+  .w-14 {
+    width: calc(var(--spacing) * 14);
+  }
   .w-16 {
     width: calc(var(--spacing) * 16);
   }
@@ -515,6 +533,9 @@
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-2xl {
+    max-width: var(--container-2xl);
   }
   .max-w-3xl {
     max-width: var(--container-3xl);
@@ -662,6 +683,9 @@
   .overflow-hidden {
     overflow: hidden;
   }
+  .overflow-y-auto {
+    overflow-y: auto;
+  }
   .scroll-smooth {
     scroll-behavior: smooth;
   }
@@ -777,6 +801,9 @@
       background-color: color-mix(in oklab, var(--color-surface) 95%, transparent);
     }
   }
+  .bg-transparent {
+    background-color: transparent;
+  }
   .bg-white\/70 {
     background-color: color-mix(in srgb, #fff 70%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -815,6 +842,9 @@
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-3\.5 {
+    padding-inline: calc(var(--spacing) * 3.5);
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
@@ -867,6 +897,9 @@
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
   }
+  .pt-20 {
+    padding-top: calc(var(--spacing) * 20);
+  }
   .text-center {
     text-align: center;
   }
@@ -890,6 +923,10 @@
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
   }
   .text-lg {
     font-size: var(--text-lg);
@@ -1148,6 +1185,9 @@
     .hover\:text-accent-text:hover {
       color: var(--color-accent-text);
     }
+    .hover\:text-ink:hover {
+      color: var(--color-ink);
+    }
     .hover\:text-red-600:hover {
       color: var(--color-red-600);
     }
@@ -1181,9 +1221,6 @@
     .disabled\:hover\:bg-line:disabled:hover {
       background-color: var(--color-line);
     }
-  }
-  .data-\[active\=true\]\:text-accent-text[data-active="true"] {
-    color: var(--color-accent-text);
   }
   .data-\[open\=true\]\:visible[data-open="true"] {
     visibility: visible;
@@ -1301,6 +1338,23 @@ html.dark {
 }
 html {
   overflow-x: clip;
+}
+.scroll-slim {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+.scroll-slim::-webkit-scrollbar {
+  width: 6px;
+}
+.scroll-slim::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll-slim::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 999px;
+}
+.scroll-slim:hover::-webkit-scrollbar-thumb {
+  background: var(--color-muted);
 }
 @property --tw-translate-x {
   syntax: "*";

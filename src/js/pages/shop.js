@@ -1,13 +1,12 @@
-// URL-driven shop: filters, sorting and pagination all live in the URL
-// (?category=…&subcategory=…&min=…&max=…&sale=1&instock=1&sort=…&page=…)
-// so every view is shareable and survives refresh / back-forward.
+// src/js/pages/shop.js
+// URL-driven shop: filters, sorting, pagination AND search all live in the URL.
 
 import { apiGet } from "../api/client.js";
 import { initLoader, showLoader, hideLoader } from "../components/loader.js";
 import { renderFilters } from "../components/filters.js";
 
 const PER_PAGE = 9;
-const HEADER_OFFSET = 96; // sticky header height + breathing room
+const HEADER_OFFSET = 96;
 
 // ---------- URL <-> state ----------
 function readState() {
@@ -19,6 +18,7 @@ function readState() {
     max: p.get("max") || null,
     sale: p.get("sale") || null,
     inStock: p.get("instock") || null,
+    q: p.get("q") || null,
     sort: p.get("sort") || "new",
     page: Number(p.get("page")) || 1,
   };
@@ -32,20 +32,21 @@ function writeState(state) {
   if (state.max) p.set("max", state.max);
   if (state.sale) p.set("sale", "1");
   if (state.inStock) p.set("instock", "1");
+  if (state.q) p.set("q", state.q);
   if (state.sort !== "new") p.set("sort", state.sort);
   if (state.page > 1) p.set("page", String(state.page));
   const qs = p.toString();
   history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
 }
 
-// ---------- API query builder ----------
+// ---------- API query builder (server-side parts) ----------
 function buildQuery(state) {
   const p = new URLSearchParams();
   if (state.category) p.set("category", state.category);
   if (state.subcategory) p.set("subcategory", state.subcategory);
   if (state.min) p.set("price_gte", state.min);
   if (state.max) p.set("price_lte", state.max);
-  if (state.sale) p.set("oldPrice_ne", "null"); // has discount
+  if (state.sale) p.set("oldPrice_ne", "null");
   if (state.inStock) p.set("inStock", "true");
 
   switch (state.sort) {
@@ -58,8 +59,11 @@ function buildQuery(state) {
     case "rating_desc":
       p.set("_sort", "-rating");
       break;
-    // "new" → server default order; isNew-first is applied client-side
   }
+
+  // NOTE: q is intentionally NOT sent to the server — json-server's q
+  // behavior varies across versions (case sensitivity). Search is applied
+  // client-side in load() so it is guaranteed case-insensitive.
 
   p.set("_page", String(state.page));
   p.set("_per_page", String(PER_PAGE));
@@ -79,8 +83,6 @@ export async function initShop() {
   const state = readState();
   const categories = await apiGet("/categories").catch(() => []);
 
-  // filter UI renderer — called on init AND after every state change,
-  // so checkboxes/subcategory groups always match the real state.
   const renderFilterUI = () =>
     renderFilters(filtersEl, filtersMobileBody, {
       categories,
@@ -88,7 +90,6 @@ export async function initShop() {
       onChange: applyPatch,
     });
 
-  // scroll the top of the product list into view (below sticky header)
   const scrollToResults = () => {
     const y = grid.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET;
     window.scrollTo({ top: y, behavior: "smooth" });
@@ -97,21 +98,19 @@ export async function initShop() {
   const applyPatch = (patch, { scroll = false } = {}) => {
     Object.assign(state, patch);
     writeState(state);
-    renderFilterUI(); // ← keep filter UI in sync with state (reset fix)
+    renderFilterUI();
     load();
     if (scroll) scrollToResults();
   };
 
   renderFilterUI();
 
-  // sort dropdown
   const sortSel = document.getElementById("sort-select");
   sortSel.value = state.sort;
   sortSel.addEventListener("change", () =>
     applyPatch({ sort: sortSel.value, page: 1 }),
   );
 
-  // mobile filters toggle
   document
     .getElementById("filters-toggle")
     ?.addEventListener("click", () =>
@@ -121,10 +120,35 @@ export async function initShop() {
   async function load() {
     showLoader();
     try {
-      const page = await apiGet(`/products?${buildQuery(state)}`);
-      let products = page.data;
+      let products, items, pages;
 
-      // "newest" = isNew items first (server can't express this in one param)
+      if (state.q) {
+        // ---- search mode: server-side filters, client-side full-text ----
+        const qp = new URLSearchParams(buildQuery(state));
+        qp.delete("_page");
+        qp.delete("_per_page");
+        const all = await apiGet(`/products?${qp.toString()}`);
+
+        const ql = state.q.toLowerCase();
+        const matches = all.filter((p) =>
+          [p.name, p.description, p.material, p.category, p.subcategory].some(
+            (f) => (f ?? "").toString().toLowerCase().includes(ql),
+          ),
+        );
+
+        items = matches.length;
+        pages = Math.max(1, Math.ceil(items / PER_PAGE));
+        products = matches.slice(
+          (state.page - 1) * PER_PAGE,
+          state.page * PER_PAGE,
+        );
+      } else {
+        const page = await apiGet(`/products?${buildQuery(state)}`);
+        products = page.data;
+        items = page.items;
+        pages = page.pages;
+      }
+
       if (state.sort === "new")
         products = [...products].sort(
           (a, b) => Number(b.isNew) - Number(a.isNew),
@@ -134,8 +158,8 @@ export async function initShop() {
         await import("../components/product-card.js");
       grid.innerHTML = products.map(createProductCard).join("");
 
-      countEl.textContent = `${page.items} product${page.items === 1 ? "" : "s"} found`;
-      renderPagination(pagEl, state, page);
+      countEl.textContent = `${items} product${items === 1 ? "" : "s"} found`;
+      renderPagination(pagEl, state, { pages });
     } catch (err) {
       grid.innerHTML = `<p class="col-span-full text-muted">Could not load products. Is the API running?</p>`;
       console.error(err);
@@ -158,7 +182,6 @@ export async function initShop() {
         ${label}
       </button>`;
 
-    // window of pages around current: 1 … p-1 p p+1 … last
     const nums = [];
     for (let i = 1; i <= page.pages; i++)
       if (i === 1 || i === page.pages || Math.abs(i - st.page) <= 1)
@@ -179,7 +202,7 @@ export async function initShop() {
     el.querySelectorAll("[data-page]").forEach((b) =>
       b.addEventListener("click", () => {
         applyPatch({ page: Number(b.dataset.page) });
-        scrollToResults(); // new page loads, user sees it from the first product
+        scrollToResults();
       }),
     );
   }

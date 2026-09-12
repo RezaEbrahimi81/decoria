@@ -117,7 +117,7 @@ const headerHTML = `
     </nav>
 
     <div class="flex items-center gap-1">
-      <button type="button" aria-label="Search" class="hidden rounded-lg p-2 text-ink transition hover:bg-accent-soft sm:block">${icons.search}</button>
+      <button type="button" aria-label="Search" class=" rounded-lg p-2 text-ink transition hover:bg-accent-soft ">${icons.search}</button>
       <button id="theme-toggle" type="button" aria-label="Toggle dark mode" class="rounded-lg p-2 text-ink transition hover:bg-accent-soft">${icons.sun}${icons.moon}</button>
       <a href="/pages/account.html" aria-label="Account" class="hidden rounded-lg p-2 text-ink transition hover:bg-accent-soft sm:block">${icons.user}</a>
       <a href="/pages/cart.html" aria-label="Cart" class="relative rounded-lg p-2 text-ink transition hover:bg-accent-soft">${icons.cart}

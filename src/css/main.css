@@ -96,3 +96,22 @@ html {
      makes html a non-scroll-container in Chromium. Scroll-lock width
      compensation is handled in JS (quick-view.js lockScroll). */
 }
+
+/* ===== Slim scrollbar for inner scroll areas (search results, etc.) ===== */
+.scroll-slim {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+.scroll-slim::-webkit-scrollbar {
+  width: 6px;
+}
+.scroll-slim::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll-slim::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 999px;
+}
+.scroll-slim:hover::-webkit-scrollbar-thumb {
+  background: var(--color-muted);
+}
