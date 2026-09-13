@@ -1,12 +1,19 @@
 // src/js/pages/shop.js
-// URL-driven shop: filters, sorting, pagination AND search all live in the URL.
+// URL-driven shop: filters, sorting, pagination, collection presets
+// and search all live in the URL (?category=…&filter=…&q=…&page=…).
 
 import { apiGet } from "../api/client.js";
 import { initLoader, showLoader, hideLoader } from "../components/loader.js";
 import { renderFilters } from "../components/filters.js";
 
 const PER_PAGE = 9;
-const HEADER_OFFSET = 96;
+const HEADER_OFFSET = 96; // sticky header height + breathing room
+
+const COLLECTION_LABELS = {
+  new: "New Arrivals",
+  sale: "On Sale",
+  featured: "Hot Items",
+};
 
 // ---------- URL <-> state ----------
 function readState() {
@@ -18,6 +25,7 @@ function readState() {
     max: p.get("max") || null,
     sale: p.get("sale") || null,
     inStock: p.get("instock") || null,
+    filter: p.get("filter") || null,
     q: p.get("q") || null,
     sort: p.get("sort") || "new",
     page: Number(p.get("page")) || 1,
@@ -32,6 +40,7 @@ function writeState(state) {
   if (state.max) p.set("max", state.max);
   if (state.sale) p.set("sale", "1");
   if (state.inStock) p.set("instock", "1");
+  if (state.filter) p.set("filter", state.filter);
   if (state.q) p.set("q", state.q);
   if (state.sort !== "new") p.set("sort", state.sort);
   if (state.page > 1) p.set("page", String(state.page));
@@ -46,8 +55,10 @@ function buildQuery(state) {
   if (state.subcategory) p.set("subcategory", state.subcategory);
   if (state.min) p.set("price_gte", state.min);
   if (state.max) p.set("price_lte", state.max);
-  if (state.sale) p.set("oldPrice_ne", "null");
+  if (state.sale || state.filter === "sale") p.set("oldPrice_ne", "null");
   if (state.inStock) p.set("inStock", "true");
+  if (state.filter === "new") p.set("isNew", "true");
+  if (state.filter === "featured") p.set("isFeatured", "true");
 
   switch (state.sort) {
     case "price_asc":
@@ -61,9 +72,7 @@ function buildQuery(state) {
       break;
   }
 
-  // NOTE: q is intentionally NOT sent to the server — json-server's q
-  // behavior varies across versions (case sensitivity). Search is applied
-  // client-side in load() so it is guaranteed case-insensitive.
+  // NOTE: q is applied client-side (json-server q behavior varies by version)
 
   p.set("_page", String(state.page));
   p.set("_per_page", String(PER_PAGE));
@@ -98,24 +107,31 @@ export async function initShop() {
   const applyPatch = (patch, { scroll = false } = {}) => {
     Object.assign(state, patch);
     writeState(state);
-    renderFilterUI();
+    renderFilterUI(); // filter UI always mirrors state
     load();
     if (scroll) scrollToResults();
   };
 
   renderFilterUI();
 
+  // sort dropdown
   const sortSel = document.getElementById("sort-select");
   sortSel.value = state.sort;
   sortSel.addEventListener("change", () =>
     applyPatch({ sort: sortSel.value, page: 1 }),
   );
 
+  // mobile filters toggle
   document
     .getElementById("filters-toggle")
     ?.addEventListener("click", () =>
       document.getElementById("filters-mobile")?.classList.toggle("hidden"),
     );
+
+  // collection chip (New Arrivals / On Sale / Hot Items) — click removes it
+  document
+    .getElementById("active-chip")
+    ?.addEventListener("click", () => applyPatch({ filter: null, page: 1 }));
 
   async function load() {
     showLoader();
@@ -149,6 +165,7 @@ export async function initShop() {
         pages = page.pages;
       }
 
+      // "newest" sort → isNew items first (client-side)
       if (state.sort === "new")
         products = [...products].sort(
           (a, b) => Number(b.isNew) - Number(a.isNew),
@@ -160,6 +177,16 @@ export async function initShop() {
 
       countEl.textContent = `${items} product${items === 1 ? "" : "s"} found`;
       renderPagination(pagEl, state, { pages });
+
+      // collection chip: visible only when a collection filter is active
+      const chip = document.getElementById("active-chip");
+      const chipLabel = document.getElementById("active-chip-label");
+      if (chip && chipLabel) {
+        const label = COLLECTION_LABELS[state.filter];
+        chipLabel.textContent = label ?? "";
+        chip.classList.toggle("hidden", !label);
+        chip.classList.toggle("flex", !!label);
+      }
     } catch (err) {
       grid.innerHTML = `<p class="col-span-full text-muted">Could not load products. Is the API running?</p>`;
       console.error(err);

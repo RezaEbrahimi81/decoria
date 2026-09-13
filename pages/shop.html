@@ -59,6 +59,25 @@
         <section>
           <!-- toolbar: result count + sort -->
           <div class="mb-6 flex flex-wrap items-center justify-between gap-3">
+            <button
+              type="button"
+              id="active-chip"
+              class="hidden items-center gap-2 rounded-full bg-accent-soft px-3 py-1.5 text-xs font-medium text-accent-text"
+            >
+              <span id="active-chip-label"></span>
+              <svg
+                class="h-3 w-3"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+              >
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
             <p id="result-count" class="text-sm text-muted">Loading…</p>
 
             <label class="flex items-center gap-2 text-sm">
