@@ -2577,6 +2577,112 @@
           "isFeatured": false
         }
       ]
+    },
+    {
+      "batch": "other",
+      "count": 5,
+      "products": [
+        {
+          "id": 129,
+          "name": "Childrens bed in the style of Peder Moos made by cabinetmaker Ove Sørensen",
+          "category": "furniture",
+          "subcategory": "other",
+          "price": 6000,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/furniture-other-childrens-bed-model-2177-teak-and-cane-1.jpg",
+            "/src/assets/images/products/furniture-other-childrens-bed-model-2177-teak-and-cane-2.jpg",
+            "/src/assets/images/products/furniture-other-childrens-bed-model-2177-teak-and-cane-3.jpg"
+          ],
+          "material": "Teak & Cane",
+          "dimensions": "160×75×68 cm",
+          "description": "Children's bed in solid teak with caned spindle railings and organically curved head- and footboards, made by cabinetmaker Ove Sørensen in the style of Peder Moos.",
+          "inStock": false,
+          "rating": 4.8,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 130,
+          "name": "Clothes rack",
+          "category": "furniture",
+          "subcategory": "other",
+          "price": 400,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/furniture-other-clothes-rack-model-3419-1.jpg",
+            "/src/assets/images/products/furniture-other-clothes-rack-model-3419-2.jpg",
+            "/src/assets/images/products/furniture-other-clothes-rack-model-3419-3.jpg"
+          ],
+          "material": "Lacquered Metal & Chrome",
+          "dimensions": "40×40×180 cm",
+          "description": "Clothes rack model 3419 with a black lacquered metal column on a round stepped base, crowned with playful scrolling chrome wire hooks.",
+          "inStock": true,
+          "rating": 4.3,
+          "isNew": true,
+          "isFeatured": false
+        },
+        {
+          "id": 131,
+          "name": "Folding 'Screen 100' designed by Alvar Aalto for Artek",
+          "category": "furniture",
+          "subcategory": "other",
+          "price": 11905,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/furniture-other-folding-screen100-model-aa-8181-birch-1.jpg",
+            "/src/assets/images/products/furniture-other-folding-screen100-model-aa-8181-birch-2.jpg",
+            "/src/assets/images/products/furniture-other-folding-screen100-model-aa-8181-birch-3.jpg"
+          ],
+          "material": "Birch",
+          "dimensions": "160×45×150 cm",
+          "description": "The folding Screen 100, designed by Alvar Aalto for Artek in 1936, exemplifies Aalto's innovative approach to form and function. Made from birch, the screen features a series of vertically slatted wooden panels joined together in a flexible, undulating design.",
+          "inStock": true,
+          "rating": 4.9,
+          "isNew": false,
+          "isFeatured": true
+        },
+        {
+          "id": 132,
+          "name": "Magazine rack",
+          "category": "furniture",
+          "subcategory": "other",
+          "price": 1733,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/furniture-other-magazine-rack-model-3285-1.jpg",
+            "/src/assets/images/products/furniture-other-magazine-rack-model-3285-2.jpg",
+            "/src/assets/images/products/furniture-other-magazine-rack-model-3285-3.jpg"
+          ],
+          "material": "Stained Beech",
+          "dimensions": "46×32×76 cm",
+          "description": "Four-tier magazine rack model 3285 in stained wood with turned spindle shelves on a sculpted sled base.",
+          "inStock": true,
+          "rating": 4.4,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 133,
+          "name": "Wall hung makeup table with wall lamps and stool by Uno & Östen Kristiansson for Luxus",
+          "category": "furniture",
+          "subcategory": "other",
+          "price": 8444,
+          "oldPrice": 9711,
+          "images": [
+            "/src/assets/images/products/furniture-other-wall-hung-makeup-table-veneered-oak-and-mirrord-glass-2.jpg",
+            "/src/assets/images/products/furniture-other-wall-hung-makeup-table-veneered-oak-and-mirrord-glass-1.jpg",
+            "/src/assets/images/products/furniture-other-wall-hung-makeup-table-veneered-oak-and-mirrord-glass-3.jpg"
+          ],
+          "material": "Veneer & Oak & Glass",
+          "dimensions": "112×34×89 cm",
+          "description": "Wall-hung makeup table by Uno & Östen Kristiansson for Luxus with a large mirrored panel, two acrylic wall lamps, dovetailed oak drawers and a matching stool.",
+          "inStock": true,
+          "rating": 4.7,
+          "isNew": false,
+          "isFeatured": false
+        }
+      ]
     }
   ]
 }
