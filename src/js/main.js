@@ -11,6 +11,7 @@ import { showToast } from "./components/toast.js";
 import { initTransition } from "./services/transition.js";
 import { initQuickView } from "./components/quick-view.js";
 import { initSearchModal } from "./components/search-modal.js";
+import { initAuthModal } from "./components/auth-modal.js";
 
 // 1) Shared components — run on every page
 initHeader();
@@ -18,6 +19,7 @@ initFooter();
 initTransition();
 initQuickView();
 initSearchModal();
+initAuthModal();
 // 2) Page router — maps body[data-page] to its init function
 const routes = {
   home: initHome,

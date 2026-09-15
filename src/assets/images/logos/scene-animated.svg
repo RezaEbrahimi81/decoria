@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" fill="none">
+  <!-- === floor lamp (abajour) === -->
+  <g stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60 40 L48 70 H72 Z" fill="currentColor" opacity="0.9" stroke="none"/>
+    <path d="M60 70 V150"/>
+    <path d="M45 150 H75"/>
+  </g>
+
+  <!-- === armchair === -->
+  <g stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 95V78a10 10 0 0 0-10-10h-52a10 10 0 0 0-10 10v17"/>
+    <path d="M62 118a10 10 0 0 0-10 10v12a10 10 0 0 0 10 10h100a10 10 0 0 0 10-10v-12a10 10 0 0 0-10-10h-14v10H76v-10Z"/>
+    <path d="M78 150v12"/><path d="M146 150v12"/>
+  </g>
+
+  <!-- === chandelier above the chair: gently swaying === -->
+  <g class="qc-sway" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <path d="M120 0 V22"/>
+    <path d="M104 22 H136"/>
+    <path d="M104 22 C104 34 110 40 120 40 C130 40 136 34 136 22" fill="currentColor" fill-opacity="0.15"/>
+    <circle cx="120" cy="46" r="3" fill="currentColor" stroke="none" class="qc-glow"/>
+  </g>
+
+  <style>
+    .qc-sway {
+      transform-origin: 120px 0px;
+      animation: qc-sway 4s ease-in-out infinite;
+    }
+    @keyframes qc-sway {
+      0%, 100% { transform: rotate(0deg); }
+      50%      { transform: rotate(3deg); }
+    }
+    .qc-glow { animation: qc-glow 2.4s ease-in-out infinite; }
+    @keyframes qc-glow {
+      0%, 100% { opacity: 0.4; }
+      50%      { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .qc-sway, .qc-glow { animation: none; }
+    }
+  </style>
+</svg>

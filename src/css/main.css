@@ -115,3 +115,27 @@ html {
 .scroll-slim:hover::-webkit-scrollbar-thumb {
   background: var(--color-muted);
 }
+
+/* ===== Infinite marquee (fairs carousel) — slows down on hover ===== */
+.marquee {
+  overflow: hidden;
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee var(--marquee-speed, 40s) linear infinite;
+}
+/* hover → dramatically slower (feels like pause, but still alive) */
+.marquee:hover .marquee-track {
+  animation-duration: var(--marquee-speed-hover, 160s);
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}

@@ -1,100 +1,97 @@
 <!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
-    <!-- === Meta ===-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>404 not found</title>
-    <meta
-      name="description"
-      content="Decoria — online store for furniture, lighting, decor and office equipment. Carefully selected pieces for modern homes and offices."
-    />
-    <meta name="theme-color" content="#f7f5f2" />
+    <title>404 — Decoria</title>
 
-    <!-- === Favicon (inline SVG — no image file needed) ===-->
-    <!-- Favicon: brand armchair mark, matches header logo -->
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="/src/assets/images/logos/favicon.svg"
-    />
-
-    <!-- === Fonts (Google Fonts) ===-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- === Icons (Font Awesome) ===-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <!-- Theme bootstrap: apply saved theme before first paint (prevents flash) -->
+    <!-- Theme bootstrap -->
     <script>
       try {
         if (localStorage.getItem("decoria-theme") === "dark")
           document.documentElement.classList.add("dark");
       } catch (e) {}
     </script>
-    <!-- === Styles (compiled Tailwind output — do NOT edit dist files) === -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/src/assets/images/logos/favicon.svg"
+    />
+
+    <!-- Styles -->
     <link rel="stylesheet" href="/dist/css/main.css" />
   </head>
-
-  <body data-page="404" class="bg-surface font-sans text-ink">
-    <!-- ==== Header (injected by src/js/components/header.js) === -->
+  <body data-page="notfound" class="bg-surface font-sans text-neutral-900">
+    <!-- Header mount point -->
     <div id="site-header"></div>
 
-    <!-- === Main content (unique per page) === --><!doctype html>
-    <html lang="en" class="scroll-smooth">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>404 not found — Decoria</title>
-
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
-          rel="stylesheet"
+    <main
+      class="flex min-h-[60vh] flex-col items-center justify-center px-4 py-20 text-center"
+    >
+      <!-- brand armchair, oversized and subtle -->
+      <svg
+        class="h-24 w-24 text-accent-text opacity-40"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3" />
+        <path
+          d="M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H7v-2a2 2 0 0 0-4 0Z"
         />
+        <path d="M5 18v2" />
+        <path d="M19 18v2" />
+      </svg>
 
-        <!-- Icons -->
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        />
+      <h1 class="mt-6 font-display text-7xl text-ink">404</h1>
+      <p class="mt-3 font-display text-2xl text-ink">
+        This piece isn't in our showroom.
+      </p>
+      <p class="mt-2 max-w-md text-muted">
+        The page you're looking for was moved, sold out, or never existed. Let's
+        get you back to the good stuff.
+      </p>
 
-        <!-- Styles (compiled Tailwind) -->
-        <link rel="stylesheet" href="/dist/css/main.css" />
-      </head>
-      <body data-page="404" class="bg-surface font-sans text-ink">
-        <!-- Header mount point (injected by main.js) -->
-        <div id="site-header"></div>
-
-        <main>
-          <div class="mx-auto max-w-7xl px-4 py-16">
-            <h1 class="font-display text-4xl text-primary">404 not found</h1>
-            <!-- product grid → next step -->
-          </div>
-        </main>
-
-        <!-- Footer mount point -->
-        <div id="site-footer"></div>
-
-        <!-- Entry point -->
-        <script type="module" src="/src/js/main.js"></script>
-      </body>
-    </html>
-
-    <main>
-      <!-- Hero section → added in the next step -->
+      <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+        <a
+          href="/index.html"
+          class="bg-ink px-8 py-3 text-sm font-medium text-surface transition hover:bg-accent"
+        >
+          Back to Home
+        </a>
+        <a
+          href="/pages/shop.html"
+          class="border border-line px-8 py-3 text-sm font-medium text-ink transition hover:border-accent hover:text-accent-text"
+        >
+          Browse the Shop
+        </a>
+      </div>
     </main>
 
-    <!-- ==== Footer (injected by src/js/components/footer.js) === -->
+    <!-- Footer mount point -->
     <div id="site-footer"></div>
 
-    <!-- === Scripts (ES module — deferred by default, runs after HTML is parsed) ===-->
+    <!-- Entry point -->
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>

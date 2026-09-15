@@ -119,7 +119,7 @@ const headerHTML = `
     <div class="flex items-center gap-1">
       <button type="button" aria-label="Search" class=" rounded-lg p-2 text-ink transition hover:bg-accent-soft ">${icons.search}</button>
       <button id="theme-toggle" type="button" aria-label="Toggle dark mode" class="rounded-lg p-2 text-ink transition hover:bg-accent-soft">${icons.sun}${icons.moon}</button>
-      <a href="/pages/account.html" aria-label="Account" class="hidden rounded-lg p-2 text-ink transition hover:bg-accent-soft sm:block">${icons.user}</a>
+            <button type="button" aria-label="Account" data-auth-open class="hidden rounded-lg p-2 text-ink transition hover:bg-accent-soft sm:block">${icons.user}</button>
       <a href="/pages/cart.html" aria-label="Cart" class="relative rounded-lg p-2 text-ink transition hover:bg-accent-soft">${icons.cart}
         <span id="cart-count" class="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-accent text-[11px] font-bold text-accent-fg">0</span>
       </a>
