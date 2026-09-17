@@ -8,6 +8,7 @@ export async function initCart() {
   const emptyEl = document.getElementById("cart-empty");
   const gridEl = document.querySelector("main .grid"); // items + summary wrapper
   const subtotalEl = document.getElementById("cart-subtotal");
+  const checkoutBtn = document.getElementById("checkout-btn");
 
   // product cache — prices are always fetched fresh, never trusted from storage
   const catalog = new Map();
@@ -24,9 +25,7 @@ export async function initCart() {
   }
 
   function render() {
-    // ALWAYS read fresh state from the service — this was the whole bug
     const items = getItems().filter((i) => catalog.has(i.id));
-
     emptyEl.classList.toggle("hidden", items.length > 0);
     gridEl.classList.toggle("hidden", items.length === 0);
     if (!items.length) return;
@@ -77,6 +76,12 @@ export async function initCart() {
       setQty(id, item.qty + (inc ? 1 : -1));
     }
     if (rem) removeFromCart(rem.dataset.remove);
+  });
+
+  // proceed → checkout page
+  checkoutBtn?.addEventListener("click", () => {
+    if (!getItems().length) return; // empty cart → don't navigate
+    location.href = "/pages/checkout.html";
   });
 
   await syncCatalog();
