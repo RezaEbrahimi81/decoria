@@ -2811,6 +2811,1266 @@
       "rating": 4.7,
       "isNew": false,
       "isFeatured": false
+    },
+    {
+      "id": 134,
+      "name": "Ceiling lamp",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 2634,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-anonymous-sweden1930s-model-7964-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-anonymous-sweden1930s-model-7964-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-anonymous-sweden1930s-model-7964-3.jpg"
+      ],
+      "material": "Glass",
+      "dimensions": "40×40×12 cm",
+      "description": "This ceiling lamp is a refined example of Swedish Grace from the 1930s, characterised by its restrained form enriched with decorative detail. The fixture is composed of a circular disc of green-toned glass, often referred to as råglas , etched with stylised stork motifs arranged in a rhythmic, symmetrical composition.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 135,
+      "name": "Artichoke pendant",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 2400,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-artichoke-model-ph-8792-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-artichoke-model-ph-8792-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-artichoke-model-ph-8792-3.jpg"
+      ],
+      "material": "Copper & Steel",
+      "dimensions": "60×60×55 cm",
+      "description": "Sculptural artichoke pendant with concentric tiers of patinated copper leaves around a steel core, in the manner of Poul Henningsen.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 136,
+      "name": "Ceiling lamp model A335B designed by Alvar Aalto for Valaistustyö",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 3259,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-beeehive-model-a332-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-beeehive-model-a332-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-beeehive-model-a332-3.jpg"
+      ],
+      "material": "Brass & Lacquer",
+      "dimensions": "33×33×42 cm",
+      "description": "Designed by Alvar Aalto for the Finnish manufacturer Valaistustyö, the 'A335B' ceiling lamp is a distinctive example of his later lighting work. Formed in pressed metal, the lamp is defined by its domed silhouette and the characteristic perforated lower section, which allows light to escape downward in a controlled and rhythmic pattern while maintaining a soft overall glow.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 137,
+      "name": "Six-arm brass chandelier",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 2250,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-chandelier-model-ph-9078-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-chandelier-model-ph-9078-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-chandelier-model-ph-9078-3.jpg"
+      ],
+      "material": "Brass & Opal Glass",
+      "dimensions": "90×90×85 cm",
+      "description": "Six-arm chandelier in patinated brass with layered opal glass shades on gently curved arms, suspended from a reeded brass column.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 138,
+      "name": "Ceiling lamp designed by Alvar Aalto for Idman",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 4018,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-enso-cuntzeit-model-8956-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-enso-cuntzeit-model-8956-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-enso-cuntzeit-model-8956-3.jpg"
+      ],
+      "material": "Lacquer & Glass",
+      "dimensions": "115×33×21 cm",
+      "description": "This ceiling lamp, designed by Alvar Aalto for the Finnish lighting manufacturer Idman in the 1950s, was originally developed for the Stora Enso head office in Helsinki, a landmark building completed in 1962 and designed by Aalto as a total work of art, from façade to interior details. It is a restrained yet highly considered example of his approach to architectural lighting.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 139,
+      "name": "Ceiling lamp model 6022 designed by Gunnar Asplund",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 22323,
+      "oldPrice": 24995,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-erik-g-model-6022-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-erik-g-model-6022-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-erik-g-model-6022-3.jpg"
+      ],
+      "material": "Lacquer & Glass",
+      "dimensions": "50×50×42 cm",
+      "description": "The model was originally created for Gunnar Asplund's music room at the Workshop's exhibition held at Liljevalchs Konsthall in autumn 1920. It became part of Böhlmark's collection in 1922 and remained so until Ateljé Lyktan took over production in 1965.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 140,
+      "name": "Long ceiling lamps designed by Hans Agne Jakobsson",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 6697,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-hans-agne-model-sl-72-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-hans-agne-model-sl-72-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-hans-agne-model-sl-72-3.jpg"
+      ],
+      "material": "Brass & Glass",
+      "dimensions": "35×35×110 cm",
+      "description": "Designed by Hans Agne Jakobsson, these long ceiling lamps are a distilled expression of Scandinavian lighting from the mid-20th century. Executed in brass and glass, the lamps reflect Jakobsson's broader material experimentation and his belief that lighting should enhance atmosphere rather than dominate it.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 141,
+      "name": "Ceiling lamp designed by Hans-Agne Jakobsson",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 17859,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-hans-aj-model-623-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-hans-aj-model-623-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-hans-aj-model-623-3.jpg"
+      ],
+      "material": "Brass & Iron & Glass",
+      "dimensions": "70×70×40 cm",
+      "description": "Active between the 1950s and 1970s—in the golden age of Scandinavian design—Swedish interior decorator and furniture designer Hans-Agne Jakobsson is best remembered for his softly glowing, glare-free lighting fixtures, which were inspired by the organic modern approaches of Danish lighting master Poul Henningsen and Finnish icon Alvar Aalto. Experimenting with a wide range of materials—including brass, iron, glass, fabric, and wood shavings—Jakobsson mastered both the direction and colour of light.",
+      "inStock": false,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 142,
+      "name": "Ceiling lamp designed by Helger Johansson for Westal",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 4420,
+      "oldPrice": 4995,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-helger-j-model-480-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-helger-j-model-480-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-helger-j-model-480-3.jpg"
+      ],
+      "material": "Brass & Glass",
+      "dimensions": "55×55×50 cm",
+      "description": "Designed in the 1960s by Holger Johansson for Westal, this ceiling lamp is a refined example of Swedish mid-century lighting that balances structure, material and atmosphere. The composition centres on a geometric brass framework from which multiple smoked glass shades are evenly suspended, creating a calm, architectural rhythm while softening the light through the tinted glass.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 143,
+      "name": "Honeycomb ceiling lamp",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 1950,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-ilmari-t-model1780-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-ilmari-t-model1780-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-ilmari-t-model1780-3.jpg"
+      ],
+      "material": "Copper & Glass",
+      "dimensions": "130×130×30 cm",
+      "description": "Monumental ceiling fixture with a stepped hexagonal frame in patinated copper and glowing amber glass honeycomb diffusers, suspended on three slender rods.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 144,
+      "name": "Chandelier model CA-71",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 1850,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-ca-71-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-ca-71-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-ca-71-3.jpg"
+      ],
+      "material": "Brass & Glass",
+      "dimensions": "60×60×55 cm",
+      "description": "Chandelier with six opal glass tulip shades on slender brass stems arranged around a polished ring-shaped base.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 145,
+      "name": "Ceiling lamp model SL-31B",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 1450,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-sl-31b-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-sl-31b-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-sl-31b-3.jpg"
+      ],
+      "material": "Brass",
+      "dimensions": "45×45×40 cm",
+      "description": "Brass pendant with a smooth dome shade above a pierced snowflake-form diffuser that scatters delicate patterns of light.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 146,
+      "name": "Ceiling lamp designed by Palle Suenson",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 8483,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-palle-s-model-11237-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-palle-s-model-11237-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-palle-s-model-11237-3.jpg"
+      ],
+      "material": "Brass & Lacquer",
+      "dimensions": "40×40×25 cm",
+      "description": "Palle Suenson was one of the leading Danish architects of the twentieth century. His style balanced impressive scale and form, always elevated by scrupulous artistic attention to detail and materials.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 147,
+      "name": "Pendant model 8863",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 1750,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-ph-6-6-model-8863-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-ph-6-6-model-8863-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-ph-6-6-model-8863-3.jpg"
+      ],
+      "material": "Lacquered Metal",
+      "dimensions": "55×55×30 cm",
+      "description": "Three-tier pendant with deep green lacquered shades and warm pale-yellow interiors, hung from a nickel-plated socket.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 148,
+      "name": "Ceiling lamp PH 4/4 designed by Poul Henningsen for Louis Poulsen",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 14286,
+      "oldPrice": 15995,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-ph4-4-dentist-model-8865-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-ph4-4-dentist-model-8865-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-ph4-4-dentist-model-8865-3.jpg"
+      ],
+      "material": "Glass & Copper",
+      "dimensions": "40×40×35 cm",
+      "description": "Poul Henningsen developed an extensive body of lighting designs built around his pioneering three-shade principle, first introduced in 1926. This system was conceived to produce controlled, glare-free illumination by directing light precisely where it was needed.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 149,
+      "name": "Pendant model 9077",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 1650,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-ph5-5-model-9077-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-ph5-5-model-9077-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-ph5-5-model-9077-3.jpg"
+      ],
+      "material": "Lacquered Metal",
+      "dimensions": "50×50×30 cm",
+      "description": "Pendant with three softly graded amber shades in the classic layered silhouette, giving a warm, glare-free light.",
+      "inStock": false,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 150,
+      "name": "Set of three ceiling lamps/chandeliers",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 3125,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-set-of-three-chandeliers-model-927-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-set-of-three-chandeliers-model-927-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-set-of-three-chandeliers-model-927-3.jpg"
+      ],
+      "material": "Brass",
+      "dimensions": "25×25×50 cm",
+      "description": "Set of three slender brass chandeliers with tubular candle sleeves and bare-bulb detailing.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 151,
+      "name": "Shade lamp model 9076",
+      "category": "lighting",
+      "subcategory": "ceiling-lamps",
+      "price": 1350,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-ceiling-lamps-shade-lamp-model-ph-9076-2.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-shade-lamp-model-ph-9076-1.jpg",
+        "/src/assets/images/products/lighting-ceiling-lamps-shade-lamp-model-ph-9076-3.jpg"
+      ],
+      "material": "Copper",
+      "dimensions": "45×45×30 cm",
+      "description": "Shade pendant in warm patinated copper with three stacked conical shades above a cylindrical lower diffuser.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 152,
+      "name": "Pair of model 324/2 wall lamps for Markaryd",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 1450,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-ajm-324-2-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-ajm-324-2-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-ajm-324-2-3.jpg"
+      ],
+      "material": "Brass",
+      "dimensions": "10×19×21 cm",
+      "description": "This pair of wall lamps, model 324/2, was produced in Sweden during the 1960s for Hans-Agne Jakobsson AB in Markaryd. Executed in polished brass, the lamps are defined by their cylindrical shades mounted on adjustable arms, allowing the light to be directed with precision. The construction conceals the light source within the metal form, producing a warm, downward glow that avoids glare. This pair retains its original manufacturer's sticker, confirming its authenticity.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 153,
+      "name": "Pair of wall lights designed by Bertil Brisholm for GA Berg",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 2900,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-bb-8385-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-bb-8385-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-bb-8385-3.jpg"
+      ],
+      "material": "Brass & Glass",
+      "dimensions": "24×60×50 cm",
+      "description": "Designed in 1938 by Bertil Brisborg for the Swedish manufacturer GA Berg, this pair of wall lights was created as part of a bespoke commission for the LM Ericsson headquarters at Telefonplan in Stockholm. The lamps combine opaline glass shades with refined brass arms, resulting in a balanced interplay between softness and structure. The gently rounded glass diffuses the light evenly, while the angular brass supports introduce a clear architectural presence characteristic of late 1930s Swedish Modern design.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 154,
+      "name": "Pair of wall lamps model V-75 designed by Eje Ahlgren for Bergboms",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 1900,
+      "oldPrice": 2185,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-ea-v-75-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-ea-v-75-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-ea-v-75-3.jpg"
+      ],
+      "material": "Brass & Oak",
+      "dimensions": "20×37×79 cm",
+      "description": "This pair of wall lamps was designed by Eje Ahlgren for Bergboms in the 1960s. Each lamp features a hemispherical shade in polished brass, suspended from a horizontal arm attached to a vertical brass stem. The light source is concealed by a white stepped diffuser, designed to provide an even and glare-free illumination.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 155,
+      "name": "Pair of wall lights for the Gävle Theater",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 4200,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-gt-8128-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-gt-8128-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-gt-8128-3.jpg"
+      ],
+      "material": "Brass & Glass",
+      "dimensions": "46×55×60 cm",
+      "description": "These wall lamps were specially commissioned for the Gävle Theatre, a central hub for the performing arts on Sweden's east coast. Elegantly crafted brass mounts attach the lamps to the wall, and perforated brass detailing at the base of the glass globes allows heat to escape from the light source. The large spherical glass globes diffuse light beautifully, creating a soft, atmospheric glow, while the frosted central glass cylinder ensures an even illumination.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 156,
+      "name": "Pair of wall lamps model V319 designed by Hans Bergström for Ateljé Lyktan",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 2400,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-hb-v319-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-hb-v319-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-hb-v319-3.jpg"
+      ],
+      "material": "Brass",
+      "dimensions": "20×28×22 cm",
+      "description": "Designed in 1947 by Hans Bergström for Ateljé Lyktan, the V319 wall lamps are a refined expression of early Swedish modern lighting. The gently flared, conical brass shades are pared back in form and proportion, reflecting Bergström's conviction that light should be white and shine freely. The brushed brass exterior is paired with a white-lacquered interior, allowing the lamps to cast both directed and softly reflected light.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 157,
+      "name": "Pair of wall lamps 'Model 2389' designed by Josef Frank for Svenskt Tenn",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 3400,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-jf-11661-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-jf-11661-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-jf-11661-3.jpg"
+      ],
+      "material": "Brass",
+      "dimensions": "24×25.5×35 cm",
+      "description": "The Model 2389 wall lamp by Josef Frank, designed in the 1950s for Svenskt Tenn, exemplifies the designer's refined approach to functional elegance and modernist form. Crafted entirely from polished brass, the lamp features a gracefully curved arm and a wide flared shade that reflect Frank's enduring sense of harmony and proportion. Frank viewed lighting as a central part of interior architecture, favouring indirect light and diffused materials that create a soft, inviting atmosphere.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 158,
+      "name": "Pair of wall lights 'model 2565' designed by Josef Frank for Svenskt Tenn",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 3600,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-jf-2565-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-jf-2565-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-jf-2565-3.jpg"
+      ],
+      "material": "Brass & Textile",
+      "dimensions": "38×30×27 cm",
+      "description": "This pair of wall lights, model 2565, was designed by Josef Frank in the 1950s and produced in Sweden for Svenskt Tenn. The design is centred around a circular wall-mounted reflector plate in polished brass, from which two gently curved candle-like arms extend. The reflector subtly returns light back into the room, contributing to an even, atmospheric illumination rather than a direct or glaring effect.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 159,
+      "name": "Pair of 'Musling' wall lamps model L306 manufactured by Lyfa",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 1250,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-lyfa-l306-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-lyfa-l306-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-lyfa-l306-3.jpg"
+      ],
+      "material": "Opal Glass",
+      "dimensions": "22×10×24 cm",
+      "description": "Each lamp features an elegant, organically shaped opal glass shade that diffuses light softly and evenly, creating a warm and atmospheric glow. The sculptural, minimalist form resembles a smooth shell, reflecting the Danish modernist focus on natural inspiration, clean lines, and functional beauty. The use of opal glass highlights Lyfa's dedication to high-quality craftsmanship and its legacy as a key player in Danish lighting.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 160,
+      "name": "Pair of model PH-2/2 wall lamps designed by Poul Henningsen for Louis Poulsen",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 5200,
+      "oldPrice": 5850,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-ph-11385-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-ph-11385-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-ph-11385-3.jpg"
+      ],
+      "material": "Browned Brass & Opaline Glass",
+      "dimensions": "20×35×28 cm",
+      "description": "This pair of wall lamps, model PH 2/2, was designed by Poul Henningsen and produced by Louis Poulsen in Denmark during the 1930s. The shade system follows Henningsen's three-shade principle, here executed in opal glass, designed to diffuse light evenly while reducing glare. The proportions of the 2/2 configuration produce a controlled, downward-directed illumination suitable for domestic or architectural settings.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 161,
+      "name": "Pair of wall lamps designed by Poul Henningsen",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 4800,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-ph-8914-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-ph-8914-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-ph-8914-3.jpg"
+      ],
+      "material": "Lacquered Metal & Amber Glass",
+      "dimensions": "14×14×36.5 cm",
+      "description": "This model of wall lamp by Poul Henningsen was first introduced in 1931 with metal slats, before being further developed in 1934 into a version using glass elements. Each lamp is constructed from a series of vertically stacked, amber-coloured glass panels that form a cylindrical casing around a tubular light source. The layered arrangement diffuses the light evenly, softening its intensity, and surviving pairs with their original glass components are uncommon.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 162,
+      "name": "Pair of wall lamps designed by Palle Suenson for Louis Poulsen",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 2200,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-ps-9030-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-ps-9030-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-ps-9030-3.jpg"
+      ],
+      "material": "Polished Brass & Acrylic",
+      "dimensions": "26×20×26 cm",
+      "description": "This pair of wall lamps was designed in the 1970s by Danish architect Palle Suenson and produced by Louis Poulsen in Denmark. The lamps were originally installed at the Lions College on Tuborgvej in Hellerup, a building designed by Suenson himself, exemplifying his integrated approach to architecture and lighting. Each lamp is formed from a restrained hemispherical composition, combining an upper shade in brass with a lower dome in opaline acrylic that diffuses the light evenly.",
+      "inStock": false,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 163,
+      "name": "Pair of wall lamps 'Model 6200' designed by Paavo Tynell",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 3900,
+      "oldPrice": 4400,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-pt-6200-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-pt-6200-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-pt-6200-3.jpg"
+      ],
+      "material": "Brass",
+      "dimensions": "21×18×50 cm",
+      "description": "These Model 6200 wall lamps reflect Paavo Tynell's ability to combine restraint with atmosphere. Executed in brass, the elongated shades are delicately perforated with small star-shaped motifs and narrow linear openings, allowing the light to filter softly through the surface. When illuminated, the lamps cast a warm and scattered glow across the wall, creating the intimate, almost celestial effect that became one of Tynell's most recognisable signatures.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 164,
+      "name": "Wall light",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 2600,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-re-2208-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-re-2208-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-re-2208-3.jpg"
+      ],
+      "material": "Lacquered Metal & Glass",
+      "dimensions": "119×8×58 cm",
+      "description": "This wall-mounted light was produced in Sweden during the 1980s and consists of a large rectangular metal panel onto which three square elements of varying sizes are mounted in relief. Each square is finished in a different colour — red, green, and black — and conceals an integrated light source that emits indirect illumination onto the surrounding wall surface. The lighting is directed laterally and upward, producing controlled light reflections and soft halos, and the piece is signed.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 165,
+      "name": "Monumental wall lamps designed by Sten Hummel Gumalieus",
+      "category": "lighting",
+      "subcategory": "wall-lamps",
+      "price": 6800,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-wall-lamps-model-shg-6012-1.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-shg-6012-2.jpg",
+        "/src/assets/images/products/lighting-wall-lamps-model-shg-6012-3.jpg"
+      ],
+      "material": "Copper & Opaline Glass",
+      "dimensions": "92×56×85 cm",
+      "description": "Designed in Sweden during the 1950s by architect Sten Hummel Gumaelius, this large-scale wall lamp is fitted with tall opaline glass elements that soften and distribute the light evenly, creating a subdued, non-glare illumination. The model was originally developed for Norrstrandskyrkan in Karlstad, a church building also designed by Hummel Gumaelius and completed at the end of the decade. The lamp was conceived as an integral part of the interior, reflecting a holistic design approach in which lighting was considered inseparable from the architecture itself.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 166,
+      "name": "Floor lamp",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 6746,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-2535-re-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-2535-re-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-2535-re-3.jpg"
+      ],
+      "material": "Carved Gilded Wood, Brass & Silk",
+      "dimensions": null,
+      "description": "This floor lamp is an elegant example of Swedish Grace, distinguished by its refined classical references and careful craftsmanship. The carved wooden structure is finished in gilt, rising from a quatrefoil base supported by lion's paw feet and articulated with turned and carved details along the stem. The lamp retains its original two-part silk shade, which softens the light and reinforces the period character of the piece. Standing 245 cm tall, it is reportedly associated with the former Hotel Anglais in Stockholm and the design is often attributed to Helge Werner.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 167,
+      "name": "Floor lamp 'Model 2564' designed by Josef Frank for Svenskt Tenn",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 5200,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-2564-jf-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-2564-jf-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-2564-jf-3.jpg"
+      ],
+      "material": "Brass, Lacquered Metal & Turned Wood",
+      "dimensions": "40×40×142 cm",
+      "description": "Floor lamp Model 2564 by Josef Frank was designed for Svenskt Tenn and exemplifies his measured approach to materials, proportion and function. This example is executed in brass with an adjustable stem, the circular base raised on finely turned wooden feet, a distinctive detail that introduces warmth and visual lightness. The plain fabric shade reflects Frank's interest in material contrast and balance, and the lamp is stamped by the manufacturer.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 168,
+      "name": "Floor lamp 'Model 2564' designed by Josef Frank for Svenskt Tenn",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 5400,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-2564-jf-svenskt-team-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-2564-jf-svenskt-team-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-2564-jf-svenskt-team-3.jpg"
+      ],
+      "material": "Brass, Black Lacquered Metal & Turned Wood",
+      "dimensions": "40×40×142 cm",
+      "description": "Floor lamp Model 2564 by Josef Frank was designed for Svenskt Tenn and exemplifies his measured approach to materials, proportion and function. Executed in brass with black-lacquered details and raised on finely turned wooden feet, this example retains its original dark green metal shade, contributing to the authenticity of the piece. The adjustable stem allows the height and light distribution to be adapted to different interior settings.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 169,
+      "name": "Floor lamp",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 2652,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-8206-re-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-8206-re-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-8206-re-3.jpg"
+      ],
+      "material": "Brass, Leather & Fabric",
+      "dimensions": "40×40×186 cm",
+      "description": "This floor lamp is an expressive example of Scandinavian functionalist lighting, where adjustability, material honesty and restrained form were central to design thinking. The construction combines a brass structure with a leather-wrapped central stem, supporting an adjustable arm and height mechanism that allows the light to be positioned precisely according to use. The height varies between 118 and 186 cm, and the fabric shade spreads a soft, even illumination in keeping with the era's ideal of glare-free light.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 170,
+      "name": "Pair of floor lamps model 9602 designed by Paavo Tynell for Taito Oy",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 6400,
+      "oldPrice": 7200,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-9602-pt-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-9602-pt-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-9602-pt-3.jpg"
+      ],
+      "material": "Brass, Cane & Rattan",
+      "dimensions": "65.5×65.5×152 cm",
+      "description": "Floor lamp 9602, often referred to as the Chinese Hat, was designed by Paavo Tynell in 1935 for the iconic Hotel Aulanko. Distinguished by its light, graceful rattan shade and cane-covered brass pole, the lamp combines refined elegance with a natural touch. The soft, diffused glow brings a serene and inviting atmosphere to a space, and this pair is stamped Taito Idman and Taito 9602 on the frames.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 171,
+      "name": "Floor lamp A810 designed by Alvar Aalto for Valaisinpaja",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 4452,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-a810-aa-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-a810-aa-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-a810-aa-3.jpg"
+      ],
+      "material": "Lacquered Metal & Leather",
+      "dimensions": null,
+      "description": "This popular floor light features two hand-riveted shades, each formed from delicate lacquered metal strips, presenting a striking combination of lines and curves and an interesting interplay of direct and indirect light. The stand is finished in hand-sewn black leather, while the neck has a polished brass collar. Floor Light A810 was created by Alvar Aalto in 1959 for the National Pensions Institute in Helsinki, and this example stands 165 cm tall.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 172,
+      "name": "Floor lamp designed by Alf Svensson for Bergboms",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 1753,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-alf-11721-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-alf-11721-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-alf-11721-3.jpg"
+      ],
+      "material": "Teak, Leather & Textile",
+      "dimensions": "32×32×142.5 cm",
+      "description": "This floor lamp by Alf Svensson for Bergboms is a refined example of Swedish mid-century lighting, combining warm teak, a softly diffused textile shade and stitched leather bindings. The slender tripod structure highlights the natural beauty of the teak, with its rich grain creating a sense of balance between the architectural frame and the lighter, more delicate character of the shade. The design flawlessly reflects Svensson's interpretation of organic modernism, where natural materials and functional simplicity are brought together through elegant proportions.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 173,
+      "name": "Floor lamp for ASEA Belysning",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 6742,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-asea-belysning-8773-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-asea-belysning-8773-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-asea-belysning-8773-3.jpg"
+      ],
+      "material": "Brass",
+      "dimensions": "24×24×115 cm",
+      "description": "This ASEA brass floor lamp exemplifies the restrained elegance of Swedish mid-century lighting. The round brass-clad base conceals an internal iron weight and rests on four discreet low feet, giving the lamp visual lightness while ensuring stability. The straight column supports a slender lateral arm, meeting in adjustable joints that allow the light to be raised, lowered and swung to the side with ease, while the domed pressed-brass shade focuses the light gently downward. Marked in the casting ASEA 741118.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 174,
+      "name": "Floor lamp 'Bridge' designed by Severin Hansen Jr.",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 1800,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-bridge-sh-jr-11598-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-bridge-sh-jr-11598-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-bridge-sh-jr-11598-3.jpg"
+      ],
+      "material": "Beech & Acrylic",
+      "dimensions": "50×50×157 cm",
+      "description": "The Bridge floor lamp, designed by Severin Hansen Jr for Haslev Møbelsnedkeri in Denmark during the 1950s, exemplifies the refined craftsmanship and organic minimalism of mid-century Scandinavian design. The gently curved, elongated beech stem mirrors the upward growth of a tree trunk, narrowing gracefully toward its brass-mounted top, above which hangs a hand-folded Le Klint pleated shade. The slender tripod base spreads outward in perfect balance, and the switch is subtly integrated between the legs for convenient foot operation.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 175,
+      "name": "Floor lamp model G-33 'Grasshopper' designed by Greta Magnusson Grossman for Bergboms",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 11237,
+      "oldPrice": 12900,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-g33-grasshopper-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-g33-grasshopper-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-g33-grasshopper-3.jpg"
+      ],
+      "material": "Brass & Lacquered Metal",
+      "dimensions": null,
+      "description": "The Grasshopper lamp gets its name from its insect-like posture: a dynamic tripod base with a long, angled tubular stem that leans back slightly, supporting an elongated conical shade. This example pairs the brass structure with a black lacquered metal shade and stands 123 cm tall. Greta Magnusson Grossman was a pioneering designer and architect whose work bridged the clean modernism of Scandinavia with a more relaxed California, where she moved in the 1940s and became one of the few women to gain recognition in architecture and industrial design. Designed for Bergboms in Sweden during the 1950s, the lamp is stamped by the manufacturer.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 176,
+      "name": "Floor lamp 'K10-2' designed by Maria Lindeman",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 2653,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-h10-2-ml-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-h10-2-ml-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-h10-2-ml-3.jpg"
+      ],
+      "material": "Lacquered Metal & Brass",
+      "dimensions": "22×22×140 cm",
+      "description": "Designed by Maria Lindeman in the 1950s, the K10-2 floor lamp is a refined example of Finnish mid-century lighting. The composition balances a slender black-lacquered stem with polished brass details, while the two adjustable shades allow the light to be directed as needed. Lindeman was trained in Helsinki and became closely associated with Idman, Finland's leading lighting manufacturer of the time.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 177,
+      "name": "Floor lamp 'Model H801' designed by Viljo Hirvonen for Valaistustyö",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 1500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-h801-vh-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-h801-vh-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-h801-vh-3.jpg"
+      ],
+      "material": "Leather, Painted Metal & Brass",
+      "dimensions": "60×60×160 cm",
+      "description": "This Model H801 floor lamp was designed by Viljo Hirvonen and produced by Valaistustyö in Finland during the 1970s. The design combines a black leather-wrapped base and vertical shaft with white painted metal shades and polished brass details. The counterweighted arms can be repositioned both vertically and directionally, allowing the lamp to function as both task and ambient lighting. The base is stamped Valaistustyö.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 178,
+      "name": "Floor lamp 'Model 2564' designed by Josef Frank for Svenskt Tenn",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 5600,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-jf11710-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-jf11710-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-jf11710-3.jpg"
+      ],
+      "material": "Brass & Fabric",
+      "dimensions": "42×42×150 cm",
+      "description": "Floor lamp Model 2564 by Josef Frank was designed for Svenskt Tenn and exemplifies his measured approach to materials, proportion and function. The frame is executed in brass, partially black-lacquered, with an adjustable stem that allows the height and light distribution to be adapted to different settings. The shade is covered in Tulpan fabric, adding a rich floral layer to the understated brass construction, and the lamp is stamped by the manufacturer.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 179,
+      "name": "PH 7 floor lamp designed by Poul Henningsen for Louis Poulsen",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 5200,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-ph-35-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-ph-35-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-ph-35-3.jpg"
+      ],
+      "material": "Brass, Glass & Bakelite",
+      "dimensions": "28×28×143 cm",
+      "description": "This PH 7 floor lamp was designed by Poul Henningsen in 1933 and produced by Louis Poulsen in Denmark. The lamp combines a slender stem with a circular base, a bakelite socket and a set of hand-blown frosted glass shades mounted on a curved arm that positions the light precisely where needed. The carefully calculated shade proportions direct the majority of the light downward without exposing the bulb, making it ideal for reading while still providing a soft ambient glow. Marked with the patent stamp.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 180,
+      "name": "PH 'Waterpump' designed by Poul Henningsen for Louis Poulsen",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 9800,
+      "oldPrice": 11000,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-ph-w-aterpump-33-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-ph-w-aterpump-33-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-ph-w-aterpump-33-3.jpg"
+      ],
+      "material": "Brass, Copper & Glass",
+      "dimensions": "32×32×180 cm",
+      "description": "The PH Waterpump floor lamp is one of Poul Henningsen's most distinctive reading lights, recognised for its mechanical, almost industrial profile. The long, adjustable arm is raised and lowered by a levered mechanism, a silhouette that quickly earned the lamp its nickname recalling a traditional hand-operated water pump. At the head sits Henningsen's characteristic layered shade system in copper and glass, developed to eliminate glare and distribute light in controlled reflections. First imagined during the war, the earliest models feature a switch integrated into the rocker arm.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 181,
+      "name": "Floor lamp model THV-376 designed by TH. Valentiner for Poul Dinesen",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 6746,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-thv376-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-thv376-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-thv376-3.jpg"
+      ],
+      "material": "Patinated Brass & Lacquered Metal",
+      "dimensions": "33×33×133 cm",
+      "description": "Crafted from brass, though on occasion found in nickel-plated variants, this fully adjustable floor lamp is a perfectly balanced and understated design. Model THV-376 was produced by Poul Dinesen in Denmark during the 1960s, its slender stem crowned by a deep green lacquered metal shade. TH Valentiner is an elusive designer, the only trace of them being the stamped initials on the base of each lamp produced by Poul Dinesen.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 182,
+      "name": "Floor lamp model 376 designed by TH. Valentiner for Poul Dinesen",
+      "category": "lighting",
+      "subcategory": "floor-lamps",
+      "price": 4947,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-floor-lamps-model-thv376-ph-1.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-thv376-ph-2.jpg",
+        "/src/assets/images/products/lighting-floor-lamps-model-thv376-ph-3.jpg"
+      ],
+      "material": "Brass & Lacquered Metal",
+      "dimensions": "33×33×146 cm",
+      "description": "Floor lamp Model 376 was designed by TH Valentiner for Poul Dinesen in Denmark during the 1960s. The lamp combines refined Scandinavian minimalism with precise craftsmanship, featuring a slender adjustable brass arm and stem supporting a conical shade in lacquered metal. The warm brass surface pairs beautifully with the crisp white shade, creating a timeless interplay between light and form suited to both classic and contemporary interiors.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 183,
+      "name": "Table lamp 'model 2434' designed by Josef Frank for Svenskt Tenn",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 2652,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-2434-jfs-222-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-2434-jfs-222-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-2434-jfs-222-3.jpg"
+      ],
+      "material": "Brass & Black Lacquered Metal",
+      "dimensions": "53×18×58 cm",
+      "description": "Table lamp model 2434 was designed by Josef Frank in 1939 and produced by Svenskt Tenn. A circular brass base supports a black-lacquered vertical stem, from the upper section of which a flexible brass gooseneck arm extends to carry a colourful conical shade that allows the light to be directed. Model 2434 fits within Svenskt Tenn’s human-centred approach to modern design as a compact, functional lamp intended for everyday use.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 184,
+      "name": "Table lamp model 2466 designed by Josef Frank for Svenskt Tenn",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 2652,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-7683-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-7683-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-7683-3.jpg"
+      ],
+      "material": "Brass & Metal",
+      "dimensions": "40×18.5×56 cm",
+      "description": "An understated and timeless design, the model 2466 by Josef Frank is found in both a table lamp and a floor lamp silhouette. The brass base structure is encased by lacquered metal, often in a white, black or green tone, with a range of different lampshades available. The simplicity of the design is emblematic of Frank’s lightweight and elegant ideals, reflecting his belief that the home should be personal and comfortable.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 185,
+      "name": "Model 2466 table lamp designed by Josef Frank, Svenskt Tenn",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 2690,
+      "oldPrice": 2985,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-8242-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-8242-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-8242-3.jpg"
+      ],
+      "material": "Brass & Silk Shade",
+      "dimensions": "44×44×66 cm",
+      "description": "A refined and timeless design, Josef Frank’s model 2466 is available as both a table and a floor lamp. Its brass base is encased in lacquered metal and complemented by a silk shade, embodying Frank’s vision of lightweight and elegant design. Frank joined Svenskt Tenn in the 1930s, introducing a vibrant and expressive design language that brought warmth and character to interiors.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 186,
+      "name": "Table lamp model 2468 designed by Josef Frank for Svenskt Tenn",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 2870,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-2468-jf-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-2468-jf-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-2468-jf-3.jpg"
+      ],
+      "material": "Brass & Cotton Shades",
+      "dimensions": "37.5×37.5×55 cm",
+      "description": "Table lamp model 2468 was designed by Josef Frank in the 1950s and is characterised by its coloured shades, a feature that led to its long-standing nickname, the traffic light lamp. In Frank’s original drawings the shades were conceived in different colours and arranged vertically to create a clear and balanced distribution of light. The lamp combines a playful use of colour with a carefully proportioned structure, making it distinctive within mid-century Scandinavian lighting.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 187,
+      "name": "Table lamp 'Model 61052' designed by Mauri Almari for Idman",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 2921,
+      "oldPrice": 3295,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-61052-ma-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-61052-ma-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-61052-ma-3.jpg"
+      ],
+      "material": "Brass & Rattan",
+      "dimensions": "20×20×47 cm",
+      "description": "Table lamp model 61052, designed by Mauri Almari in the 1950s, is a refined example of Finnish mid-century lighting where material and atmosphere are closely intertwined. The slender brass frame rises from three looping feet, while the shade is built from closely spaced vertical slats in rattan that filter the light into a gentle interplay of light and shadow. Almari was a central figure in Finnish lighting design, and his work for Idman balances functionality with the atmospheric quality that became a defining aspect of Scandinavian modern lighting.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 188,
+      "name": "Pair of table lamps",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 4045,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-8257-11204-re-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-8257-11204-re-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-8257-11204-re-3.jpg"
+      ],
+      "material": "Brass & Fabric Shades",
+      "dimensions": "15×15×57 cm",
+      "description": "This pair of Swedish table lamps from the 1940s features slender brass columns rising from splayed tripod bases with turned ball details. Each lamp is crowned by a compact off-white fabric shade that spreads an even, diffused light, allowing the pair to work equally well together on a sideboard or separated across a room. The restrained geometry and honest brass finish are characteristic of Swedish design of the period.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 189,
+      "name": "Table lamp model B-075 designed by Eje Ahlgren for Bergboms",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 2480,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-b075-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-b075-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-b075-3.jpg"
+      ],
+      "material": "Brass & White Lacquered Shade",
+      "dimensions": "20.5×20.5×51 cm",
+      "description": "With its sculptural, rounded shade and playful proportions, the B-075 is an outstanding example of Scandinavian mid-century lighting design. The clean construction features a small rod at the top of the shade that allows the light direction to be easily adjusted, and the model belongs to a series of floor and wall lamps sharing the same distinctive shade form. Eje Ahlgren was one of the principal designers at Bergboms during the 1950s and 1960s, the modernist Swedish manufacturer that famously produced Greta Magnusson Grossman’s original Grasshopper lamp.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 190,
+      "name": "Table lamp model B-275 designed by Hans-Agne Jakobsson for Markaryd",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 1753,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-b275-haj-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-b275-haj-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-b275-haj-3.jpg"
+      ],
+      "material": "Brass & White Lacquered Metal",
+      "dimensions": "26×26×70 cm",
+      "description": "Designed by Hans-Agne Jakobsson, table lamp B-275 exemplifies his enduring commitment to soft, carefully controlled light and functional clarity. The adjustable spherical shade is mounted on a gently curved brass arm, directing the light with precision while maintaining the glare-free illumination for which Jakobsson is best known. His background as an industrial designer informed a language shaped by Organic Modernism, where comfort and visual ease were placed above technical display.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 191,
+      "name": "Rare 'Helmet' table lamp model 9209 designed by Paavo Tynell",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 29219,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-helmet-pt-8197-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-helmet-pt-8197-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-helmet-pt-8197-3.jpg"
+      ],
+      "material": "Brass & Rattan-Wrapped Stem",
+      "dimensions": "27×27×39 cm",
+      "description": "The Helmet table lamp model 9209 was designed by Paavo Tynell in 1950 and stands among the most distinctive Finnish lights of its era. The sleek perforated brass dome casts a warm glow and subtle light patterns, while the rattan-wrapped stem introduces a tactile contrast to the metallic shade and base. Tynell, often called the Poet of Light, played a pivotal role in shaping modern Scandinavian lighting by combining traditional craftsmanship with modern aesthetics.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 192,
+      "name": "Table lamp designed by Per B. Sundberg for Orrefors",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 4450,
+      "oldPrice": 4975,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-pbs-1095-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-pbs-1095-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-pbs-1095-3.jpg"
+      ],
+      "material": "Glass, Steel & Cord",
+      "dimensions": "36×9×64 cm",
+      "description": "This lamp from 2004 exemplifies Per B. Sundberg’s idiosyncratic approach to combining image, function and form, created during his time at Orrefors. The cast glass base is engraved with a comic-style scene of a jeep speeding through a rural setting, while a red electrical cord is routed along the contours of the base to become part of the composition. The vertical metal stem and white lampshade balance the playful irreverence of the base with a restrained functional profile.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 193,
+      "name": "PH 'Question mark' table lamp designed by Poul Henningsen for Louis Poulsen",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 5850,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-ph-43-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-ph-43-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-ph-43-3.jpg"
+      ],
+      "material": "Amber Glass, Bakelite & Patinated Brass",
+      "dimensions": "20×20×42 cm",
+      "description": "Introduced in 1931, the PH Question Mark table lamp takes its name from the gently curved brass stem that gives the piece both its character and its function. The lamp is built on Henningsen’s seminal three-shade system, here executed in amber-tinted mouthblown glass that conceals the light source and distributes a warm, glare-free glow. The adjustable lamp head swivels along the curve of the stem, exemplifying Henningsen’s belief that good lighting should be both technically precise and visually calm. This example was produced after 1939 and is stamped patented.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": true,
+      "isFeatured": true
+    },
+    {
+      "id": 194,
+      "name": "PH 4/3 table lamp designed by Poul Henningsen for Louis Poulsen",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 2940,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-ph43-8855-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-ph43-8855-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-ph43-8855-3.jpg"
+      ],
+      "material": "Brass & Painted Copper Shades",
+      "dimensions": "40×40×55 cm",
+      "description": "The PH 4/3 table lamp is part of Poul Henningsen’s systematic development of glare-free electric lighting, manufactured by Louis Poulsen from 1926. It belongs to the PH family based on the three-shade principle, where carefully proportioned shades screen the light source and distribute light downward and laterally without exposing the bulb. The designation 4/3 refers to the diameter of the main upper shade and the proportional relationship of the lower shades within the PH system.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 195,
+      "name": "Sculptural table lamp designed by Paul Kedelv for AB Flygsfors Glasbruk",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 1483,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-sculptural-pk-7939-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-sculptural-pk-7939-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-sculptural-pk-7939-3.jpg"
+      ],
+      "material": "Glass, Wood & Brass",
+      "dimensions": "16×10×28.5 cm",
+      "description": "Designed by Paul Kedelv for AB Flygsfors Glasbruk in the 1960s, this sculptural table lamp exemplifies the expressive direction of Swedish studio glass during the post-war period. The boldly modelled glass body, rendered in a deep red tone and shaped as an abstracted female torso, is raised on a contrasting dark base stamped by Kedelv. Trained at Orrefors under Simon Gate and Edward Hald, Kedelv developed a highly individual language of fluid forms and vivid colour, frequently using the underfång technique in which layers of coloured glass are encased within clear glass.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 196,
+      "name": "Adjustable table lamp designed by TH. Valentiner for Poul Dinesen",
+      "category": "lighting",
+      "subcategory": "table-lamps",
+      "price": 3551,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/lighting-table-lamps-model-th-8642-pd-1.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-th-8642-pd-2.jpg",
+        "/src/assets/images/products/lighting-table-lamps-model-th-8642-pd-3.jpg"
+      ],
+      "material": "Satin Chromed Metal & Fabric Shade",
+      "dimensions": "20×18×61.5 cm",
+      "description": "This adjustable table lamp was designed by TH. Valentiner for the Danish manufacturer Poul Dinesen in the 1960s. A slender satin-chromed stem rises from a round base and carries a compact fabric shade that can be tilted to direct the light precisely where needed. The crisp geometry and exacting finish reflect the precise Danish craftsmanship for which both Valentiner and Poul Dinesen are known.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
     }
   ]
 }

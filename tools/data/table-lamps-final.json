@@ -1,0 +1,282 @@
+[
+  {
+    "id": 183,
+    "name": "Table lamp 'model 2434' designed by Josef Frank for Svenskt Tenn",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 2652,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-2434-jfs-222-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-2434-jfs-222-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-2434-jfs-222-3.jpg"
+    ],
+    "material": "Brass & Black Lacquered Metal",
+    "dimensions": "53×18×58 cm",
+    "description": "Table lamp model 2434 was designed by Josef Frank in 1939 and produced by Svenskt Tenn. A circular brass base supports a black-lacquered vertical stem, from the upper section of which a flexible brass gooseneck arm extends to carry a colourful conical shade that allows the light to be directed. Model 2434 fits within Svenskt Tenn’s human-centred approach to modern design as a compact, functional lamp intended for everyday use.",
+    "inStock": true,
+    "rating": 4.6,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 184,
+    "name": "Table lamp model 2466 designed by Josef Frank for Svenskt Tenn",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 2652,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-7683-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-7683-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-7683-3.jpg"
+    ],
+    "material": "Brass & Metal",
+    "dimensions": "40×18.5×56 cm",
+    "description": "An understated and timeless design, the model 2466 by Josef Frank is found in both a table lamp and a floor lamp silhouette. The brass base structure is encased by lacquered metal, often in a white, black or green tone, with a range of different lampshades available. The simplicity of the design is emblematic of Frank’s lightweight and elegant ideals, reflecting his belief that the home should be personal and comfortable.",
+    "inStock": true,
+    "rating": 4.4,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 185,
+    "name": "Model 2466 table lamp designed by Josef Frank, Svenskt Tenn",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 2690,
+    "oldPrice": 2985,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-8242-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-8242-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-2466-jfs-8242-3.jpg"
+    ],
+    "material": "Brass & Silk Shade",
+    "dimensions": "44×44×66 cm",
+    "description": "A refined and timeless design, Josef Frank’s model 2466 is available as both a table and a floor lamp. Its brass base is encased in lacquered metal and complemented by a silk shade, embodying Frank’s vision of lightweight and elegant design. Frank joined Svenskt Tenn in the 1930s, introducing a vibrant and expressive design language that brought warmth and character to interiors.",
+    "inStock": true,
+    "rating": 4.5,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 186,
+    "name": "Table lamp model 2468 designed by Josef Frank for Svenskt Tenn",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 2870,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-2468-jf-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-2468-jf-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-2468-jf-3.jpg"
+    ],
+    "material": "Brass & Cotton Shades",
+    "dimensions": "37.5×37.5×55 cm",
+    "description": "Table lamp model 2468 was designed by Josef Frank in the 1950s and is characterised by its coloured shades, a feature that led to its long-standing nickname, the traffic light lamp. In Frank’s original drawings the shades were conceived in different colours and arranged vertically to create a clear and balanced distribution of light. The lamp combines a playful use of colour with a carefully proportioned structure, making it distinctive within mid-century Scandinavian lighting.",
+    "inStock": true,
+    "rating": 4.7,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 187,
+    "name": "Table lamp 'Model 61052' designed by Mauri Almari for Idman",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 2921,
+    "oldPrice": 3295,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-61052-ma-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-61052-ma-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-61052-ma-3.jpg"
+    ],
+    "material": "Brass & Rattan",
+    "dimensions": "20×20×47 cm",
+    "description": "Table lamp model 61052, designed by Mauri Almari in the 1950s, is a refined example of Finnish mid-century lighting where material and atmosphere are closely intertwined. The slender brass frame rises from three looping feet, while the shade is built from closely spaced vertical slats in rattan that filter the light into a gentle interplay of light and shadow. Almari was a central figure in Finnish lighting design, and his work for Idman balances functionality with the atmospheric quality that became a defining aspect of Scandinavian modern lighting.",
+    "inStock": true,
+    "rating": 4.5,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 188,
+    "name": "Pair of table lamps",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 4045,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-8257-11204-re-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-8257-11204-re-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-8257-11204-re-3.jpg"
+    ],
+    "material": "Brass & Fabric Shades",
+    "dimensions": "15×15×57 cm",
+    "description": "This pair of Swedish table lamps from the 1940s features slender brass columns rising from splayed tripod bases with turned ball details. Each lamp is crowned by a compact off-white fabric shade that spreads an even, diffused light, allowing the pair to work equally well together on a sideboard or separated across a room. The restrained geometry and honest brass finish are characteristic of Swedish design of the period.",
+    "inStock": true,
+    "rating": 4.3,
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 189,
+    "name": "Table lamp model B-075 designed by Eje Ahlgren for Bergboms",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 2480,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-b075-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-b075-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-b075-3.jpg"
+    ],
+    "material": "Brass & White Lacquered Shade",
+    "dimensions": "20.5×20.5×51 cm",
+    "description": "With its sculptural, rounded shade and playful proportions, the B-075 is an outstanding example of Scandinavian mid-century lighting design. The clean construction features a small rod at the top of the shade that allows the light direction to be easily adjusted, and the model belongs to a series of floor and wall lamps sharing the same distinctive shade form. Eje Ahlgren was one of the principal designers at Bergboms during the 1950s and 1960s, the modernist Swedish manufacturer that famously produced Greta Magnusson Grossman’s original Grasshopper lamp.",
+    "inStock": true,
+    "rating": 4.6,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 190,
+    "name": "Table lamp model B-275 designed by Hans-Agne Jakobsson for Markaryd",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 1753,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-b275-haj-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-b275-haj-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-b275-haj-3.jpg"
+    ],
+    "material": "Brass & White Lacquered Metal",
+    "dimensions": "26×26×70 cm",
+    "description": "Designed by Hans-Agne Jakobsson, table lamp B-275 exemplifies his enduring commitment to soft, carefully controlled light and functional clarity. The adjustable spherical shade is mounted on a gently curved brass arm, directing the light with precision while maintaining the glare-free illumination for which Jakobsson is best known. His background as an industrial designer informed a language shaped by Organic Modernism, where comfort and visual ease were placed above technical display.",
+    "inStock": true,
+    "rating": 4.4,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 191,
+    "name": "Rare 'Helmet' table lamp model 9209 designed by Paavo Tynell",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 29219,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-helmet-pt-8197-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-helmet-pt-8197-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-helmet-pt-8197-3.jpg"
+    ],
+    "material": "Brass & Rattan-Wrapped Stem",
+    "dimensions": "27×27×39 cm",
+    "description": "The Helmet table lamp model 9209 was designed by Paavo Tynell in 1950 and stands among the most distinctive Finnish lights of its era. The sleek perforated brass dome casts a warm glow and subtle light patterns, while the rattan-wrapped stem introduces a tactile contrast to the metallic shade and base. Tynell, often called the Poet of Light, played a pivotal role in shaping modern Scandinavian lighting by combining traditional craftsmanship with modern aesthetics.",
+    "inStock": true,
+    "rating": 4.9,
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 192,
+    "name": "Table lamp designed by Per B. Sundberg for Orrefors",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 4450,
+    "oldPrice": 4975,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-pbs-1095-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-pbs-1095-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-pbs-1095-3.jpg"
+    ],
+    "material": "Glass, Steel & Cord",
+    "dimensions": "36×9×64 cm",
+    "description": "This lamp from 2004 exemplifies Per B. Sundberg’s idiosyncratic approach to combining image, function and form, created during his time at Orrefors. The cast glass base is engraved with a comic-style scene of a jeep speeding through a rural setting, while a red electrical cord is routed along the contours of the base to become part of the composition. The vertical metal stem and white lampshade balance the playful irreverence of the base with a restrained functional profile.",
+    "inStock": true,
+    "rating": 4.5,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 193,
+    "name": "PH 'Question mark' table lamp designed by Poul Henningsen for Louis Poulsen",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 5850,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-ph-43-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-ph-43-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-ph-43-3.jpg"
+    ],
+    "material": "Amber Glass, Bakelite & Patinated Brass",
+    "dimensions": "20×20×42 cm",
+    "description": "Introduced in 1931, the PH Question Mark table lamp takes its name from the gently curved brass stem that gives the piece both its character and its function. The lamp is built on Henningsen’s seminal three-shade system, here executed in amber-tinted mouthblown glass that conceals the light source and distributes a warm, glare-free glow. The adjustable lamp head swivels along the curve of the stem, exemplifying Henningsen’s belief that good lighting should be both technically precise and visually calm. This example was produced after 1939 and is stamped patented.",
+    "inStock": true,
+    "rating": 4.9,
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 194,
+    "name": "PH 4/3 table lamp designed by Poul Henningsen for Louis Poulsen",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 2940,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-ph43-8855-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-ph43-8855-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-ph43-8855-3.jpg"
+    ],
+    "material": "Brass & Painted Copper Shades",
+    "dimensions": "40×40×55 cm",
+    "description": "The PH 4/3 table lamp is part of Poul Henningsen’s systematic development of glare-free electric lighting, manufactured by Louis Poulsen from 1926. It belongs to the PH family based on the three-shade principle, where carefully proportioned shades screen the light source and distribute light downward and laterally without exposing the bulb. The designation 4/3 refers to the diameter of the main upper shade and the proportional relationship of the lower shades within the PH system.",
+    "inStock": true,
+    "rating": 4.6,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 195,
+    "name": "Sculptural table lamp designed by Paul Kedelv for AB Flygsfors Glasbruk",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 1483,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-sculptural-pk-7939-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-sculptural-pk-7939-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-sculptural-pk-7939-3.jpg"
+    ],
+    "material": "Glass, Wood & Brass",
+    "dimensions": "16×10×28.5 cm",
+    "description": "Designed by Paul Kedelv for AB Flygsfors Glasbruk in the 1960s, this sculptural table lamp exemplifies the expressive direction of Swedish studio glass during the post-war period. The boldly modelled glass body, rendered in a deep red tone and shaped as an abstracted female torso, is raised on a contrasting dark base stamped by Kedelv. Trained at Orrefors under Simon Gate and Edward Hald, Kedelv developed a highly individual language of fluid forms and vivid colour, frequently using the underfång technique in which layers of coloured glass are encased within clear glass.",
+    "inStock": true,
+    "rating": 4.7,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 196,
+    "name": "Adjustable table lamp designed by TH. Valentiner for Poul Dinesen",
+    "category": "lighting",
+    "subcategory": "table-lamps",
+    "price": 3551,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/lighting-table-lamps-model-th-8642-pd-1.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-th-8642-pd-2.jpg",
+      "/src/assets/images/products/lighting-table-lamps-model-th-8642-pd-3.jpg"
+    ],
+    "material": "Satin Chromed Metal & Fabric Shade",
+    "dimensions": "20×18×61.5 cm",
+    "description": "This adjustable table lamp was designed by TH. Valentiner for the Danish manufacturer Poul Dinesen in the 1960s. A slender satin-chromed stem rises from a round base and carries a compact fabric shade that can be tilted to direct the light precisely where needed. The crisp geometry and exacting finish reflect the precise Danish craftsmanship for which both Valentiner and Poul Dinesen are known.",
+    "inStock": true,
+    "rating": 4.4,
+    "isNew": false,
+    "isFeatured": false
+  }
+]

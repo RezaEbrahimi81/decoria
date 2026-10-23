@@ -1,0 +1,119 @@
+[
+  {
+    "name": "All Furniture",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/furniture"
+  },
+  {
+    "name": "All Jewellery",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/jewellery"
+  },
+  {
+    "name": "All Glass",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/glass"
+  },
+  {
+    "name": "All Ceramics",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/ceramics"
+  },
+  {
+    "name": "All Lighting",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/lighting"
+  },
+  {
+    "name": "All Art",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/art"
+  },
+  {
+    "name": "All Textile",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/textile"
+  },
+  {
+    "name": "All Various",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/various"
+  },
+  {
+    "name": "Ceiling lamps",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/lighting/ceiling-lamps"
+  },
+  {
+    "name": "Wall lamps",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/lighting/wall-lamps"
+  },
+  {
+    "name": "Floor lamps",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/lighting/floor-lamps"
+  },
+  {
+    "name": "Table lamps",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/lighting/table-lamps"
+  },
+  {
+    "name": "Previously sold",
+    "price": null,
+    "currency": null,
+    "description": null,
+    "material": null,
+    "dimensions": null,
+    "url": "https://www.modernity.se/products/lighting/previously-sold"
+  }
+]

@@ -2683,6 +2683,372 @@
           "isFeatured": false
         }
       ]
+    },
+    {
+      "batch": "ceiling-lamps",
+      "count": 18,
+      "products": [
+        {
+          "id": 134,
+          "name": "Ceiling lamp",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 2634,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-anonymous-sweden1930s-model-7964-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-anonymous-sweden1930s-model-7964-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-anonymous-sweden1930s-model-7964-3.jpg"
+          ],
+          "material": "Glass",
+          "dimensions": "40×40×12 cm",
+          "description": "This ceiling lamp is a refined example of Swedish Grace from the 1930s, characterised by its restrained form enriched with decorative detail. The fixture is composed of a circular disc of green-toned glass, often referred to as råglas , etched with stylised stork motifs arranged in a rhythmic, symmetrical composition.",
+          "inStock": true,
+          "rating": 4.5,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 135,
+          "name": "Artichoke pendant",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 2400,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-artichoke-model-ph-8792-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-artichoke-model-ph-8792-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-artichoke-model-ph-8792-3.jpg"
+          ],
+          "material": "Copper & Steel",
+          "dimensions": "60×60×55 cm",
+          "description": "Sculptural artichoke pendant with concentric tiers of patinated copper leaves around a steel core, in the manner of Poul Henningsen.",
+          "inStock": true,
+          "rating": 4.6,
+          "isNew": true,
+          "isFeatured": true
+        },
+        {
+          "id": 136,
+          "name": "Ceiling lamp model A335B designed by Alvar Aalto for Valaistustyö",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 3259,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-beeehive-model-a332-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-beeehive-model-a332-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-beeehive-model-a332-3.jpg"
+          ],
+          "material": "Brass & Lacquer",
+          "dimensions": "33×33×42 cm",
+          "description": "Designed by Alvar Aalto for the Finnish manufacturer Valaistustyö, the 'A335B' ceiling lamp is a distinctive example of his later lighting work. Formed in pressed metal, the lamp is defined by its domed silhouette and the characteristic perforated lower section, which allows light to escape downward in a controlled and rhythmic pattern while maintaining a soft overall glow.",
+          "inStock": true,
+          "rating": 4.7,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 137,
+          "name": "Six-arm brass chandelier",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 2250,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-chandelier-model-ph-9078-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-chandelier-model-ph-9078-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-chandelier-model-ph-9078-3.jpg"
+          ],
+          "material": "Brass & Opal Glass",
+          "dimensions": "90×90×85 cm",
+          "description": "Six-arm chandelier in patinated brass with layered opal glass shades on gently curved arms, suspended from a reeded brass column.",
+          "inStock": true,
+          "rating": 4.5,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 138,
+          "name": "Ceiling lamp designed by Alvar Aalto for Idman",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 4018,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-enso-cuntzeit-model-8956-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-enso-cuntzeit-model-8956-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-enso-cuntzeit-model-8956-3.jpg"
+          ],
+          "material": "Lacquer & Glass",
+          "dimensions": "115×33×21 cm",
+          "description": "This ceiling lamp, designed by Alvar Aalto for the Finnish lighting manufacturer Idman in the 1950s, was originally developed for the Stora Enso head office in Helsinki, a landmark building completed in 1962 and designed by Aalto as a total work of art, from façade to interior details. It is a restrained yet highly considered example of his approach to architectural lighting.",
+          "inStock": true,
+          "rating": 4.8,
+          "isNew": true,
+          "isFeatured": false
+        },
+        {
+          "id": 139,
+          "name": "Ceiling lamp model 6022 designed by Gunnar Asplund",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 22323,
+          "oldPrice": 24995,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-erik-g-model-6022-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-erik-g-model-6022-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-erik-g-model-6022-3.jpg"
+          ],
+          "material": "Lacquer & Glass",
+          "dimensions": "50×50×42 cm",
+          "description": "The model was originally created for Gunnar Asplund's music room at the Workshop's exhibition held at Liljevalchs Konsthall in autumn 1920. It became part of Böhlmark's collection in 1922 and remained so until Ateljé Lyktan took over production in 1965.",
+          "inStock": true,
+          "rating": 4.9,
+          "isNew": false,
+          "isFeatured": true
+        },
+        {
+          "id": 140,
+          "name": "Long ceiling lamps designed by Hans Agne Jakobsson",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 6697,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-hans-agne-model-sl-72-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-hans-agne-model-sl-72-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-hans-agne-model-sl-72-3.jpg"
+          ],
+          "material": "Brass & Glass",
+          "dimensions": "35×35×110 cm",
+          "description": "Designed by Hans Agne Jakobsson, these long ceiling lamps are a distilled expression of Scandinavian lighting from the mid-20th century. Executed in brass and glass, the lamps reflect Jakobsson's broader material experimentation and his belief that lighting should enhance atmosphere rather than dominate it.",
+          "inStock": true,
+          "rating": 4.6,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 141,
+          "name": "Ceiling lamp designed by Hans-Agne Jakobsson",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 17859,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-hans-aj-model-623-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-hans-aj-model-623-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-hans-aj-model-623-3.jpg"
+          ],
+          "material": "Brass & Iron & Glass",
+          "dimensions": "70×70×40 cm",
+          "description": "Active between the 1950s and 1970s—in the golden age of Scandinavian design—Swedish interior decorator and furniture designer Hans-Agne Jakobsson is best remembered for his softly glowing, glare-free lighting fixtures, which were inspired by the organic modern approaches of Danish lighting master Poul Henningsen and Finnish icon Alvar Aalto. Experimenting with a wide range of materials—including brass, iron, glass, fabric, and wood shavings—Jakobsson mastered both the direction and colour of light.",
+          "inStock": false,
+          "rating": 4.7,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 142,
+          "name": "Ceiling lamp designed by Helger Johansson for Westal",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 4420,
+          "oldPrice": 4995,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-helger-j-model-480-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-helger-j-model-480-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-helger-j-model-480-3.jpg"
+          ],
+          "material": "Brass & Glass",
+          "dimensions": "55×55×50 cm",
+          "description": "Designed in the 1960s by Holger Johansson for Westal, this ceiling lamp is a refined example of Swedish mid-century lighting that balances structure, material and atmosphere. The composition centres on a geometric brass framework from which multiple smoked glass shades are evenly suspended, creating a calm, architectural rhythm while softening the light through the tinted glass.",
+          "inStock": true,
+          "rating": 4.5,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 143,
+          "name": "Honeycomb ceiling lamp",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 1950,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-ilmari-t-model1780-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-ilmari-t-model1780-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-ilmari-t-model1780-3.jpg"
+          ],
+          "material": "Copper & Glass",
+          "dimensions": "130×130×30 cm",
+          "description": "Monumental ceiling fixture with a stepped hexagonal frame in patinated copper and glowing amber glass honeycomb diffusers, suspended on three slender rods.",
+          "inStock": true,
+          "rating": 4.7,
+          "isNew": true,
+          "isFeatured": true
+        },
+        {
+          "id": 144,
+          "name": "Chandelier model CA-71",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 1850,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-ca-71-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-ca-71-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-ca-71-3.jpg"
+          ],
+          "material": "Brass & Glass",
+          "dimensions": "60×60×55 cm",
+          "description": "Chandelier with six opal glass tulip shades on slender brass stems arranged around a polished ring-shaped base.",
+          "inStock": true,
+          "rating": 4.8,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 145,
+          "name": "Ceiling lamp model SL-31B",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 1450,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-sl-31b-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-sl-31b-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-paavo-tynell-model-sl-31b-3.jpg"
+          ],
+          "material": "Brass",
+          "dimensions": "45×45×40 cm",
+          "description": "Brass pendant with a smooth dome shade above a pierced snowflake-form diffuser that scatters delicate patterns of light.",
+          "inStock": true,
+          "rating": 4.6,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 146,
+          "name": "Ceiling lamp designed by Palle Suenson",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 8483,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-palle-s-model-11237-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-palle-s-model-11237-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-palle-s-model-11237-3.jpg"
+          ],
+          "material": "Brass & Lacquer",
+          "dimensions": "40×40×25 cm",
+          "description": "Palle Suenson was one of the leading Danish architects of the twentieth century. His style balanced impressive scale and form, always elevated by scrupulous artistic attention to detail and materials.",
+          "inStock": true,
+          "rating": 4.4,
+          "isNew": true,
+          "isFeatured": false
+        },
+        {
+          "id": 147,
+          "name": "Pendant model 8863",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 1750,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-ph-6-6-model-8863-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-ph-6-6-model-8863-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-ph-6-6-model-8863-3.jpg"
+          ],
+          "material": "Lacquered Metal",
+          "dimensions": "55×55×30 cm",
+          "description": "Three-tier pendant with deep green lacquered shades and warm pale-yellow interiors, hung from a nickel-plated socket.",
+          "inStock": true,
+          "rating": 4.4,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 148,
+          "name": "Ceiling lamp PH 4/4 designed by Poul Henningsen for Louis Poulsen",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 14286,
+          "oldPrice": 15995,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-ph4-4-dentist-model-8865-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-ph4-4-dentist-model-8865-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-ph4-4-dentist-model-8865-3.jpg"
+          ],
+          "material": "Glass & Copper",
+          "dimensions": "40×40×35 cm",
+          "description": "Poul Henningsen developed an extensive body of lighting designs built around his pioneering three-shade principle, first introduced in 1926. This system was conceived to produce controlled, glare-free illumination by directing light precisely where it was needed.",
+          "inStock": true,
+          "rating": 4.8,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 149,
+          "name": "Pendant model 9077",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 1650,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-ph5-5-model-9077-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-ph5-5-model-9077-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-ph5-5-model-9077-3.jpg"
+          ],
+          "material": "Lacquered Metal",
+          "dimensions": "50×50×30 cm",
+          "description": "Pendant with three softly graded amber shades in the classic layered silhouette, giving a warm, glare-free light.",
+          "inStock": false,
+          "rating": 4.5,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 150,
+          "name": "Set of three ceiling lamps/chandeliers",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 3125,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-set-of-three-chandeliers-model-927-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-set-of-three-chandeliers-model-927-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-set-of-three-chandeliers-model-927-3.jpg"
+          ],
+          "material": "Brass",
+          "dimensions": "25×25×50 cm",
+          "description": "Set of three slender brass chandeliers with tubular candle sleeves and bare-bulb detailing.",
+          "inStock": true,
+          "rating": 4.3,
+          "isNew": false,
+          "isFeatured": false
+        },
+        {
+          "id": 151,
+          "name": "Shade lamp model 9076",
+          "category": "lighting",
+          "subcategory": "ceiling-lamps",
+          "price": 1350,
+          "oldPrice": null,
+          "images": [
+            "/src/assets/images/products/lighting-ceiling-lamps-shade-lamp-model-ph-9076-2.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-shade-lamp-model-ph-9076-1.jpg",
+            "/src/assets/images/products/lighting-ceiling-lamps-shade-lamp-model-ph-9076-3.jpg"
+          ],
+          "material": "Copper",
+          "dimensions": "45×45×30 cm",
+          "description": "Shade pendant in warm patinated copper with three stacked conical shades above a cylindrical lower diffuser.",
+          "inStock": true,
+          "rating": 4.3,
+          "isNew": false,
+          "isFeatured": false
+        }
+      ]
     }
   ]
 }
