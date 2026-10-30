@@ -1,0 +1,20 @@
+{
+  "id": 196,
+  "name": "Adjustable table lamp designed by TH. Valentiner for Poul Dinesen",
+  "category": "lighting",
+  "subcategory": "table-lamps",
+  "price": 3551,
+  "oldPrice": null,
+  "images": [
+    "/src/assets/images/products/lighting-table-lamps-model-th-8642-pd-1.jpg",
+    "/src/assets/images/products/lighting-table-lamps-model-th-8642-pd-2.jpg",
+    "/src/assets/images/products/lighting-table-lamps-model-th-8642-pd-3.jpg"
+  ],
+  "material": "Satin Chromed Metal & Fabric Shade",
+  "dimensions": "20×18×61.5 cm",
+  "description": "This adjustable table lamp was designed by TH. Valentiner for the Danish manufacturer Poul Dinesen in the 1960s. A slender satin-chromed stem rises from a round base and carries a compact fabric shade that can be tilted to direct the light precisely where needed. The crisp geometry and exacting finish reflect the precise Danish craftsmanship for which both Valentiner and Poul Dinesen are known.",
+  "inStock": true,
+  "rating": 4.4,
+  "isNew": false,
+  "isFeatured": false
+}

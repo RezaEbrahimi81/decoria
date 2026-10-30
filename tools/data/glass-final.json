@@ -1,0 +1,322 @@
+[
+  {
+    "id": 197,
+    "name": "Bowl designed by Simon Gate for Orrefors, inventory 7307",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 404,
+    "oldPrice": 455,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-bowl-design-sg7307-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-bowl-design-sg7307-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-bowl-design-sg7307-3.jpg"
+    ],
+    "material": "Glass",
+    "dimensions": "19×19×16 cm",
+    "description": "This bowl was designed by Simon Gate for Orrefors in Sweden during the 1920s. Gate joined Orrefors in 1916 and helped establish the Graal technique that made the factory internationally celebrated, with his work defining the elegant Swedish Grace style honoured at the 1925 Paris Exhibition. The bowl reflects the refined craftsmanship and balanced classicism for which Orrefors became known between the wars.",
+    "inStock": true,
+    "rating": 4.3,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 198,
+    "name": "Vase designed by Vicke Lindstrand for Kosta",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 404,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-11686-vl-kosta-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-11686-vl-kosta-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-11686-vl-kosta-3.jpg"
+    ],
+    "material": "Clear & Opaque White Cased Glass",
+    "dimensions": "12×12×22 cm",
+    "description": "This hand-blown glass vase was designed by Vicke Lindstrand for Kosta in the 1950s and is signed LH 1131 / 62 HD. Its teardrop-shaped body rests on a clear glass foot, with an opaque white inner layer enclosed within the transparent outer glass. Lindstrand’s years at Kosta from 1950 to 1973 combined sculptural form, controlled colour and experimentation, making him one of the central figures of twentieth-century Nordic glass.",
+    "inStock": true,
+    "rating": 4.5,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 199,
+    "name": "Bowl designed by Simon Gate for Orrefors, inventory 7669",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 404,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-bowl-sg7669-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-bowl-sg7669-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-bowl-sg7669-3.jpg"
+    ],
+    "material": "Glass",
+    "dimensions": "28×28×15 cm",
+    "description": "Designed by Simon Gate for Orrefors in 1930, this wide bowl exemplifies the elegant Swedish Grace idiom of the interwar years. Gate helped establish the Graal technique at Orrefors and brought a painterly sensibility to glass that made the factory internationally famous. With its generous 28 cm diameter and low profile, the bowl is a refined example of Orrefors craftsmanship from this period.",
+    "inStock": true,
+    "rating": 4.3,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 200,
+    "name": "Vase 'Colora' designed by Vicke Lindstrand for Kosta, inventory 301",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 1753,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-colora-vl301-kosta-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-colora-vl301-kosta-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-colora-vl301-kosta-3.jpg"
+    ],
+    "material": "Cased Glass",
+    "dimensions": "14×14×24.5 cm",
+    "description": "This vase belongs to the Colora series that Vicke Lindstrand created at Kosta, in which colour is encapsulated within clear crystal to create a fluid interplay of light. Lindstrand worked at Kosta from 1950 to 1973, a period regarded as one of the most celebrated eras in Swedish glass history and known as his Kostavicke period. The softly sculptural form and playful graphic lines exemplify the essence of Scandinavian modernism for which the series is known.",
+    "inStock": true,
+    "rating": 4.4,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 201,
+    "name": "Vase 'Colora' designed by Vicke Lindstrand for Kosta, inventory 2158",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 2202,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-colora2158-kf-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-colora2158-kf-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-colora2158-kf-3.jpg"
+    ],
+    "material": "Blue & Clear Crystal Glass",
+    "dimensions": "18×18×17 cm",
+    "description": "This sculptural Colora vase was handcrafted at Kosta and signed Kosta 41673, its deep blue undertones encapsulated within clear crystal glass to create a fluid, organic interplay of light and colour. Lindstrand’s work at Kosta between 1950 and 1973 marked one of the most celebrated eras in Swedish glass history, known as his Kostavicke period. Alongside experimental colour-layered works such as the Colora series, his engraved vases The Pearl Fisherman and The Shark Killer remain highly sought after at international auctions. The vase stands as a museum-quality example of Swedish art glass.",
+    "inStock": true,
+    "rating": 4.7,
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 202,
+    "name": "Vase designed by Erik Höglund for Boda",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 854,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-eh-b2203-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-eh-b2203-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-eh-b2203-3.jpg"
+    ],
+    "material": "Glass",
+    "dimensions": null,
+    "description": "This vase was designed by Erik Höglund for Boda in Sweden during the 1950s and stands 27.5 cm tall. Höglund developed a distinctive language of simple, primordial shapes in heavy rustic glass, with coloured elements and air bubbles captured in the mass, deliberately setting himself apart from the polished perfection of earlier Swedish glass art. His conscious non-perfectionism, stamped symbols and sculptural forms made him one of the most original voices of mid-century Swedish glass, celebrated with the Lunning Prize in 1957.",
+    "inStock": true,
+    "rating": 4.4,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 203,
+    "name": "Vase 'Fabula and Ariel' designed by Per B. Sundberg for Orrefors",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 5480,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-fabula-ariel-pbs1761-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-fabula-ariel-pbs1761-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-fabula-ariel-pbs1761-3.jpg"
+    ],
+    "material": "Glass",
+    "dimensions": "17×17×20 cm",
+    "description": "This sculptural glass vase by Per B. Sundberg is titled Fabula and Ariel and was produced for Orrefors in Sweden in 2004. The irregular, organically shaped body is punctuated by multiple lens-like protrusions that refract and distort the imagery embedded within, with softly focused photographic motifs of dogs suspended in rhythmical repetition beneath the transparent surface. These layered distortions amplify the surreal, psychological tone of the work, challenging traditional distinctions between medium, ornament and message. Each piece is individually crafted and the vase is signed.",
+    "inStock": true,
+    "rating": 4.6,
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 204,
+    "name": "Vase 'Fish Graal' designed by Edward Hald for Orrefors, inventory 7774",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 1636,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-fishgraal7774-eh-o-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-fishgraal7774-eh-o-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-fishgraal7774-eh-o-3.jpg"
+    ],
+    "material": "Cased Glass",
+    "dimensions": "9×9×16.5 cm",
+    "description": "This Fish Graal vase was designed by Edward Hald for Orrefors in 1949, a variation of the Graal technique that Hald developed together with Simon Gate and Knut Bergqvist at the Swedish glassworks. In the Fishgraal process a design is painted onto a coloured layer, acid-etched, then reheated and cased beneath a thick layer of crystal so that the motif appears suspended in depth. Hald completed his artistic training with Henri Matisse in Paris, and his nature-inspired vocabulary of fish and plant forms became a hallmark of Swedish Modern glass. As each piece is individually blown and shaped, no two Fish Graal vases are exactly alike.",
+    "inStock": true,
+    "rating": 4.6,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 205,
+    "name": "Vase 'Fiskgraal' designed by Edward Hald for Orrefors, inventory 11562",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 1483,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-fiskgraal-eh-11562-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-fiskgraal-eh-11562-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-fiskgraal-eh-11562-3.jpg"
+    ],
+    "material": "Cased Glass",
+    "dimensions": null,
+    "description": "This Fiskgraal vase was designed by Edward Hald for Orrefors during the 1950s and 1960s and stands 15 cm tall. Created in the demanding Graal technique, its engraved fish and plant motifs are encased within multiple layers of glass so that they appear suspended in depth, with each individually blown piece unique. Drawing on his background in painting and his studies in Paris, Hald brought a distinctly modern, nature-inspired vocabulary to the medium. The vase is signed Orrefors Graal Nr. 210 E7.",
+    "inStock": true,
+    "rating": 4.5,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 206,
+    "name": "Vase 'Höst' designed by Vicke Lindstrand for Kosta",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 2337,
+    "oldPrice": 2650,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-host9084-vl-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-host9084-vl-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-host9084-vl-3.jpg"
+    ],
+    "material": "Cased Glass",
+    "dimensions": "15×15×22.5 cm",
+    "description": "Designed by Vicke Lindstrand for Kosta in the 1960s, the Höst vase takes its name from the Swedish word for autumn. Dark branching tree forms are suspended within a thick body of clear glass, punctuated by fragments of red, green, yellow and orange that evoke scattered autumn leaves. The composition was produced using the demanding underfång cased-glass technique, which embeds the coloured elements beneath an outer layer of clear crystal so that the trees appear to float almost three-dimensionally within the vessel. The vase is marked LH 1754.",
+    "inStock": true,
+    "rating": 4.8,
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 207,
+    "name": "Vase designed by Per B. Sundberg for Orrefors, inventory 1765",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 4944,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-pbs-o1765-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-pbs-o1765-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-pbs-o1765-3.jpg"
+    ],
+    "material": "White & Red Glass",
+    "dimensions": "20×20×22 cm",
+    "description": "This vase was designed by Per B. Sundberg for Orrefors in 2004, exploring abstraction through smooth, bulbous forms rendered in glossy white glass. The shape resists traditional symmetry and evokes organic growth or molten flow, while the vibrant red opening introduces a sharp contrast that draws the eye inward. Its highly reflective surface enhances the sculptural presence, giving the piece a sense of movement despite its stillness.",
+    "inStock": true,
+    "rating": 4.6,
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 208,
+    "name": "Vase designed by Per B. Sundberg for Orrefors, inventory 8136",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 1303,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-pbs8136-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-pbs8136-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-pbs8136-3.jpg"
+    ],
+    "material": "White & Black Glass",
+    "dimensions": "17.5×17.5×15 cm",
+    "description": "Produced during Per B. Sundberg’s collaboration with the Swedish glassworks Orrefors, this cylindrical vase from 2003 reflects his interest in surface as both structure and visual language. Vertical black lines of irregular spacing and thickness wrap around the white glass body in a rhythm that recalls hand-drawn marks or abstracted script, with a decoration that appears to shift when viewed from different angles. Form is deliberately restrained, allowing the surface treatment to drive the visual character of the piece.",
+    "inStock": true,
+    "rating": 4.4,
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 209,
+    "name": "Vase 'Savoy', model 3030, designed by Alvar Aalto for Iittala",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 584,
+    "oldPrice": 655,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-savoy3030-aal-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-savoy3030-aal-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-savoy3030-aal-3.jpg"
+    ],
+    "material": "Clear Glass",
+    "dimensions": null,
+    "description": "The Savoy vase was designed by Alvar Aalto in 1936 and produced by Iittala, its free undulating outline created by blowing molten glass within a wooden mould. Originally developed for a glass competition organised by Iittala, the design gained its name after being selected for the interior of Helsinki’s Savoy Hotel, designed by Aalto with his wife Aino. Standing 16 cm high and 21 cm long, the vase marked a departure from rigid geometric forms in favour of an organic design rooted in landscape, water and natural movement. Each example carries subtle variations that reflect the hand-crafted nature of its production.",
+    "inStock": true,
+    "rating": 4.7,
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 210,
+    "name": "Vase 'Terra' designed by Monica Backström for Kosta Boda",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 674,
+    "oldPrice": 765,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-terra9113-mb-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-terra9113-mb-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-terra9113-mb-3.jpg"
+    ],
+    "material": "Midnight-Blue Glass",
+    "dimensions": "20×20×17.5 cm",
+    "description": "This vase from Monica Backström’s Terra series for Kosta Boda, made in 2004, takes its inspiration from the irregular forms and surfaces of the natural world, its softly asymmetric, almost planetary form enveloped in deep midnight-blue glass. The finely mottled surface shifts between blue, grey and metallic tones, while the highly polished exterior contrasts with the mineral-like interior colouring to recall a polished stone or fragment of volcanic rock. Backström was one of the most distinctive figures in modern Swedish glass, drawing on nature, the human body and the cosmos in an experimental approach to texture, colour and sculptural form. Her work is represented in major collections including the Nationalmuseum in Stockholm, the Victoria and Albert Museum in London and the Stedelijk Museum in Amsterdam.",
+    "inStock": true,
+    "rating": 4.5,
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 211,
+    "name": "Vase 'Tulip' designed by Nils Landberg for Orrefors",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 2248,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-tulip-nl-o2017-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-tulip-nl-o2017-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-tulip-nl-o2017-3.jpg"
+    ],
+    "material": "Glass",
+    "dimensions": null,
+    "description": "This tall Tulip vase was designed by Nils Landberg for Orrefors in Sweden in 1957 and rises 44.5 cm in height. Landberg was one of the foremost designers at Orrefors, and his Tulip series is celebrated for its slender, elongated silhouette and demanding execution in mouth-blown glass. The vase embodies the refined, nature-attuned elegance that made Orrefors a flagship of Swedish glass during the mid twentieth century.",
+    "inStock": true,
+    "rating": 4.6,
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 212,
+    "name": "Vase 'Ventana' designed by Mona Morales-Schildt for Kosta",
+    "category": "glass",
+    "subcategory": "glassware",
+    "price": 854,
+    "oldPrice": null,
+    "images": [
+      "/src/assets/images/products/glass-glassware-model-vase-ventana-mms180-1.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-ventana-mms180-2.jpg",
+      "/src/assets/images/products/glass-glassware-model-vase-ventana-mms180-3.jpg"
+    ],
+    "material": "Glass",
+    "dimensions": "10×8.5×16 cm",
+    "description": "This vase belongs to the Ventana series created by Mona Morales-Schildt for Kosta, a series begun in 1959 and produced through the following decade. Morales-Schildt joined Kosta in 1958, and the series name, meaning window in Spanish, points to the window-like planes of colour for which these layered glass vases are known. Compact and signed, the vase is a refined example of her lyrical contribution to Swedish glass.",
+    "inStock": true,
+    "rating": 4.4,
+    "isNew": false,
+    "isFeatured": false
+  }
+]
