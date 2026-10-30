@@ -4391,6 +4391,486 @@
       "rating": 4.4,
       "isNew": false,
       "isFeatured": false
+    },
+    {
+      "id": 213,
+      "name": "A set of 27 piece tableware 'Pencil' designed by Stig Lindberg for Gustavsberg",
+      "category": "ceramics",
+      "subcategory": "tableware",
+      "price": 860,
+      "oldPrice": 965,
+      "images": [
+        "/src/assets/images/products/ceramics-a-set-of-27-piece-tableware-pencil-designed-by-stig-lindberg-for-gustavsberg-1.jpg",
+        "/src/assets/images/products/ceramics-a-set-of-27-piece-tableware-pencil-designed-by-stig-lindberg-for-gustavsberg-2.jpg",
+        "/src/assets/images/products/ceramics-a-set-of-27-piece-tableware-pencil-designed-by-stig-lindberg-for-gustavsberg3.jpg"
+      ],
+      "material": "Bone china",
+      "dimensions": "H 3 × W 25 × D 25 cm",
+      "description": "This 27-piece tableware set comes from the 'Pencil' series by Stig Lindberg for Gustavsberg and reflects the restrained elegance of post-war Scandinavian table design. Executed in fine bone china, it is decorated with delicate black linear motifs that resemble quick pencil strokes drawn across the white surface. The set consists of eleven dinner plates, twelve starter plates and four bowls, combining everyday practicality with Lindberg's highly individual graphic language. It remains one of the clearest examples of the Swedish ideal of creating beautiful objects for ordinary life.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 214,
+      "name": "Bowl designed by Rolf Palm",
+      "category": "ceramics",
+      "subcategory": "bowls",
+      "price": 407,
+      "oldPrice": 455,
+      "images": [
+        "/src/assets/images/products/ceramics-bowl-designed-by-rolf-palm-1.jpg",
+        "/src/assets/images/products/ceramics-bowl-designed-by-rolf-palm2.jpg",
+        "/src/assets/images/products/ceramics-bowl-designed-by-rolf-palm-3.jpg"
+      ],
+      "material": "Glazed stoneware",
+      "dimensions": "H 12 × W 20 × D 20 cm",
+      "description": "This ceramic bowl by Swedish studio potter Rolf Palm exemplifies the refined artistry of Scandinavian ceramic design in the mid-20th century. Hand-thrown and signed by the artist, it displays Palm's signature earthy glaze palette of muted tones, speckled surfaces and subtle variations that highlight the handmade process. The softly rounded form and tactile finish reflect his mastery of traditional stoneware techniques, developed over decades at his studio in Mölle, Sweden. The piece bridges functionality and sculpture with a distinctly Nordic sensibility.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 215,
+      "name": "Bowl designed by Stig Lindberg, Gustavsberg",
+      "category": "ceramics",
+      "subcategory": "bowls",
+      "price": 679,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-bowl-designed-by-stig-lindberg-gustavsberg-1.jpg",
+        "/src/assets/images/products/ceramics-bowl-designed-by-stig-lindberg-gustavsberg-2.jpg",
+        "/src/assets/images/products/ceramics-bowl-designed-by-stig-lindberg-gustavsberg-3.jpg"
+      ],
+      "material": "Faience",
+      "dimensions": "H 10 × W 22 × D 22 cm",
+      "description": "An asymmetrical boat-shaped bowl designed by Stig Lindberg for Gustavsberg in Sweden during the 1940s and 1950s. It is executed in faience with a smooth, glossy white glaze, and the interior is painted with stylized leaves in chartreuse, golden yellow, teal and brown. The graceful upturned form and lively hand-painted decoration capture the playful graphic language that made Lindberg one of Sweden's most influential ceramicists of the twentieth century.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 216,
+      "name": "Bowl designed by Vicke Lindstrand for Upsala Ekeby",
+      "category": "ceramics",
+      "subcategory": "bowls",
+      "price": 860,
+      "oldPrice": 995,
+      "images": [
+        "/src/assets/images/products/ceramics-bowl-designed-by-vicke-lindstrand-for-upsala-ekeby-1.jpg",
+        "/src/assets/images/products/ceramics-bowl-designed-by-vicke-lindstrand-for-upsala-ekeby-2.jpg",
+        "/src/assets/images/products/ceramics-bowl-designed-by-vicke-lindstrand-for-upsala-ekeby-3.jpg"
+      ],
+      "material": "Earthenware",
+      "dimensions": "H 4 × W 26 × D 26 cm",
+      "description": "This bowl designed by Vicke Lindstrand for Upsala Ekeby showcases his unique approach to form and decoration, seamlessly blending figuration with expressive painterly techniques. The earthenware body carries hand-painted stylized figures in the modernist spirit Lindstrand brought to Swedish pottery after joining Upsala-Ekeby in 1942. Having earlier pioneered Graal glass at Orrefors, he transferred the same graphic confidence to ceramics, as this piece beautifully demonstrates.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 217,
+      "name": "Bowl 'Farsta' designed by Wilhelm Kåge for Gustavsberg, Sweden, 1959",
+      "category": "ceramics",
+      "subcategory": "bowls",
+      "price": 2450,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-bowl-farsta-designed-by-willhelm-kage-for-gustavsberg-1.jpg",
+        "/src/assets/images/products/ceramics-bowl-farsta-designed-by-willhelm-kage-for-gustavsberg-2.jpg",
+        "/src/assets/images/products/ceramics-bowl-farsta-designed-by-willhelm-kage-for-gustavsberg-3.jpg"
+      ],
+      "material": "Stoneware",
+      "dimensions": "H 15 × W 20 × D 20 cm",
+      "description": "A bowl from the celebrated Farsta series by Wilhelm Kåge, produced at the Gustavsberg studio in Sweden in 1959. The Farsta series, made between 1930 and 1960, is among Kåge's most exclusive work, prized for its richly mottled stoneware glazes. The bowl's organic form and layered, flowing glaze make every example unique, exemplifying the studio's pursuit of ceramic art at its highest level.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 218,
+      "name": "Dragon sculpture designed by Wilhelm Kåge for Gustavsberg",
+      "category": "ceramics",
+      "subcategory": "sculptures",
+      "price": 8601,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-dragon-sculpture-designed-by-wilhelm-kage-for-gustavsberg-1.jpg",
+        "/src/assets/images/products/ceramics-dragon-sculpture-designed-by-wilhelm-kage-for-gustavsberg-2.jpg",
+        "/src/assets/images/products/ceramics-dragon-sculpture-designed-by-wilhelm-kage-for-gustavsberg-3.jpg"
+      ],
+      "material": "Stoneware",
+      "dimensions": "H 18 × W 30 × D 12 cm",
+      "description": "Wilhelm Kåge's dragon sculptures, crafted at Gustavsberg from the late 1930s to the 1950s, exemplify his innovative approach to ceramic art. This stoneware example shows the stylized forms typical of the series, with pronounced eyes, a curled tail and a richly textured body. Affectionately known as drakvalpar, or dragon puppies, these creatures offered Kåge expressive freedom and a blend of humour and fantasy that contrasted with the restrained aesthetics of his tableware. The sculpture showcases a mix of whimsical design and Kåge's exceptional craftsmanship.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 219,
+      "name": "Mandrill sculpture designed by Vicke Lindstrand for Uppsala Ekeby, Sweden, 1940s",
+      "category": "ceramics",
+      "subcategory": "sculptures",
+      "price": 2400,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-mandrill-sculpture-designed-by-vicke-lindstrand-for-uppsala-ekeby-8067-1.jpg",
+        "/src/assets/images/products/ceramics-mandrill-sculpture-designed-by-vicke-lindstrand-for-uppsala-ekeby-8067-2.jpg",
+        "/src/assets/images/products/ceramics-mandrill-sculpture-designed-by-vicke-lindstrand-for-uppsala-ekeby-8067-3.jpg"
+      ],
+      "material": "Stoneware",
+      "dimensions": "H 24 × W 14 × D 12 cm",
+      "description": "A stoneware sculpture of a mandrill designed by Vicke Lindstrand for Uppsala Ekeby in Sweden during the 1940s. The figure captures the animal's powerful frame and expressive features with a sculptor's eye for character and movement. Lindstrand was one of Sweden's most influential designers of the twentieth century, and his ceramic animal figures from this period combine simplified modern forms with lively, hand-finished surfaces.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 220,
+      "name": "Ceramic planter designed by Margareta Wibom for Bo Fajans",
+      "category": "ceramics",
+      "subcategory": "other",
+      "price": 860,
+      "oldPrice": 980,
+      "images": [
+        "/src/assets/images/products/ceramics-planter-designed-by-margareta-wibom-for-bo-fajans-1.jpg",
+        "/src/assets/images/products/ceramics-planter-designed-by-margareta-wibom-for-bo-fajans-2.jpg",
+        "/src/assets/images/products/ceramics-planter-designed-by-margareta-wibom-for-bo-fajans-3.jpg"
+      ],
+      "material": "Chamotted stoneware",
+      "dimensions": "H 16 × W 22 × D 22 cm",
+      "description": "This ceramic planter by Margareta (Maggie) Wibom is defined by its sculptural relief of stylised vines and leaves wrapping rhythmically around the body. Executed in chamotted stoneware, it combines robust construction with expressive surface treatment, reflecting the transition from Swedish Grace to early modernism. Produced by Bo Fajans in Gävle during the interwar years, it testifies to the factory's reputation for high-quality artistic ceramics. Wibom was among the first women to establish herself in Swedish ceramic design, and her relief work is rooted in both tradition and modern expression.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 221,
+      "name": "Plate designed by Tyra Lundgren for Rörstrand",
+      "category": "ceramics",
+      "subcategory": "plates",
+      "price": 3576,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-plate-designed-by-tyra-lundgren-for-rorstrand-8803-1.jpg",
+        "/src/assets/images/products/ceramics-plate-designed-by-tyra-lundgren-for-rorstrand-8803-2.jpg",
+        "/src/assets/images/products/ceramics-plate-designed-by-tyra-lundgren-for-rorstrand-8803-3.jpg"
+      ],
+      "material": "Stoneware",
+      "dimensions": "H 4 × W 28 × D 28 cm",
+      "description": "This elegant stoneware dish designed by Tyra Lundgren for Rörstrand is a distinguished example of early Nordic mid-century design in ceramics. Executed in high-fired stoneware, the surface carries a softly modulated blue underglaze and features a motif of a woman integrated into the form. The impressed Rörstrand signature with date underlines the dish's authentic place in the factory's artistic production of the period. Lundgren worked as a designer at Rörstrand during the late 1920s and early 1930s, when the factory was exploring more sculptural and modern approaches, and this example is signed TL Rörstrand 1930.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 222,
+      "name": "Plate designed by Tyra Lundgren for Rörstrand, Sweden, 1930s",
+      "category": "ceramics",
+      "subcategory": "plates",
+      "price": 1950,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-plate-designed-by-tyra-lundgren-for-rorstrand-8804-1.jpg",
+        "/src/assets/images/products/ceramics-plate-designed-by-tyra-lundgren-for-rorstrand-8804-2.jpg",
+        "/src/assets/images/products/ceramics-plate-designed-by-tyra-lundgren-for-rorstrand-8804-3.jpg"
+      ],
+      "material": "Faience",
+      "dimensions": "H 3 × W 25 × D 25 cm",
+      "description": "A hand-painted ceramic plate designed by Tyra Lundgren for Rörstrand in Sweden during the 1930s. The cream-ground surface is decorated in cobalt blue with a seated female figure shown in profile, holding a fan, her drapery rendered in bold, expressive brushwork. Lundgren, who worked at Rörstrand in the late 1920s and early 1930s, was one of the most versatile Swedish artists of her generation, moving fluently between ceramics, glass and painting. This plate exemplifies the painterly, figurative direction of the factory's artistic faience during the period.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 223,
+      "name": "Alligator sculpture retailed by Svenskt Tenn, Italy, 1950s",
+      "category": "ceramics",
+      "subcategory": "sculptures",
+      "price": 4074,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-sculpture-alligator-anonymous-retailed-by-svenskt-tenn-italy-1.jpg",
+        "/src/assets/images/products/ceramics-sculpture-alligator-anonymous-retailed-by-svenskt-tenn-italy-2.jpg",
+        "/src/assets/images/products/ceramics-sculpture-alligator-anonymous-retailed-by-svenskt-tenn-italy-3.jpg"
+      ],
+      "material": "Glazed terracotta",
+      "dimensions": "H 10 × W 28 × D 12 cm",
+      "description": "This hand-modelled terracotta sculpture depicts an alligator rendered in naturalistic form, modelled fully in the round with individually shaped scales, limbs and tail. It is finished with a glossy green-brown glaze, and the irregularities in the modelling indicate studio or workshop production rather than moulded manufacture. The piece was made in Italy during the 1950s and retailed by Svenskt Tenn in Stockholm, a firm known for its curated selection of handcrafted decorative pieces. Animal sculptures in ceramic formed a recurring category in Svenskt Tenn's mid-century assortment, valued for their tactile qualities and sculptural presence.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 224,
+      "name": "Sculpture, Italy, 1950s",
+      "category": "ceramics",
+      "subcategory": "sculptures",
+      "price": 1765,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-sculpture-anonymous-970-1.jpg",
+        "/src/assets/images/products/ceramics-sculpture-anonymous-970-2.jpg",
+        "/src/assets/images/products/ceramics-sculpture-anonymous-970-3.jpg"
+      ],
+      "material": "Glazed earthenware",
+      "dimensions": "H 24 × W 12 × D 10 cm",
+      "description": "A charming ceramic figure of a seated basset hound made in Italy during the 1950s. The dog is modelled in a realistic sitting pose with long drooping ears and finely textured, wrinkled skin, finished in a glossy glaze of warm orange-brown and creamy white. Anonymous workshop production of this period often achieved great character, and this sculpture combines decorative appeal with lifelike detail.",
+      "inStock": false,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 225,
+      "name": "Monkey sculpture attributed to Gunnar Nylund, 20th Century",
+      "category": "ceramics",
+      "subcategory": "sculptures",
+      "price": 2200,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-sculpture-attributed-to-gunnar-nylund-8589-1.jpg",
+        "/src/assets/images/products/ceramics-sculpture-attributed-to-gunnar-nylund-8589-2.jpg",
+        "/src/assets/images/products/ceramics-sculpture-attributed-to-gunnar-nylund-8589-3.jpg"
+      ],
+      "material": "Stoneware",
+      "dimensions": "H 20 × W 12 × D 10 cm",
+      "description": "A stoneware sculpture of a seated monkey, attributed to Gunnar Nylund. The figure rests in a contemplative pose with one hand raised to its head, rendered with expressive facial features and stylized musculature. It is finished in a two-tone glaze with a creamy tan body contrasted by dark brown on the face, hands and feet. Nylund was artistic director at Rörstrand and one of the leading Scandinavian ceramicists of the twentieth century.",
+      "inStock": false,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 226,
+      "name": "Sculpture by Hassan Heshmat",
+      "category": "ceramics",
+      "subcategory": "sculptures",
+      "price": 2218,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-sculpture-by-hassan-heshmat-2740-1.jpg",
+        "/src/assets/images/products/ceramics-sculpture-by-hassan-heshmat-2740-2.jpg",
+        "/src/assets/images/products/ceramics-sculpture-by-hassan-heshmat-2740-3.jpg"
+      ],
+      "material": "Glazed ceramic",
+      "dimensions": "H 28 × W 14 × D 12 cm",
+      "description": "A unique, signed ceramic sculpture by Hassan Heshmat depicting a seated mother tenderly embracing her child. The flowing, stylized figures with serene, closed-eyed expressions are finished in a variegated glaze blending cerulean blue, turquoise and pale green with subtle brown undertones. Heshmat's hand-built work combines humanist subject matter with a soft, sculptural treatment of the clay.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 227,
+      "name": "Sculpture by Tyra Lundgren for Rörstrand, Sweden, 1930",
+      "category": "ceramics",
+      "subcategory": "sculptures",
+      "price": 1800,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-sculpture-by-tyra-lundgren-rorstrand-sweden-8369-1.jpg",
+        "/src/assets/images/products/ceramics-sculpture-by-tyra-lundgren-rorstrand-sweden-8369-2.jpg",
+        "/src/assets/images/products/ceramics-sculpture-by-tyra-lundgren-rorstrand-sweden-8369-3.jpg"
+      ],
+      "material": "Faience",
+      "dimensions": "H 22 × W 14 × D 10 cm",
+      "description": "A faience sculpture by Tyra Lundgren for Rörstrand, Sweden, dated 1930. It depicts a figure in a dynamic crouched pose riding a large fish, the base glazed in vibrant turquoise and pale yellow-green with textured scale patterns. The smooth, glossy white figure and fluid, organic forms give the piece a distinctly Art Deco character. Lundgren was among the most versatile Swedish artists of the twentieth century, working across ceramics, glass and painting.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 228,
+      "name": "Sculpture 'Springare' designed by Stig Lindberg for Gustavsberg",
+      "category": "ceramics",
+      "subcategory": "sculptures",
+      "price": 4286,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-sculpture-springare-designed-by-stig-lindberg-for-gustavsberg-8608-1.jpg",
+        "/src/assets/images/products/ceramics-sculpture-springare-designed-by-stig-lindberg-for-gustavsberg-8608-2.jpg",
+        "/src/assets/images/products/ceramics-sculpture-springare-designed-by-stig-lindberg-for-gustavsberg-8608-3.jpg"
+      ],
+      "material": "Stoneware",
+      "dimensions": "H 16 × W 20 × D 7 cm",
+      "description": "The 'Springare' by Stig Lindberg is a refined ceramic sculpture from Sweden's mid-20th-century design era, crafted in the 1950s for the Gustavsberg porcelain factory. It interprets the theme of a horse in sculptural form, its softly rounded body, spindly legs and minimal head embodying Lindberg's characteristic blend of humour, elegance and craft. This version features a light stoneware glaze with subtle painted and incised detailing, offering both visual calm and textural interest.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 229,
+      "name": "Three zebras by Vicke Lindstrand for Upsala Ekeby, Sweden, 1940s",
+      "category": "ceramics",
+      "subcategory": "sculptures",
+      "price": 2400,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-three-zebras-by-vicke-lindstrand-for-upsala-ekeby-8048-1.jpg",
+        "/src/assets/images/products/ceramics-three-zebras-by-vicke-lindstrand-for-upsala-ekeby-8048-2.jpg",
+        "/src/assets/images/products/ceramics-three-zebras-by-vicke-lindstrand-for-upsala-ekeby-8048-3.jpg"
+      ],
+      "material": "Stoneware",
+      "dimensions": "H 14 × W 22 × D 8 cm",
+      "description": "A stoneware sculpture group of three zebras designed by Vicke Lindstrand for Upsala Ekeby, Sweden, during the 1940s. The figures are modelled with lively, simplified forms and painted striping that gives the group its strong graphic appeal. Lindstrand introduced a modernist sensibility to Swedish ceramics after joining Upsala-Ekeby in 1942, and animal groups such as this are among his most sought-after works.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 230,
+      "name": "Vase designed by Hans Vangsø",
+      "category": "ceramics",
+      "subcategory": "vases",
+      "price": 3621,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-vase-designed-by-hans-vangs-8987-1.jpg",
+        "/src/assets/images/products/ceramics-vase-designed-by-hans-vangs-8987-2.jpg",
+        "/src/assets/images/products/ceramics-vase-designed-by-hans-vangs-8987-3.jpg"
+      ],
+      "material": "Stoneware, white glaze",
+      "dimensions": "H 20 × W 18 × D 18 cm",
+      "description": "This vase designed by Danish potter Hans Vangsø has a thick white glaze and a heavily textured surface, with cratered openings, small dark inclusions and areas where the glaze has fused with the clay body, giving the piece a distinctly geological character. Vangsø pours his glazes thickly and uses unconventional combustible materials such as seaweed, salt, metals and newspaper during the firing process. The compact, rounded form recalls East Asian ceramic traditions, particularly moon jars, while the treatment remains closely tied to Danish studio pottery. The vase is monogrammed with Vangsø's signature mark.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 231,
+      "name": "Vase designed by Liisa Hallamaa for Arabia",
+      "category": "ceramics",
+      "subcategory": "vases",
+      "price": 1765,
+      "oldPrice": 1995,
+      "images": [
+        "/src/assets/images/products/ceramics-vase-designed-by-liisa-hallamaa-for-arabia-8709-1.jpg",
+        "/src/assets/images/products/ceramics-vase-designed-by-liisa-hallamaa-for-arabia-8709-2.jpg",
+        "/src/assets/images/products/ceramics-vase-designed-by-liisa-hallamaa-for-arabia-8709-3.jpg"
+      ],
+      "material": "Stoneware",
+      "dimensions": "H 18 × W 12 × D 12 cm",
+      "description": "A stoneware vase designed by Liisa Hallamaa for the Finnish manufacturer Arabia in the 1950s. The vase pairs a simple, modern vessel form with the richly glazed surface typical of Arabia's art ceramics of the period. Hallamaa was among the Finnish ceramicists who brought colour and sculptural presence to post-war domestic design.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 232,
+      "name": "Vase designed by Mette Doller for Alfred Johansson",
+      "category": "ceramics",
+      "subcategory": "vases",
+      "price": 1313,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-vase-designed-by-mette-doller-for-alfred-johansson-61-1.jpg",
+        "/src/assets/images/products/ceramics-vase-designed-by-mette-doller-for-alfred-johansson-61-2.jpg",
+        "/src/assets/images/products/ceramics-vase-designed-by-mette-doller-for-alfred-johansson-61-3.jpg"
+      ],
+      "material": "Glazed stoneware",
+      "dimensions": "H 15 × W 9 × D 9 cm",
+      "description": "A stoneware vase designed by Mette Doller for Alfred Johansson in Sweden during the 1950s. Doller was known for her precise, modern approach to ceramics, and the vase's clean proportions reflect the restrained elegance of Swedish design in the period. The Alfred Johansson workshop supplied the high-quality stoneware that gave designers like Doller an ideal canvas for their forms.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 233,
+      "name": "Vase model 352 designed by Vicke Lindstrand",
+      "category": "ceramics",
+      "subcategory": "vases",
+      "price": 2218,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-vase-model-352-designed-by-vicke-lindstrand-8255-1.jpg",
+        "/src/assets/images/products/ceramics-vase-model-352-designed-by-vicke-lindstrand-8255-2.jpg",
+        "/src/assets/images/products/ceramics-vase-model-352-designed-by-vicke-lindstrand-8255-3.jpg"
+      ],
+      "material": "Glazed ceramic",
+      "dimensions": "H 22 × W 11 × D 11 cm",
+      "description": "A glazed ceramic vase, model 352, designed by Vicke Lindstrand in Sweden in 1944–48. The vase combines a sculptural modern profile with a rich glaze, characteristic of Lindstrand's ceramic work of the mid-1940s. Lindstrand was one of Sweden's most influential twentieth-century designers, moving between pioneering glass at Orrefors and expressive ceramics at Upsala-Ekeby.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 234,
+      "name": "Vase 'Model 385' designed by Vicke Lindstrand for Uppsala Ekeby",
+      "category": "ceramics",
+      "subcategory": "vases",
+      "price": 2218,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-vase-model-385-designed-by-vicke-lindstrand-for-uppsala-ekeby-8991-1.jpg",
+        "/src/assets/images/products/ceramics-vase-model-385-designed-by-vicke-lindstrand-for-uppsala-ekeby-8991-2.jpg",
+        "/src/assets/images/products/ceramics-vase-model-385-designed-by-vicke-lindstrand-for-uppsala-ekeby-8991-3.jpg"
+      ],
+      "material": "Glazed earthenware",
+      "dimensions": "H 24 × W 13 × D 13 cm",
+      "description": "This glazed earthenware vase was designed by Vicke Lindstrand for Uppsala-Ekeby and is decorated in light yellow and brown glazes with incised female figures set against a mottled ceramic surface. The sgraffito technique, in which the contours of the figures are incised directly into the clay body before firing, gives the line work a physical presence within the surface rather than appearing only as painted decoration. The vase is signed 'Vicke' at the base and stamped 'Ekeby 385 V.L' underneath. Lindstrand's ceramics from this period often combine hand-drawn decoration with simplified forms, frequently depicting figures, animals and mythological subjects.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 235,
+      "name": "Vase/candlestick 'Snurran' by Stig Lindberg for Gustavsberg",
+      "category": "ceramics",
+      "subcategory": "vases",
+      "price": 1313,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-vasecandlestick-snurran-by-stig-lindberg-for-gustavsberg-1.jpg",
+        "/src/assets/images/products/ceramics-vasecandlestick-snurran-by-stig-lindberg-for-gustavsberg-2.jpg",
+        "/src/assets/images/products/ceramics-vasecandlestick-snurran-by-stig-lindberg-for-gustavsberg-3.jpg"
+      ],
+      "material": "Stoneware",
+      "dimensions": "H 14 × W 16 × D 8 cm",
+      "description": "Stig Lindberg's 'Snurran' belongs to a limited and timeless series for Gustavsberg whose name refers to the vessel's ability to be turned. Depending on its orientation, the piece functions as two vases with a central candle holder, or alternatively as two candle holders with a single vase. Executed in stoneware and signed with Studiohånden, it captures the whimsical, playful and optimistic spirit of Lindberg's post-war work. Lindberg was appointed artistic director at Gustavsberg in 1949 and brought a strong graphic sensibility to Swedish ceramics.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 236,
+      "name": "Wall hanging sculpture by Tyra Lundgren, Sweden, 1927",
+      "category": "ceramics",
+      "subcategory": "sculptures",
+      "price": 1900,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/ceramics-wall-hanging-sculpture-by-tyra-lundgren-sweden-8370-1.jpg",
+        "/src/assets/images/products/ceramics-wall-hanging-sculpture-by-tyra-lundgren-sweden-8370-2.jpg",
+        "/src/assets/images/products/ceramics-wall-hanging-sculpture-by-tyra-lundgren-sweden-8370-3.jpg"
+      ],
+      "material": "Stoneware",
+      "dimensions": "H 30 × W 22 × D 4 cm",
+      "description": "A stoneware wall-hanging sculpture by Tyra Lundgren, made in Sweden in 1927. The relief is modelled with the sculptural confidence Lundgren developed during her years at Rörstrand, combining figuration with a modern, decorative treatment of the surface. Lundgren was one of the most versatile Swedish artists of the twentieth century, and early wall works such as this are rare examples of her sculptural ceramics. A striking piece that brings Nordic Art Deco character to the interior.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
     }
   ]
 }
