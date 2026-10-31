@@ -4871,6 +4871,366 @@
       "rating": 4.5,
       "isNew": false,
       "isFeatured": false
+    },
+    {
+      "id": 237,
+      "name": "Composition by Rune Hagberg",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 11371,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-composition-by-rune-hagberg-8997-1.jpg",
+        "/src/assets/images/products/art-painting-composition-by-rune-hagberg-8997-2.jpg",
+        "/src/assets/images/products/art-painting-composition-by-rune-hagberg-8997-3.jpg"
+      ],
+      "material": "Ink on paper",
+      "dimensions": "H 124 × W 76 × D 6 cm",
+      "description": "Rune Hagberg (1924 - 2015) was a self-taught pupil of Zen Buddhism who explored silence and introspection within his work. Born in Uppsala, Sweden, Hagberg became heavily influenced by Eastern calligraphy throughout his life – and developed a spontaneous sign painting style with a strong concentration on a select amount of characters rooted in Zen Buddhism. His informal meditative practice found its place between concretism and expressionism which was widespread in the 1950s. Later in his life, these symbols would be bound into reels and tied together with string - white, ascetic, and secretive within their frames. Eventually, Hagberg's practice came to focus on a gradual loosening of the picture surface, a kind of elimination of the sheet of paper, as if to approach the idea of nothingness. This exploration later found expression in sculptural objects. His oeuvre of ink painting turned him into a public figure in Sweden – hosting a long series of exhibitions, most notably at Moderna Museet in Malmö and Norrköping Art Museum. He also exhibited abroad in Japan in 1955 alongside a group of Eastern painters and calligraphers. Signed",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 238,
+      "name": "Painting by Albert Johansson",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 2684,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-by-albert-johansson-2461-1.jpg",
+        "/src/assets/images/products/art-painting-by-albert-johansson-2461-2.jpg",
+        "/src/assets/images/products/art-painting-by-albert-johansson-2461-3.jpg"
+      ],
+      "material": "Oil on board",
+      "dimensions": "H 62 × W 93 cm",
+      "description": "This abstract painting by Albert Johansson, executed in oil on board during the 1960s, demonstrates the artist’s exploration of geometric form and spatial tension. Bold black shapes intersect with fields of red and white, while fine linear contours frame and guide the composition. A defining element of Johansson’s work is the use of lines that appear to “cut” across the surface of the painting. These directional lines divide the composition into shifting planes, producing a sense of expansion beyond the physical limits of the image. This approach aligns Johansson with the ideas of concrete art and reflects the influence of the Swedish artist Olle Baertling, whose exploration of infinite space through angular structures shaped much of the period’s abstract language. Albert Johansson (1926–1998) studied at Isaac Grünewald’s painting school before continuing his education at the Modern Art School in Stockholm. Although his earliest works were influenced by Surrealism, he soon moved toward a non-figurative mode of expression. Johansson later became known for his rigorous abstract compositions, where line, colour and geometry interact to create structured yet visually expansive works. Signed.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 239,
+      "name": "Painting by Bo Andersson",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 2684,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-by-bo-andersson-1941-1.jpg",
+        "/src/assets/images/products/art-painting-by-bo-andersson-1941-2.jpg",
+        "/src/assets/images/products/art-painting-by-bo-andersson-1941-3.jpg"
+      ],
+      "material": "Mixed media on sheet metal",
+      "dimensions": "H 106 × W 66 cm",
+      "description": "Mixed media on sheet metal by the Swedish artist Bo Andersson, executed in 1997. The composition is presented on a solid metal support and measures H 106 × W 66 cm, the mixed-media surface giving the work its layered, tactile character. Acquired directly from the artist in 1997, the piece carries the reference number 1941.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 240,
+      "name": "Painting by Mogens Andersen",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 10916,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-by-mogens-andersen-2874-1.jpg",
+        "/src/assets/images/products/art-painting-by-mogens-andersen-2874-2.jpg",
+        "/src/assets/images/products/art-painting-by-mogens-andersen-2874-3.jpg"
+      ],
+      "material": "Mixed media with collage",
+      "dimensions": "H 102 × W 46 cm",
+      "description": "Mogens Andersen’s works are masterful examples of contrast and colour play, varying wildly from image to image. His main interests lay in French Modernism, and he spent long periods in Paris until 1964; his friendships with Pierre Soulages and Jean Bazaine allowed him to develop his signature dark arabesques. After settling back in his home country of Denmark, he continued working until he lost all sight at 82. During his lengthy career, Andersen received the Eckersberg and Thorvaldsen medals, among various other honours. Signed.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 241,
+      "name": "Painting by Per-Erik Böklin",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 1592,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-by-per-erik-boklin-2581-1.jpg",
+        "/src/assets/images/products/art-painting-by-per-erik-boklin-2581-2.jpg",
+        "/src/assets/images/products/art-painting-by-per-erik-boklin-2581-3.jpg"
+      ],
+      "material": "Gouache",
+      "dimensions": "H 43 × W 52.5 cm",
+      "description": "This gouache from 1955 is a finely balanced example of Per-Erik Böklin’s contribution to Swedish concrete art during the postwar period. The composition is constructed from interlocking geometric planes, where angled forms and curved elements generate a measured sense of movement across the surface. A restrained palette of cool blues, greens, and muted neutrals reinforces the architectural clarity of the design. Executed in gouache, the work benefits from the medium’s opacity and matte surface, allowing Böklin to define crisp edges and layered forms with precision. His use of gouache during the mid-1950s marked an important phase in his practice, later recognised in an exhibition at Galerie Bel'Art devoted specifically to these works. Per-Erik Böklin was a central figure within the Swedish concrete art movement and closely associated with the Ny realitet group. Trained as an engineer at Chalmers University of Technology, he approached painting with a structural mindset, viewing the artist as an active participant in shaping modern society alongside architects and engineers. Signed.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 242,
+      "name": "Painting by Rune Hagberg",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 2047,
+      "oldPrice": 2295,
+      "images": [
+        "/src/assets/images/products/art-painting-by-rune-hagberg-7957-1.jpg",
+        "/src/assets/images/products/art-painting-by-rune-hagberg-7957-2.jpg",
+        "/src/assets/images/products/art-painting-by-rune-hagberg-7957-3.jpg"
+      ],
+      "material": "Tempera on paper",
+      "dimensions": "H 63 × W 72.5 × D 6 cm",
+      "description": "Rune Hagberg (1924 - 2015) was a self-taught pupil of Zen Buddhism who explored silence and introspection within his work. Born in Uppsala, Sweden, Hagberg became heavily influenced by Eastern calligraphy throughout his life – and developed a spontaneous sign painting style with a strong concentration on a select amount of characters rooted in Zen Buddhism. His informal meditative practice found its place between concretism and expressionism which was widespread in the 1950s. Later in his life, these symbols would be bound into reels and tied together with string - white, ascetic, and secretive within their frames. Eventually, Hagberg's practice came to focus on a gradual loosening of the picture surface, a kind of elimination of the sheet of paper, as if to approach the idea of nothingness. This exploration later found expression in sculptural objects. His oeuvre of ink painting turned him into a public figure in Sweden – hosting a long series of exhibitions, most notably at Moderna Museet in Malmö and Norrköping Art Museum. He also exhibited abroad in Japan in 1955 alongside a group of Eastern painters and calligraphers. Signed.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 243,
+      "name": "Painting by Rune Hagberg",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 8642,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-by-rune-hagberg-8247-1.jpg",
+        "/src/assets/images/products/art-painting-by-rune-hagberg-8247-2.jpg",
+        "/src/assets/images/products/art-painting-by-rune-hagberg-8247-3.jpg"
+      ],
+      "material": "Sumi ink on paper",
+      "dimensions": "H 63.5 × W 90 cm",
+      "description": "Rune Hagberg (1924 - 2015) was a self-taught pupil of Zen Buddhism who explored silence and introspection within his work. Born in Uppsala, Sweden, Hagberg became heavily influenced by Eastern calligraphy throughout his life – and developed a spontaneous sign painting style with a strong concentration on a select amount of characters rooted in Zen Buddhism. His informal meditative practice found its place between concretism and expressionism which was widespread in the 1950s. Later in his life, these symbols would be bound into reels and tied together with string - white, ascetic, and secretive within their frames. Eventually, Hagberg's practice came to focus on a gradual loosening of the picture surface, a kind of elimination of the sheet of paper, as if to approach the idea of nothingness. This exploration later found expression in sculptural objects. His oeuvre of ink painting turned him into a public figure in Sweden – hosting a long series of exhibitions, most notably at Moderna Museet in Malmö and Norrköping Art Museum. He also exhibited abroad in Japan in 1955 alongside a group of Eastern painters and calligraphers.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 244,
+      "name": "Painting by Sophie Tottie",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 4094,
+      "oldPrice": 4585,
+      "images": [
+        "/src/assets/images/products/art-painting-by-sophie-tottie-2646-1.jpg",
+        "/src/assets/images/products/art-painting-by-sophie-tottie-2646-2.jpg",
+        "/src/assets/images/products/art-painting-by-sophie-tottie-2646-3.jpg"
+      ],
+      "material": "Collage",
+      "dimensions": "H 124 × W 103 cm",
+      "description": "This mixed-media painting by Sophie Tottie dates from the 1990s and exemplifies her exploratory approach to surface, material and abstraction. Built up through layers of paint and collage on a coarse textile ground, the composition balances intense fields of blue and black against the raw, fibrous texture of the support. Drips, ruptures, and irregular edges remain visible, allowing the physical process of making to play an active role in the finished work. Sophie Tottie, born in 1954, lives and works in Stockholm. She studied at the Royal Institute of Art in Stockholm and at the Institut des Hautes Études en Arts Plastiques in Paris, and has held professorial positions at several leading Swedish art institutions. Her work has been widely exhibited and is represented in major public and private collections, securing her position as one of the central figures in contemporary Swedish abstraction. Signed.",
+      "inStock": true,
+      "rating": 4.2,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 245,
+      "name": "Painting by Sven Hansson",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 6823,
+      "oldPrice": 7640,
+      "images": [
+        "/src/assets/images/products/art-painting-by-sven-hansson-2129-1.jpg",
+        "/src/assets/images/products/art-painting-by-sven-hansson-2129-2.jpg",
+        "/src/assets/images/products/art-painting-by-sven-hansson-2129-3.jpg"
+      ],
+      "material": "Oil on canvas",
+      "dimensions": "H 90 × W 120 cm",
+      "description": "Working in a purely geometric, non-figurative style, Sven Hansson was a Swedish painter who is now represented in various municipalities in his home country, including the Museum of Modern Art. His gouache, oil, and relief pieces throughout the 1970’s to late 90’s are quietly expressive forms of contemporary art, on occasion using vibrant colour, many examples pure white and therefore reliant on natural light and the resulting shadows. Hansson pursued his artistic education at Valand's Art School in Gothenburg and further honed his skills under the mentorship of André Lhote at Académie André Lhote in Paris. André Lhote (1885–1962) was a prominent French painter, sculptor, and art teacher known for his significant contributions to Cubism and his role as an influential educator in modern art. Signed.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 246,
+      "name": "Painting by Sven Hansson",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 5913,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-by-sven-hansson-2131-1.jpg",
+        "/src/assets/images/products/art-painting-by-sven-hansson-2131-2.jpg",
+        "/src/assets/images/products/art-painting-by-sven-hansson-2131-3.jpg"
+      ],
+      "material": "Oil on canvas",
+      "dimensions": "H 120 × W 90 cm",
+      "description": "Working in a purely geometric, non-figurative style, Sven Hansson was a Swedish painter who is now represented in various collections, including the Moderna Museet in Stockholm. His gouache, oil, and relief pieces throughout the 1970s to late 90s are quietly expressive forms of contemporary art, on occasion using vibrant colour, many examples are executed in pure white and therefore rely on natural light and the resulting shadows. After the closure of Konstruktiv Tendens, Stockholm’s main gallery for non-figurative, minimalist, and constructivist art, in 2009, Hansson was disillusioned with the art market and sold very little work. After his death in 2014, the family found a large body of previously unexhibited work in the artist’s atelier. All of the works in Modernity’s collection come from Sven Hansson’s family. Hansson pursued his artistic education at Valand's Art School in Gothenburg and further honed his skills under the mentorship of André Lhote at Académie André Lhote in Paris. André Lhote (1885–1962) was a prominent French painter, sculptor, and art teacher known for his significant contributions to Cubism and his role as an influential educator in modern art. Signed.",
+      "inStock": false,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 247,
+      "name": "Painting 'Homage à Tatlin III' by Ole Schwalbe",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 8642,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-homage-a-tatlin-iii-by-ole-schwalbe-7841-1.jpg",
+        "/src/assets/images/products/art-painting-homage-a-tatlin-iii-by-ole-schwalbe-7841-2.jpg",
+        "/src/assets/images/products/art-painting-homage-a-tatlin-iii-by-ole-schwalbe-7841-3.jpg"
+      ],
+      "material": "Oil on canvas",
+      "dimensions": "H 98.5 × W 79.5 cm",
+      "description": "This 1962 oil painting, titled ‘Homage à Tatlin III’, is an exceptional work by Danish modernist painter Ole Schwalbe. Paying tribute to Russian constructivist Vladimir Tatlin, Schwalbe explores geometric abstraction through bold shapes and striking colour fields. The canvas features a minimalist composition in varying shades of deep blue, accented by precise black lines and rounded forms, reflecting the influence of constructivist ideals. The painting is divided into distinct sections, with sharp rectangles and lines anchoring the composition on the left, contrasted by the curved shapes to the right. The careful balance of flat planes and subtle texture speaks to Schwalbe’s ability to harmonize opposing forces within his work, a hallmark of his geometric abstract style. Signed.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 248,
+      "name": "Painting 'Komposition I' by Ole Schwalbe",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 12281,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-komposition-i-by-ole-schwalbe-8316-1.jpg",
+        "/src/assets/images/products/art-painting-komposition-i-by-ole-schwalbe-8316-2.jpg",
+        "/src/assets/images/products/art-painting-komposition-i-by-ole-schwalbe-8316-3.jpg"
+      ],
+      "material": "Oil on canvas",
+      "dimensions": "H 130 × W 81 cm",
+      "description": "Komposition I from 1959 is a rigorous and concentrated work from Ole Schwalbe’s formative years within Danish Constructivism. Built from sharply defined rectangular fields, the composition balances black, white, and red in a tightly controlled arrangement. During the late 1950s, Schwalbe deliberately reduced his use of colour to these three tones. This limitation allowed Schwalbe to focus fully on relationships between form, colour, and spatial rhythm. Ole Schwalbe was a central figure in the second generation of Danish Constructivists, associated with the Linien group and the movement they termed concrete realism. Although trained as a lithographer, he was largely self-taught as a painter and approached painting as an autonomous visual system, free from representation. Signed",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 249,
+      "name": "Painting 'No. II' by Harry Booström",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 13646,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-no-ii-by-harry-boostrom-1587-1.jpg",
+        "/src/assets/images/products/art-painting-no-ii-by-harry-boostrom-1587-2.jpg",
+        "/src/assets/images/products/art-painting-no-ii-by-harry-boostrom-1587-3.jpg"
+      ],
+      "material": "Oil on panel",
+      "dimensions": "H 89 × W 119 cm",
+      "description": "Harry Booström’s abstract compositions from the 1950’s are a visual and geometric marvel, switching from abstract, to concretist and geometric shapes. His compositions achieve both dynamics and movement through this interplay of form and colour – this work would go on to be exhibited at various locations across Sweden, including the Artists of Söder Exhibition of 1955. Signed.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 250,
+      "name": "Painting 'Roman Days' by Ole Schwalbe",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 4094,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-roman-days-by-ole-schwalbe-3738-1.jpg",
+        "/src/assets/images/products/art-painting-roman-days-by-ole-schwalbe-3738-2.jpg",
+        "/src/assets/images/products/art-painting-roman-days-by-ole-schwalbe-3738-3.jpg"
+      ],
+      "material": "Oil on canvas",
+      "dimensions": "H 92 × W 83 cm",
+      "description": "Roman Days , painted in 1964–65, is a clear and confident example of Ole Schwalbe’s mature abstract language. Composed of precisely drawn lines and geometric arcs set against a light ground, the work balances restraint with a renewed sensitivity to colour, marking a shift from the strict black-and-white palette that characterised much of his work during the 1950s. Schwalbe was a key figure in postwar Danish abstraction and a member of the Linien artists’ association, which helped define the second generation of Danish Constructivism, often referred to as concrete realism. A closely related nocturnal version of this composition, Romersk nat. Komposition (Roman Nights) , is held in the permanent collection of the National Gallery of Denmark, underscoring the significance of this body of work within Danish art history. Signed.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 251,
+      "name": "Painting 'Untitled' by Lennart Olausson",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 1319,
+      "oldPrice": 1475,
+      "images": [
+        "/src/assets/images/products/art-painting-untitled-by-lennart-olausson-9106-1.jpg",
+        "/src/assets/images/products/art-painting-untitled-by-lennart-olausson-9106-2.jpg",
+        "/src/assets/images/products/art-painting-untitled-by-lennart-olausson-9106-3.jpg"
+      ],
+      "material": "Mixed media on paper",
+      "dimensions": "H 85 × W 64.5 × D 3.5 cm",
+      "description": "This mixed-media work by Lennart Olausson brings together soft, organic forms with a sharply constructed abstract framework. A large, coiling, almost cloud-like form occupies the centre of the composition, rendered in subtle shades of grey and black and set against blocks of deep crimson and black. The contrast between the cloud-like form and the rigid geometry surrounding it gives the work a dreamlike, slightly enigmatic quality, characteristic of Olausson’s interest in combining recognisable imagery with abstraction and ambiguity. Lennart Olausson made his gallery debut at Galleri Doktor Glas in Stockholm in 1968, followed by an exhibition at Galerie Belle in Västerås the following year. Educated at Konstfack and the Royal Institute of Art in Stockholm, Olausson developed a distinctive visual language combining precise observation, surreal elements and art-historical references. His work is represented in major Swedish collections including Moderna Museet and the Nationalmuseum. Signed Lennart Olausson",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 252,
+      "name": "'Untitled' by Rune Hagberg",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 5003,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-untitled-by-rune-hagberg-8079-1.jpg",
+        "/src/assets/images/products/art-painting-untitled-by-rune-hagberg-8079-2.jpg",
+        "/src/assets/images/products/art-painting-untitled-by-rune-hagberg-8079-3.jpg"
+      ],
+      "material": "Tempera on paper mounted on board",
+      "dimensions": "H 103 × W 75 cm",
+      "description": "Rune Hagberg (1924 - 2015) was a self-taught pupil of Zen Buddhism who explored silence and introspection within his work. Born in Uppsala, Sweden, Hagberg became heavily influenced by Eastern calligraphy throughout his life – and developed a spontaneous sign painting style with a strong concentration on a select amount of characters rooted in Zen Buddhism. His informal meditative practice found its place between concretism and expressionism which was widespread in the 1950s. Later in his life, these symbols would be bound into reels and tied together with string - white, ascetic, and secretive within their frames. Eventually, Hagberg's practice came to focus on a gradual loosening of the picture surface, a kind of elimination of the sheet of paper, as if to approach the idea of nothingness. This exploration later found expression in sculptural objects. His oeuvre of ink painting turned him into a public figure in Sweden – hosting a long series of exhibitions, most notably at Moderna Museet in Malmö and Norrköping Art Museum. He also exhibited abroad in Japan in 1955 alongside a group of Eastern painters and calligraphers. Signed RH in pencil.",
+      "inStock": false,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 253,
+      "name": "Composition by Rune Hagberg",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 3260,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-composition-by-rune-hagberg-9037-1.jpg",
+        "/src/assets/images/products/art-painting-composition-by-rune-hagberg-9037-2.jpg",
+        "/src/assets/images/products/art-painting-composition-by-rune-hagberg-9037-3.jpg"
+      ],
+      "material": "Charcoal on paper",
+      "dimensions": "H 49 × W 42 × D 4 cm",
+      "description": "Rune Hagberg (1924 - 2015) was a self-taught pupil of Zen Buddhism who explored silence and introspection within his work. Born in Uppsala, Sweden, Hagberg became heavily influenced by Eastern calligraphy throughout his life – and developed a spontaneous sign painting style with a strong concentration on a select amount of characters rooted in Zen Buddhism. His informal meditative practice found its place between concretism and expressionism which was widespread in the 1950s. Later in his life, these symbols would be bound into reels and tied together with string - white, ascetic, and secretive within their frames. Eventually, Hagberg's practice came to focus on a gradual loosening of the picture surface, a kind of elimination of the sheet of paper, as if to approach the idea of nothingness. This exploration later found expression in sculptural objects. His oeuvre of ink painting turned him into a public figure in Sweden – hosting a long series of exhibitions, most notably at Moderna Museet in Malmö and Norrköping Art Museum. He also exhibited abroad in Japan in 1955 alongside a group of Eastern painters and calligraphers. Signed",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 254,
+      "name": "Painting by Sven Hansson",
+      "category": "art",
+      "subcategory": "painting",
+      "price": 9470,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-painting-by-sven-hansson-2136-1.jpg",
+        "/src/assets/images/products/art-painting-by-sven-hansson-2136-2.jpg",
+        "/src/assets/images/products/art-painting-by-sven-hansson-2136-3.jpg"
+      ],
+      "material": "Wooden relief",
+      "dimensions": "H 123 × W 72.5 cm",
+      "description": "Working in a purely geometric, non-figurative style, Sven Hansson was a Swedish painter who is now represented in various collections, including the Moderna Museet in Stockholm. His gouache, oil, and relief pieces throughout the 1970s to late 90s are quietly expressive forms of contemporary art, on occasion using vibrant colour, many examples are executed in pure white and therefore rely on natural light and the resulting shadows. After the closure of Konstruktiv Tendens, Stockholm’s main gallery for non-figurative, minimalist, and constructivist art, in 2009, Hansson was disillusioned with the art market and sold very little work. After his death in 2014, the family found a large body of previously unexhibited work in the artist’s atelier. All of the works in Modernity’s collection come from Sven Hansson’s family. Hansson pursued his artistic education at Valand's Art School in Gothenburg and further honed his skills under the mentorship of André Lhote at Académie André Lhote in Paris. André Lhote (1885–1962) was a prominent French painter, sculptor, and art teacher known for his significant contributions to Cubism and his role as an influential educator in modern art. Signed.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
     }
   ]
 }
