@@ -5531,6 +5531,46 @@
       "rating": 4.4,
       "isNew": false,
       "isFeatured": false
+    },
+    {
+      "id": 270,
+      "name": "Framed drawing 'Rider in a Spring Landscape' by Vicke Lindstrand",
+      "category": "art",
+      "subcategory": "work-on-paper",
+      "price": 2840,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-work-on-paper-framed-drawing-rider-in-a-spring-landscape-by-vicke-lindstrand-7508-1.jpg",
+        "/src/assets/images/products/art-work-on-paper-framed-drawing-rider-in-a-spring-landscape-by-vicke-lindstrand-7508-2.jpg",
+        "/src/assets/images/products/art-work-on-paper-framed-drawing-rider-in-a-spring-landscape-by-vicke-lindstrand-7508-3.jpg"
+      ],
+      "material": "Ink on paper",
+      "dimensions": "H 39.5 × W 34 × D 1 cm",
+      "description": "This framed drawing, Rider in a Spring Landscape, was created by Vicke Lindstrand in Sweden during the 1950s. Executed in ink on paper, the work depicts a rider with a billowing cloak astride a rearing horse, set against drifting cloud formations and a low, open horizon. The composition is dynamic and charged with movement, evoking a mythological or allegorical atmosphere. The drawing demonstrates Lindstrand's strong graphic sensibility, developed through his early training as a commercial illustrator. Clear contour lines and controlled shading give the image both clarity and tension. These qualities are characteristic of his work on paper and can also be traced in his later glass engravings and monumental public glass works, where line and surface were used with similar precision. Although Lindstrand achieved international recognition for his innovations in glass—working with Orrefors, Kosta and as artistic director at Upsala-Ekeby—drawing remained a fundamental part of his artistic practice. He produced several hundred drawings and paintings throughout his life, often alongside his industrial commissions. Signed.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 271,
+      "name": "Line drawing America by Alberto Longoni",
+      "category": "art",
+      "subcategory": "work-on-paper",
+      "price": 1774,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/art-work-on-paper-line-drawing-america-by-alberto-longoni-2512-1.jpg",
+        "/src/assets/images/products/art-work-on-paper-line-drawing-america-by-alberto-longoni-2512-2.jpg",
+        "/src/assets/images/products/art-work-on-paper-line-drawing-america-by-alberto-longoni-2512-3.jpg"
+      ],
+      "material": "Ink on paper",
+      "dimensions": "H 97 × W 65 cm",
+      "description": "Line drawing 'America' by Alberto Longoni, created in Italy in 1965. The work is executed in ink on paper, with clean, continuous lines carrying the composition across a generous sheet measuring 97 × 65 cm. The economical line work reflects the graphic clarity pursued in post-war Italian drawing, where a single stroke defines both structure and expression. A refined example of mid-century work on paper, well suited to a modern collection or a curated wall.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": true,
+      "isFeatured": false
     }
   ]
 }
