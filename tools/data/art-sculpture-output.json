@@ -1,0 +1,302 @@
+[
+ {
+  "id": 255,
+  "name": "Bowl 'Il passagio - liten' or 'The passage - small' by Inger Sannes",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 4503,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-bowl-il-passagio-liten-or-the-passage-small-designed-by-inger-sannes-1321-1.jpg",
+   "/src/assets/images/products/art-sculpture-bowl-il-passagio-liten-or-the-passage-small-designed-by-inger-sannes-1321-2.jpg",
+   "/src/assets/images/products/art-sculpture-bowl-il-passagio-liten-or-the-passage-small-designed-by-inger-sannes-1321-3.jpg"
+  ],
+  "material": "Marble and steel",
+  "dimensions": "H 124 × W 33 × D 24 cm",
+  "description": "This sculptural bowl titled Il passagio – liten (The Passage – small) was designed by Inger Sannes in 2014 and carved from white marble. The surface retains a distinctly tactile, almost geological quality, with rhythmically worked grooves that reveal both the resistance of the stone and the physical intensity of the carving process. Despite its weight and material density, the form appears open and poised, balancing mass with an unexpected sense of lightness. The work belongs to Sannes’ ongoing exploration of transition and transformation. A recurring idea in her practice is the dialogue between what is grounded and what is in motion: one element rooted and stable, the other pushing outward, suggesting growth, departure, or a shift in direction. Inger Sannes works between Stockholm and Pietrasanta, Italy, where she has access to the same marble traditions that shaped classical sculpture. Alongside her smaller works, she has realised major public commissions, including a large-scale version of Il Passaggio for Frösunda Kyrka in Gnesta, Sweden. Marked.",
+  "inStock": true,
+  "rating": 4.5,
+  "isNew": true,
+  "isFeatured": false
+ },
+ {
+  "id": 256,
+  "name": "Framed sculpture 'Blåsegel' by Stig Åke Lund",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 591,
+  "oldPrice": 660,
+  "images": [
+   "/src/assets/images/products/art-sculpture-framed-sculpture-blasegel-designed-by-stig-ake-lund-868-1.jpg",
+   "/src/assets/images/products/art-sculpture-framed-sculpture-blasegel-designed-by-stig-ake-lund-868-2.jpg",
+   "/src/assets/images/products/art-sculpture-framed-sculpture-blasegel-designed-by-stig-ake-lund-868-3.jpg"
+  ],
+  "material": "Mixed media collage",
+  "dimensions": "H 61 × W 55 cm",
+  "description": "This framed sculptural work, titled Blåsegel , was created in 1983 by the Swedish artist Stig Åke Lund. Constructed as a shallow relief, the piece combines layered elements into a compact, architectural composition that sits between sculpture and collage. Lund drew much of his visual language from nature, distilling organic motifs into simplified, botanical shapes. Throughout his career, Lund worked fluently across a wide range of media, including metal, wood, graphic techniques, and sculptural assemblage. His reliefs and montages often blur the boundary between image and object, inviting the viewer to read the work both as a composition and as a physical construction. Stig Åke Lund’s work is held in several important public collections, underscoring his international recognition. Institutions such as The Metropolitan Museum of Art in New York and the Nationalmuseum in Stockholm include his works, situating Blåsegel within a broader body of refined Scandinavian mid century art.",
+  "inStock": true,
+  "rating": 4.7,
+  "isNew": false,
+  "isFeatured": false
+ },
+ {
+  "id": 257,
+  "name": "Lizard sculpture",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 4715,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-lizard-sculpture-8836-1.jpg",
+   "/src/assets/images/products/art-sculpture-lizard-sculpture-8836-2.jpg",
+   "/src/assets/images/products/art-sculpture-lizard-sculpture-8836-3.jpg"
+  ],
+  "material": "Iron",
+  "dimensions": "H 153 × Dia 110 cm",
+  "description": "Monumental iron sculpture depicting a lizard, executed by an anonymous artist in the 1960s. The animal is rendered at an imposing scale of H 153 × Dia 110 cm, and the iron surface gives the figure a strong, architectural sculptural presence. Formerly in the collection of Simon Spies, the piece unites mid-century decorative charm with genuine statement-piece character, holding its own in both classic and contemporary interiors.",
+  "inStock": true,
+  "rating": 4.3,
+  "isNew": false,
+  "isFeatured": true
+ },
+ {
+  "id": 258,
+  "name": "Sculpture 'A fish called Matti'",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 905,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-a-fish-called-matti-anonymous-491-1.jpg",
+   "/src/assets/images/products/art-sculpture-a-fish-called-matti-anonymous-491-2.jpg",
+   "/src/assets/images/products/art-sculpture-a-fish-called-matti-anonymous-491-3.jpg"
+  ],
+  "material": "Wire mesh",
+  "dimensions": "H 40 × W 120 × D 45 cm",
+  "description": "Sculpture titled 'A fish called Matti', created by an anonymous Finnish artist in the 1980s. The fish is built from wire mesh, its open, transparent structure giving the form a light, almost sketched presence in space. Measuring H 40 × W 120 × D 45 cm, the sculpture makes an eye-catching statement on a console or sideboard. A witty example of Nordic design humour, it brings character to both collector interiors and contemporary settings.",
+  "inStock": false,
+  "rating": 4.8,
+  "isNew": false,
+  "isFeatured": false
+ },
+ {
+  "id": 259,
+  "name": "Sculpture 'Bull Terrier' by Sonja Petterson",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 2684,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-bull-terrier-designed-by-sonja-pettersson-9044-1.jpg",
+   "/src/assets/images/products/art-sculpture-bull-terrier-designed-by-sonja-pettersson-9044-2.jpg",
+   "/src/assets/images/products/art-sculpture-bull-terrier-designed-by-sonja-pettersson-9044-3.jpg"
+  ],
+  "material": "Plaster",
+  "dimensions": "H 52.5 × W 95 × D 32 cm",
+  "description": "Sonja Petterson was a Swedish sculptor. She studied at Konstfack—the Stockholm University of Arts, Crafts and Design. Her sculptures typically depict animals that show human features. She is most well-known for her wonderfully peculiar dogs. Signed SP Unique",
+  "inStock": true,
+  "rating": 4.6,
+  "isNew": true,
+  "isFeatured": false
+ },
+ {
+  "id": 260,
+  "name": "Sculpture by Einar Höste",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 1774,
+  "oldPrice": 1985,
+  "images": [
+   "/src/assets/images/products/art-sculpture-by-einar-hoste-1361-1.jpg",
+   "/src/assets/images/products/art-sculpture-by-einar-hoste-1361-2.jpg",
+   "/src/assets/images/products/art-sculpture-by-einar-hoste-1361-3.jpg"
+  ],
+  "material": "Brass and acrylic",
+  "dimensions": "W 54 × D 27 cm",
+  "description": "This sculptural work from the 1980s presents a delicately articulated structure built from interconnected geometric units, forming a continuous, net-like body that appears to expand freely across space. Constructed from repeated hexagonal and pentagonal frames, the sculpture recalls molecular or crystalline models, where each element is part of a larger, evolving system. The work reflects Höste's long-standing investigation into geometry as a means of understanding space. Throughout his practice, Höste explored the relationship between fundamental forms, most notably the cube and the sphere, and the tension between enclosed structure and open, expansive volume. Educated at Konstfack in Stockholm, Höste worked across sculpture and painting, often using industrial materials to construct abstract, space-defining works.",
+  "inStock": true,
+  "rating": 4.4,
+  "isNew": false,
+  "isFeatured": false
+ },
+ {
+  "id": 261,
+  "name": "Sculpture by Hugo Liisberg",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 13646,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-by-hugo-liisberg-3101-1.jpg",
+   "/src/assets/images/products/art-sculpture-by-hugo-liisberg-3101-2.jpg",
+   "/src/assets/images/products/art-sculpture-by-hugo-liisberg-3101-3.jpg"
+  ],
+  "material": "Patinated bronze",
+  "dimensions": "H 48 cm",
+  "description": "Hugo Liisberg (1896–1958) was a Danish sculptor and ceramicist celebrated for his dynamic depictions of the animal kingdom, where naturalistic observation meets dramatic tension. This bronze sculpture of an eagle striking a swan exemplifies his ability to capture the raw vitality of nature in motion. The raised wings and twisting bodies convey both elegance and struggle, a theme Liisberg often explored in his public commissions such as Ørnebrønden in Silkeborg 1931 and De vilde svaner in Odense 1951. Executed with a rich, green-brown patina, the work reveals Liisberg’s sculptural precision and sensitivity to surface texture, hallmarks of his practice that extended from monumental public works to smaller bronzes and ceramic figures produced for Royal Copenhagen and Saxbo. This piece reflects his enduring fascination with birds and the dramatic interplay between predator and prey, offering a powerful study of movement and form. Liisberg’s artistic significance is underscored by his presence in major museum collections, including Vejen Kunstmuseum, Museum Sønderjylland, Trapholt, Statens Museum for Kunst, KØS – Museum for kunst i det offentlige rum, ARoS Aarhus Kunstmuseum, and Esbjerg Kunstmuseum. Signed.",
+  "inStock": true,
+  "rating": 4.9,
+  "isNew": false,
+  "isFeatured": false
+ },
+ {
+  "id": 262,
+  "name": "Sculpture by Lennart Färnmark",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 2684,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-by-lennart-farnmark-770-1.jpg",
+   "/src/assets/images/products/art-sculpture-by-lennart-farnmark-770-2.jpg",
+   "/src/assets/images/products/art-sculpture-by-lennart-farnmark-770-3.jpg"
+  ],
+  "material": "Steel wire",
+  "dimensions": "H 150 × W 75 × D 34 cm",
+  "description": "Large sculpture by the Swedish artist Lennart Färnmark, executed in steel wire in the 1950s. The open, linear construction draws volume in space, the shaped wires creating rhythm and transparency across the imposing format of H 150 × W 75 × D 34 cm. A refined example of mid-century Swedish sculptural craft, the work reads differently from every angle and pairs beautifully with both modern and classic interiors.",
+  "inStock": true,
+  "rating": 4.2,
+  "isNew": false,
+  "isFeatured": true
+ },
+ {
+  "id": 263,
+  "name": "Sculpture by Nils G. Stenqvist",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 2229,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-by-nils-g-stenqvist-1826-1.jpg",
+   "/src/assets/images/products/art-sculpture-by-nils-g-stenqvist-1826-2.jpg",
+   "/src/assets/images/products/art-sculpture-by-nils-g-stenqvist-1826-3.jpg"
+  ],
+  "material": "Bronze",
+  "dimensions": "H 38 × W 48 cm",
+  "description": "This sculptural work from the 1950s unfolds as a continuous, spiralling form. The compact, coiling movement evokes natural growth patterns, recalling shells, currents, and geological formations. The work is characteristic of Nils G. Stenqvist ’ s deep engagement with nature as both form and concept. Throughout his practice as a graphic artist, painter, and sculptor, Stenqvist repeatedly returned to organic structures, particularly the spiral, as a way of linking microcosmic phenomena such as cellular growth with larger cosmic and geological forces. His sculptures often explore this threshold between the intimate and the monumental, using simplified forms to suggest complex natural processes. Stenqvist was a central figure in Swedish modern art and is represented in major public collections, including Moderna Museet in Stockholm and museums in Gothenburg, Malmö, Kalmar, Hamburg, and the United States. Stamped.",
+  "inStock": true,
+  "rating": 4.5,
+  "isNew": true,
+  "isFeatured": false
+ },
+ {
+  "id": 264,
+  "name": "Sculpture by Torsten Johansson",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 2229,
+  "oldPrice": 2495,
+  "images": [
+   "/src/assets/images/products/art-sculpture-by-torsten-johansson-2401-1.jpg",
+   "/src/assets/images/products/art-sculpture-by-torsten-johansson-2401-2.jpg",
+   "/src/assets/images/products/art-sculpture-by-torsten-johansson-2401-3.jpg"
+  ],
+  "material": "Lacquered iron on wooden base",
+  "dimensions": "H 99 × W 40.5 × D 27 cm",
+  "description": "This lacquered iron sculpture was created in the 1980s and belongs to the later abstract phase of Torsten Johannson's work, when industrial materials and constructed forms became central to his practice. The composition is built around a vertical axis, articulated by bold geometric elements and contrasting surfaces in red and black. The figure-like structure suggests a totemic presence, yet remains non-figurative, defined instead by balance, symmetry, and material tension. Alongside his sculptural practice, the artist was also an influential furniture designer for the Swedish manufacturer AB Formträ. He is particularly known for the iconic “Honeycomb” wine rack.",
+  "inStock": true,
+  "rating": 4.7,
+  "isNew": false,
+  "isFeatured": false
+ },
+ {
+  "id": 265,
+  "name": "Sculpture by Torsten Johansson",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 3184,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-designed-by-torsten-johansson-2259-1.jpg",
+   "/src/assets/images/products/art-sculpture-designed-by-torsten-johansson-2259-2.jpg",
+   "/src/assets/images/products/art-sculpture-designed-by-torsten-johansson-2259-3.jpg"
+  ],
+  "material": "Iron",
+  "dimensions": "H 103 × W 77 × D 30 cm",
+  "description": "This iron sculpture was designed by Torsten Johansson in Denmark during the 1960s and reflects his distinctive approach to structure and modular form. Composed of intersecting rectilinear elements arranged around a central vertical support, the work presents a carefully balanced construction in which mass, rhythm, and proportion are held in precise tension. The dark, patinated iron surface is punctuated by gold-toned details, creating a subtle contrast that draws attention to the internal geometry of the piece. The sculpture belongs to a post-war Scandinavian abstract tradition that favoured non-figurative expression rooted in material and construction. Alongside his sculptural work, Johansson was a prominent furniture designer for the Swedish manufacturer AB Formträ, most notably responsible for the celebrated “Honeycomb” wine rack.",
+  "inStock": true,
+  "rating": 4.6,
+  "isNew": false,
+  "isFeatured": false
+ },
+ {
+  "id": 266,
+  "name": "Sculpture 'Puppy in the world' by Sonja Petterson",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 1774,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-puppy-in-the-world-by-sonja-petterson-7821-1.jpg",
+   "/src/assets/images/products/art-sculpture-puppy-in-the-world-by-sonja-petterson-7821-2.jpg",
+   "/src/assets/images/products/art-sculpture-puppy-in-the-world-by-sonja-petterson-7821-3.jpg"
+  ],
+  "material": "Plaster",
+  "dimensions": "H 20 × W 25 × D 27.5 cm",
+  "description": "Sonja Petterson was a Swedish sculptor. She studied at Konstfack—the Stockholm University of Arts, Crafts and Design. Her sculptures typically depict animals that show human features. She is most well-known for her wonderfully peculiar dogs. Signed.",
+  "inStock": false,
+  "rating": 4.8,
+  "isNew": false,
+  "isFeatured": false
+ },
+ {
+  "id": 267,
+  "name": "Sculpture 'Salome' by Anders Jönsson",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 2684,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-salome-designed-by-anders-jonsson-8777-1.jpg",
+   "/src/assets/images/products/art-sculpture-salome-designed-by-anders-jonsson-8777-2.jpg",
+   "/src/assets/images/products/art-sculpture-salome-designed-by-anders-jonsson-8777-3.jpg"
+  ],
+  "material": "Bronze",
+  "dimensions": "H 29.5 × W 12 × D 21.5 cm",
+  "description": "The bronze sculpture Salome by Swedish artist Anders Jönsson presents the biblical figure in a poised, almost meditative moment rather than in overt drama. Kneeling on one leg with the other extended behind, Salome holds the head of John the Baptist in a shallow dish, her body balanced between movement and stillness. The simplified, rhythmic modeling of the figure, together with the flowing drapery over her knee, reflects the sculptural language of Nordic classicism from the early 20th century. Jönsson’s handling of bronze, with its rich green-brown patina, gives the surface a tactile depth that enhances the solemn mood of the scene. The work is signed by the artist and bears the foundry mark of Otto Meyers Eftr., underscoring its quality of execution. This Salome is an evocative example of Swedish figurative sculpture, where mythic subject matter, refined proportions and timeless material come together in a quietly powerful work. Signed.",
+  "inStock": true,
+  "rating": 4.3,
+  "isNew": true,
+  "isFeatured": false
+ },
+ {
+  "id": 268,
+  "name": "Triptych",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 4094,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-triptych-anonymous-826-1.jpg",
+   "/src/assets/images/products/art-sculpture-triptych-anonymous-826-2.jpg",
+   "/src/assets/images/products/art-sculpture-triptych-anonymous-826-3.jpg"
+  ],
+  "material": "Wood relief",
+  "dimensions": "H 60 × W 60 cm",
+  "description": "Carved wood relief triptych by an anonymous Finnish artist, dated to the 1960s. The work is composed of three panels, each measuring H 60 × W 60 cm, forming a cohesive relief in the Nordic modern idiom. The natural warmth of the wood and the rhythmic interplay between the panels give the triptych a calm, architectural presence on the wall. A characterful piece of mid-century Finnish craft, equally at home in a collector's living room or a Scandinavian-inspired interior.",
+  "inStock": true,
+  "rating": 4.6,
+  "isNew": false,
+  "isFeatured": false
+ },
+ {
+  "id": 269,
+  "name": "Wall sculpture by Jörgen Larsen",
+  "category": "art",
+  "subcategory": "sculpture",
+  "price": 873,
+  "oldPrice": null,
+  "images": [
+   "/src/assets/images/products/art-sculpture-wall-sculpture-by-jorgen-larsen-3606-1.jpg",
+   "/src/assets/images/products/art-sculpture-wall-sculpture-by-jorgen-larsen-3606-2.jpg",
+   "/src/assets/images/products/art-sculpture-wall-sculpture-by-jorgen-larsen-3606-3.jpg"
+  ],
+  "material": "Forged iron",
+  "dimensions": "H 84 × W 182 × D 14 cm",
+  "description": "This wall-mounted sculpture by Danish artist Jörgen Larsen, created in the 1970s, reflects the sculptural language associated with Scandinavian Brutalism. Constructed in forged iron, the composition is formed from a network of geometric elements—circles, arcs and linear bars—arranged in a carefully balanced structure. . The work emphasises the material qualities of iron, a characteristic feature of Brutalist design. Rather than concealing the fabrication process, the sculpture highlights the raw surface, weight and structural character of the metal. During the 1970s, Scandinavian artists increasingly explored abstract wall sculptures intended to function as focal points within modern interiors. Larsen’s work reflects this period’s interest in constructivist principles, where simple geometric forms are organised to create rhythm and balance.",
+  "inStock": true,
+  "rating": 4.4,
+  "isNew": false,
+  "isFeatured": false
+ }
+]
