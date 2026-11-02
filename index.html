@@ -48,7 +48,122 @@
 
     <!-- === Main content (unique per page) === -->
     <main>
-      <!-- Hero section → added in the next step -->
+      <!-- ===== Hero — full-bleed warm interior + featured products carousel ===== -->
+      <section
+        class="relative isolate overflow-hidden"
+        aria-label="Featured collection"
+      >
+        <!-- background photo + legibility gradients -->
+        <img
+          src="/src/assets/images/hero/hero-living-room.jpg"
+          alt="Warm Scandinavian living room with a beige vintage sofa, chunky knit throw and string lights"
+          class="absolute inset-0 -z-10 h-full w-full object-cover"
+          fetchpriority="high"
+          decoding="async"
+        />
+        <div
+          class="absolute inset-0 -z-10 bg-gradient-to-r from-black/70 via-black/35 to-black/15"
+        ></div>
+        <div
+          class="absolute inset-x-0 bottom-0 -z-10 h-28 bg-gradient-to-t from-black/40 to-transparent"
+        ></div>
+
+        <div
+          class="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)] gap-12 px-4 pb-16 pt-16 sm:pt-20 lg:min-h-[86vh] lg:grid-cols-[minmax(0,1fr)_minmax(0,580px)] lg:items-center lg:gap-8 lg:pb-20 lg:pt-24"
+        >
+          <!-- copy -->
+          <div class="max-w-2xl min-w-0 text-white">
+            <p
+              class="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.25em] text-white/90"
+            >
+              Nordic Heritage Collection
+              <span class="h-px w-12 bg-white/70" aria-hidden="true"></span>
+            </p>
+            <h1
+              class="mt-4 text-balance font-display text-4xl font-semibold leading-tight sm:text-5xl xl:text-[3.25rem]"
+            >
+              Timeless Nordic Design for Every Living Space
+            </h1>
+            <p
+              class="mt-5 max-w-md text-base leading-relaxed text-white/85 sm:text-lg"
+            >
+              Hand-picked vintage furniture, lighting and art from the Nordic
+              masters — carefully curated pieces that bring warmth, balance and
+              quiet elegance into your home.
+            </p>
+            <a
+              href="/pages/shop.html"
+              class="mt-8 inline-flex items-center gap-2 rounded-sm bg-accent px-6 py-3 text-sm font-semibold text-accent-fg shadow-lg shadow-black/20 transition hover:bg-accent-strong"
+            >
+              Shop the Collection
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- featured products carousel (rendered by src/js/components/hero-carousel.js) -->
+          <div class="relative min-w-0" data-hero-carousel>
+            <div
+              data-hero-track
+              class="relative flex gap-4 transition-transform duration-500 ease-out motion-reduce:transition-none"
+            ></div>
+
+            <button
+              type="button"
+              data-hero-prev
+              aria-label="Previous product"
+              class="absolute -left-3 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-neutral-900 shadow-lg ring-1 ring-black/10 backdrop-blur transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-40 sm:-left-4"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+            </button>
+            <button
+              type="button"
+              data-hero-next
+              aria-label="Next product"
+              class="absolute -right-3 top-1/2 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-neutral-900 shadow-lg ring-1 ring-black/10 backdrop-blur transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-40 sm:-right-4"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- ==== Footer (injected by src/js/components/footer.js) === -->
