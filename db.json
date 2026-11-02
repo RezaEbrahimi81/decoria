@@ -100,51 +100,8 @@
         {
           "slug": "tapestries",
           "name": "Tapestries"
-        },
-        {
-          "slug": "fabrics",
-          "name": "Fabrics"
         }
       ]
-    },
-    {
-      "id": 7,
-      "slug": "jewellery",
-      "name": "Jewellery",
-      "image": null,
-      "subcategories": [
-        {
-          "slug": "bracelets",
-          "name": "Bracelets"
-        },
-        {
-          "slug": "brooches",
-          "name": "Brooches"
-        },
-        {
-          "slug": "necklaces",
-          "name": "Necklaces"
-        },
-        {
-          "slug": "earrings",
-          "name": "Earrings"
-        },
-        {
-          "slug": "rings",
-          "name": "Rings"
-        },
-        {
-          "slug": "other",
-          "name": "Other"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "slug": "various",
-      "name": "Various",
-      "image": null,
-      "subcategories": []
     }
   ],
   "products": [
@@ -5566,6 +5523,546 @@
       "inStock": true,
       "rating": 4.5,
       "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 272,
+      "name": "Flat weave rug by Ingrid Mjörne Michelsen, Sweden, 1960",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 5907,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-flat-weave-rug-designed-by-ingrid-mjorne-michelsen-9099-1.jpg",
+        "/src/assets/images/products/textile-rugs-flat-weave-rug-designed-by-ingrid-mjorne-michelsen-9099-2.jpg",
+        "/src/assets/images/products/textile-rugs-flat-weave-rug-designed-by-ingrid-mjorne-michelsen-9099-3.jpg"
+      ],
+      "material": "Wool",
+      "dimensions": "L 248.5 × W 184 cm",
+      "description": "This handwoven wool rug by Ingrid Mjörne Michelsen, dated 1960, is a refined example of Swedish mid-century textile design. Woven in the traditional rölakan flat-weave technique, the composition is built around a central geometric field of diamonds, triangles and vertical stripes, framed by broad areas of pale wool and a darker outer border. Ingrid Mjörne Michelsen came from a family closely connected to Swedish textile production and later established her own textile workshop in Alingsås during the 1960s. Her practice encompassed rugs, church textiles and designs for industry, including work for Borås Wäfveri AB. This rug, signed with her initials IMM and dated 1960, reflects the close relationship between craft, modernist abstraction and functional design that characterised Swedish textile art during the period. Signed.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 273,
+      "name": "Knotted pile rug by Margareta Sundbom-Eichenholz, Sweden, 1952",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 26500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-knotted-pile-rug-designed-by-margareta-sundbom-eichenholz-8977-1.jpg",
+        "/src/assets/images/products/textile-rugs-knotted-pile-rug-designed-by-margareta-sundbom-eichenholz-8977-2.jpg",
+        "/src/assets/images/products/textile-rugs-knotted-pile-rug-designed-by-margareta-sundbom-eichenholz-8977-3.jpg"
+      ],
+      "material": "Flossa pile, wool",
+      "dimensions": "L 343 × W 338 cm",
+      "description": "This flossa carpet by Margareta Sundbom-Eichenholz reflects her interest in northern Swedish landscape and textile rhythm. Here, the composition is built around a warm red central field, framed by a richly patterned border of geometric motifs in red, cream, grey and yellow. Woven as a traditional knotted pile, the carpet combines Swedish craft technique with a modern, highly personal sense of colour and pattern. Rather than illustrating nature directly, Sundbom-Eichenholz suggests atmosphere through texture, tonal variation and repeated forms. Margareta Sundbom-Eichenholz studied at Konstfack in Stockholm around 1950 and developed a practice shaped by both traditional craft and modern textile art. Her work was strongly influenced by the forests of Hälsingland, as well as by her life in northern Uppland and Gästrikland. Active for only a short period before her artistic production ended in 1957, her carpets represent a concentrated and distinctive contribution to Swedish textile design. Unsigned.",
+      "inStock": true,
+      "rating": 4.6,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 274,
+      "name": "Flat weave rug 'Röda Ess' by Märta Måås-Fjetterström, Sweden, 1934",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 24991,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-flat-weave-rug-roda-ess-designed-by-marta-maas-fjetterstrom-8975-1.jpg",
+        "/src/assets/images/products/textile-rugs-flat-weave-rug-roda-ess-designed-by-marta-maas-fjetterstrom-8975-2.jpg",
+        "/src/assets/images/products/textile-rugs-flat-weave-rug-roda-ess-designed-by-marta-maas-fjetterstrom-8975-3.jpg"
+      ],
+      "material": "Wool",
+      "dimensions": "L 339 × W 225 cm",
+      "description": "This handwoven rölakan carpet, titled Röda Ess, was designed by Märta Måås-Fjetterström in 1934. The composition is built around a repeated geometric pattern in red, terracotta, grey, cream and dark brown, arranged within a structured border. The pattern draws on older textile traditions from the Middle East, Anatolia and the Caucasus, where angular S-shaped motifs were often associated with protective symbols such as dragons or guardian forms. Måås-Fjetterström reinterpreted these references through a distinctly Scandinavian textile language, reducing the motif into a rhythmic and architectural pattern. Märta Måås-Fjetterström founded her weaving studio in Båstad in 1919 and became one of Sweden’s most important textile artists of the twentieth century. Her work combined deep knowledge of historical weaving with a modern understanding of colour, structure and abstraction. Today, her textiles are represented in major museum collections, including the Metropolitan Museum of Art in New York and the Victoria and Albert Museum in London. Signed AB MMF.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 275,
+      "name": "Knotted pile rug 'Örtagården' by Märta Måås-Fjetterström, Sweden, 1952",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 38500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-carpet-ortagarden-designed-by-marta-maas-fjetterstrom-8763-1.jpg",
+        "/src/assets/images/products/textile-rugs-carpet-ortagarden-designed-by-marta-maas-fjetterstrom-8763-2.jpg",
+        "/src/assets/images/products/textile-rugs-carpet-ortagarden-designed-by-marta-maas-fjetterstrom-8763-3.jpg"
+      ],
+      "material": "Flossa pile, wool",
+      "dimensions": "L 355 × W 258 cm",
+      "description": "This rare “Örtagården” flossa rug by Märta Måås-Fjetterström is a richly worked example of mid-century Scandinavian textile art. Designed in 1934 and woven in 1952, it carries the workshop signature AB MMF IBE 1952 together with the weavers’ marks for Svea Friberg and Magnhild Hansson, underlining its documented provenance as an original Märta Måås-Fjetterström rug. The composition evokes a stylised herb garden, with layered fields of pattern built from abstracted floral forms, stepped borders and small symbolic motifs that slowly reveal themselves on closer viewing. A refined palette of mushroom, moss, celadon, soft yellow and muted brick is anchored by darker bands that create a gentle vertical rhythm. Worked in deep, dense flossa pile in hand-dyed wool, the surface has a tactile, almost sculptural quality that shifts with the light. Balancing symmetry and variation, this Swedish wool rug reads as both ornament and artwork and stands as a significant example of Scandinavian rug design from the Märta Måås-Fjetterström atelier. Signed AB MMF IBE 1952.",
+      "inStock": true,
+      "rating": 4.9,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 276,
+      "name": "Flat weave rug 'Prisma' by Anne-Marie Boberg, Sweden, 1980-90s",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 6816,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-carpet-prisma-designed-by-anne-marie-boberg-8695-1.jpg",
+        "/src/assets/images/products/textile-rugs-carpet-prisma-designed-by-anne-marie-boberg-8695-2.jpg",
+        "/src/assets/images/products/textile-rugs-carpet-prisma-designed-by-anne-marie-boberg-8695-3.jpg"
+      ],
+      "material": "Handwoven cloth",
+      "dimensions": "L 310 × W 195 cm",
+      "description": "The ‘Prisma’ carpet by Anne-Marie Boberg exemplifies the harmonious geometry and balanced color palette characteristic of late 20th-century Scandinavian textile design. Woven in Sweden during the 1980–90s, the rug features a refined composition of interlocking rectangular forms in warm neutral tones, creating a subtle play of depth and symmetry. Boberg’s design combines modernist clarity with a handcrafted softness, resulting in a piece that feels both structured and organic. The muted shades of beige, cream, and light brown give the carpet a timeless quality, making it suitable for both contemporary and classic interiors. Signed AMB and retaining its original label, this textile reflects the enduring Scandinavian tradition of craftsmanship and understated elegance. Signed AMB and label marked.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 277,
+      "name": "Flat weave rug 'Dukater' by Märta Måås-Fjetterström, Sweden, 1924",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 41026,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-dukater-designed-by-marta-maas-fjetterstrom-7635-1.jpg",
+        "/src/assets/images/products/textile-rugs-dukater-designed-by-marta-maas-fjetterstrom-7635-2.jpg",
+        "/src/assets/images/products/textile-rugs-dukater-designed-by-marta-maas-fjetterstrom-7635-3.jpg"
+      ],
+      "material": "Wool",
+      "dimensions": "L 350 × W 265 cm",
+      "description": "The Dukater rug, designed in 1924, was named after \"ducats,\" which are historic European gold coins. Its circular, coin-like motifs echo the design's inspiration, tying the name to the visual concept of repeated round shapes that suggest treasure or riches. It features a rich palette of muted purples, soft greens, warm yellows, and dusty pinks, accentuated by neutral tones. The Dukater rug was handwoven using the traditional Swedish röllakan flatweave technique. Röllakan rugs are flat, with no raised surface. This is achieved by interweaving the weft (horizontal threads) and warp (vertical threads). The result is a lightweight, smooth, and reversible rug. This rug was weaved before 1941. We know this as it has the early ‘MMF’ signature that was on all rugs prior to the company being incorporated. The rug is also marked with two dots on one of the corners, indicating the names of the specific weavers who made the piece. MMF, or Märta Måås-Fjetterström, is a Swedish weaving studio established in 1919 by the renowned textile artist Märta Måås-Fjetterström in Båstad, Sweden. Signed MMF.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 278,
+      "name": "Flat weave rug 'Mosaik' by Edna Martin, Sweden, 1950s",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 14900,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-mosaik-by-edna-martin-swedern-8664-1.jpg",
+        "/src/assets/images/products/textile-rugs-mosaik-by-edna-martin-swedern-8664-2.jpg",
+        "/src/assets/images/products/textile-rugs-mosaik-by-edna-martin-swedern-8664-3.jpg"
+      ],
+      "material": "Hand woven wool",
+      "dimensions": "L 327 × W 230 cm",
+      "description": "Flat weave rug 'Mosaik' by Edna Martin, woven in Sweden during the 1950s. The rug is hand woven in wool using the tapestry technique, and takes its name from the mosaic-like play of colour across the composition. A quiet, graphic mid-century textile that brings warmth and pattern to a modern interior.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 279,
+      "name": "Flat weave rug 'Kardor' by Viveka Nygren for Kristianstad läns hemslöjd, Sweden, 1950s",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 9400,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-kardor-by-viveka-nygren-for-kristianstad-lans-hemslojd-sweden-8662-1.jpg",
+        "/src/assets/images/products/textile-rugs-kardor-by-viveka-nygren-for-kristianstad-lans-hemslojd-sweden-8662-2.jpg",
+        "/src/assets/images/products/textile-rugs-kardor-by-viveka-nygren-for-kristianstad-lans-hemslojd-sweden-8662-3.jpg"
+      ],
+      "material": "Kelim weave",
+      "dimensions": "L 278 × W 178 cm",
+      "description": "Flat weave rug 'Kardor' by Viveka Nygren, woven for Kristianstad läns hemslöjd in Sweden during the 1950s. The rug is handwoven in the kelim technique, giving a flat, reversible surface well suited to both floor and wall use. Kristianstad läns hemslöjd was the county crafts society that commissioned textiles from local weavers, carrying the Swedish hemslöjd tradition through the twentieth century. A characterful example of mid-century Swedish flat weave production.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 280,
+      "name": "Flat weave rug 'Tånga Brun' by Barbro Nilsson for Märta Måås-Fjetterström AB, Sweden, 1955",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 31500,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-tanga-brun-designed-by-barbro-nilsson-for-marta-maas-fjetterstrom-ab-8542-1.jpg",
+        "/src/assets/images/products/textile-rugs-tanga-brun-designed-by-barbro-nilsson-for-marta-maas-fjetterstrom-ab-8542-2.jpg",
+        "/src/assets/images/products/textile-rugs-tanga-brun-designed-by-barbro-nilsson-for-marta-maas-fjetterstrom-ab-8542-3.jpg"
+      ],
+      "material": "Gobeläng flatweave",
+      "dimensions": "L 302 × W 205 cm",
+      "description": "Designed in 1955 in this colour for H55 (the Helsingborg exhibition in 1955). H55, short for Helsingborgsutställningen 1955, was a major international exhibition of architecture, design, and craft held in Helsingborg, Sweden. Organised by the Swedish Society of Crafts and Design, the event marked a significant moment in the evolution of Swedish modernism, highlighting post-war optimism and a growing interest in functional, human-centred environments. Barbro Nilsson (1899–1983) was one of Sweden’s most influential textile artists and weavers. Known for her masterful compositions and technical precision, she became artistic director of Märta Måås-Fjetterström AB in 1942, where she introduced the gobeläng flatweave technique.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 281,
+      "name": "Knotted pile rug 'Hästhagen' by Märta Måås-Fjetterström, Sweden, 1923",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 31807,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-hasthagen-designed-by-marta-maas-fjetterstrom-for-marta-maas-fjetterstrom-ab-7920-1.jpg",
+        "/src/assets/images/products/textile-rugs-hasthagen-designed-by-marta-maas-fjetterstrom-for-marta-maas-fjetterstrom-ab-7920-2.jpg",
+        "/src/assets/images/products/textile-rugs-hasthagen-designed-by-marta-maas-fjetterstrom-for-marta-maas-fjetterstrom-ab-7920-3.jpg"
+      ],
+      "material": "Wool",
+      "dimensions": "L 333 × W 226 cm",
+      "description": "Designed in 1923, woven after 1941. \"Hästhagen\" was designed for the Gothenburg exhibition in 1923 and is considered one of Märta Måås-Fjetterström's central works. Signed. Provenance: This carpet was made for the crown prince and princess, Olaf and Märta, of Norway.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 282,
+      "name": "Rug 'Gaia' by Gertie Lundberg for Vävaregården, Sweden, 1960s",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 2954,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-gaia-designed-by-gertie-lundberg-for-vavaregarden-2761-1.jpg",
+        "/src/assets/images/products/textile-rugs-gaia-designed-by-gertie-lundberg-for-vavaregarden-2761-2.jpg",
+        "/src/assets/images/products/textile-rugs-gaia-designed-by-gertie-lundberg-for-vavaregarden-2761-3.jpg"
+      ],
+      "material": "Hand woven wool",
+      "dimensions": "L 204 × W 141 cm",
+      "description": "Hand woven wool. Kelim technique. Commissioned by Helge Hamnert, the Swedish rug and design retailer.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 283,
+      "name": "Flat weave rug, Anonymous, Sweden, 1950s",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 6400,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-rug-anonymous-3353-1.jpg",
+        "/src/assets/images/products/textile-rugs-rug-anonymous-3353-2.jpg",
+        "/src/assets/images/products/textile-rugs-rug-anonymous-3353-3.jpg"
+      ],
+      "material": "Tapestry weave",
+      "dimensions": "L 307 × W 200 cm",
+      "description": "Anonymous Swedish flat weave rug, woven during the 1950s in the tapestry technique. The rug is unsigned, with the honest, graphic character typical of mid-century Swedish flat weave production. A large, versatile textile surface well suited to a modern interior.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 284,
+      "name": "Flat weave rug 'Dream vision' by Agda Österberg, Sweden, 1970s",
+      "category": "textile",
+      "subcategory": "rugs",
+      "price": 11360,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-rugs-dream-vision-designed-by-agda-osterberg-3442-1.jpg",
+        "/src/assets/images/products/textile-rugs-dream-vision-designed-by-agda-osterberg-3442-2.jpg",
+        "/src/assets/images/products/textile-rugs-dream-vision-designed-by-agda-osterberg-3442-3.jpg"
+      ],
+      "material": "Hand woven wool",
+      "dimensions": "L 250 × W 165 cm",
+      "description": "Flat weave rug 'Dream vision' by Agda Österberg, woven in Sweden during the 1970s. The rug is hand woven in wool using the kelim technique. A dreamlike composition of soft colour fields gives the rug its title. Handwoven Swedish kelim rugs such as this pair modernist abstraction with the warmth of craft, and the rug suits both floor and wall use.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 285,
+      "name": "Silk relief by Pasi Välimaa, Finland, 2000s",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 2681,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-silk-relief-designed-by-pasi-valimaa-8814-1.jpg",
+        "/src/assets/images/products/textile-tapestries-silk-relief-designed-by-pasi-valimaa-8814-2.jpg",
+        "/src/assets/images/products/textile-tapestries-silk-relief-designed-by-pasi-valimaa-8814-3.jpg"
+      ],
+      "material": "Silk organza",
+      "dimensions": "H 91.5 × W 103 cm",
+      "description": "This silk relief by Pasi Välimaa is a masterful exploration of textile as expressive medium. Executed in silk organza with a silk dupion reverse, it demonstrates Välimaa's ability to transform delicate materials into works of sculptural presence. Layers, folds, and subtle shifts in colour create an ethereal interplay of light and shadow, evoking movement and organic form. This timeless work occupies a space between painting, sculpture, and textile art, reflecting Välimaa's nuanced approach to material and surface. Born in 1968 in Nystad, Finland, and later based in Sweden, Välimaa studied at Nyckelviksskolan and earned an MFA from Konstfack University of Arts, Crafts and Design in Stockholm. He became one of the Nordic region's leading textile artists and his work is represented in major public collections, including Nationalmuseum and Röhsska Museum. Signed Pasi.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": true,
+      "isFeatured": false
+    },
+    {
+      "id": 286,
+      "name": "Tapestry 'Rød Høst' by Kirsten Gregers Jensen, Norway, 1968",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 2681,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-rd-hst-designed-by-kirsten-gregers-jensen-8692-1.jpg",
+        "/src/assets/images/products/textile-tapestries-rd-hst-designed-by-kirsten-gregers-jensen-8692-2.jpg",
+        "/src/assets/images/products/textile-tapestries-rd-hst-designed-by-kirsten-gregers-jensen-8692-3.jpg"
+      ],
+      "material": "Hand woven wool",
+      "dimensions": "H 169 × W 107 cm",
+      "description": "The 'Rød Høst' tapestry, designed by Kirsten Gregers Jensen in 1968, is a striking example of her early exploration of form, rhythm, and color. A handwoven wool cloth tapestry featuring a geometric pattern in shades of red, grey, and bluish black, it reveals Jensen's ability to balance expressive color with structural clarity. Created during a period when Jensen's work embraced a more dynamic use of tone and contrast, 'Rød Høst' captures the atmosphere of the Nordic autumn through abstract geometry. The interplay between deep reds, muted greys, and dark bluish tones gives the piece a sense of warmth and quiet tension, merging modernist precision with emotional resonance. Kirsten Gregers Jensen (1928–1998) was a Norwegian-Danish tapestry artist and furniture architect known for her refined craftsmanship and modernist aesthetic. Trained in Trondheim and Copenhagen, she founded her own weaving studio in 1957 and exhibited widely throughout Scandinavia. Her works are represented in Designmuseum Danmark, the Ny Carlsberg Foundation, and the Danish Arts Foundation. Signed KGJ and labeled on the reverse, this tapestry is a unique work that reflects Jensen's evolving artistic language, where geometry, texture, and color converge in a balanced and timeless composition. Signed KGJ. Back marked with label. Unique.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 287,
+      "name": "Tapestry 'Porte' by Kirsten Gregers Jensen, Norway, 1984",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 3317,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-porte-designed-by-kirsten-gregers-jensen-8694-1.jpg",
+        "/src/assets/images/products/textile-tapestries-porte-designed-by-kirsten-gregers-jensen-8694-2.jpg",
+        "/src/assets/images/products/textile-tapestries-porte-designed-by-kirsten-gregers-jensen-8694-3.jpg"
+      ],
+      "material": "Hand woven wool",
+      "dimensions": "H 188 × W 155 cm",
+      "description": "The 'Porte' tapestry, designed by Kirsten Gregers Jensen in 1984, embodies the artist's distinctive exploration of form, texture, and restrained color. A handwoven wool tapestry featuring a geometric pattern in shades of brown, white, black, and grey, it reflects Jensen's fascination with architectural structure and her refined sense of spatial rhythm. Kirsten Gregers Jensen (1928–1998) was a Norwegian-Danish tapestry artist and furniture architect based in Norway. Trained at Snedkerlauget in Trondheim in 1945 and at Kunsthåndværkerskolen in Copenhagen in 1948, she established her own weaving studio in 1957. Though largely self-taught as a weaver, she developed a distinctive aesthetic rooted in Scandinavian modernism and material precision. She made her debut at the Artists' Autumn Exhibition in 1958 and went on to exhibit widely, both individually and as part of the artists' association Corner, of which she became a member in 1973. Her works are represented in Designmuseum Danmark, the Ny Carlsberg Foundation, and the Danish Arts Foundation. In her textile works, Jensen often explored the dialogue between light and shadow through a refined palette of 'non-colours', focusing on black, white, and muted neutrals arranged in geometric, non-figurative compositions. 'Porte' exemplifies this mature period in her work, merging architectural clarity with tactile warmth and balanced abstraction. Signed KGJ. Unique. Made ca. 1984.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 288,
+      "name": "Tapestry 'Brun Jord' by Kirsten Gregers Jensen, Norway, 1992",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 3181,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-brun-jord-designed-by-kirsten-gregers-jensen-8693-1.jpg",
+        "/src/assets/images/products/textile-tapestries-brun-jord-designed-by-kirsten-gregers-jensen-8693-2.jpg",
+        "/src/assets/images/products/textile-tapestries-brun-jord-designed-by-kirsten-gregers-jensen-8693-3.jpg"
+      ],
+      "material": "Hand woven wool",
+      "dimensions": "H 200 × W 169 cm",
+      "description": "The 'Brun Jord' tapestry, designed by Kirsten Gregers Jensen in 1992, captures the artist's masterful balance between structure and movement. This handwoven wool tapestry features an abstract composition in shades of brown, white, black, and grey, where sweeping curves and intersecting planes create a dynamic yet harmonious visual rhythm. Jensen's refined use of earthy tones evokes a deep connection to the Nordic landscape, while her precise weaving technique transforms geometric abstraction into something organic and tactile. The work reflects her ongoing exploration of 'non-colours' and her sensitivity to texture, scale, and light. Kirsten Gregers Jensen (1928–1998) was a Norwegian-Danish tapestry artist and furniture architect whose work stands among the finest examples of Scandinavian textile modernism. Trained in Trondheim and Copenhagen, she established her weaving studio in 1957 and exhibited widely across the Nordic art scene. Her pieces are represented in Designmuseum Danmark, the Ny Carlsberg Foundation, and the Danish Arts Foundation. In 'Brun Jord', Jensen's distinctive language of form and tone reaches an expressive maturity, combining material precision with quiet emotional depth. Signed KGJ. Made ca. 1992. Unique.",
+      "inStock": true,
+      "rating": 4.7,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 289,
+      "name": "Tapestry 'Tunnel' and paintings by Louise Treschow, Sweden, 1990",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 1136,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-and-painting-tunnel-annan-fara-brooppning-by-louise-treschow-8245-1.jpg",
+        "/src/assets/images/products/textile-tapestries-and-painting-tunnel-annan-fara-brooppning-by-louise-treschow-8245-2.jpg",
+        "/src/assets/images/products/textile-tapestries-and-painting-tunnel-annan-fara-brooppning-by-louise-treschow-8245-3.jpg"
+      ],
+      "material": "Woven wallpaper",
+      "dimensions": "H 90 × W 210 cm",
+      "description": "Tapestry 'Tunnel' together with two paintings, 'Annan fara' and 'Broöppning', by Louise Treschow, Sweden 1990. The tapestry is executed in woven wallpaper lined with wire and measures H 90 × W 210 cm, while the framed paintings measure H 29.5 × W 72.5 cm.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 290,
+      "name": "Tapestry 'Zebra' attributed to Kerstin Bäckman, Sweden, 1970s",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 409,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-zebra-attributed-to-kerstin-backman-51-1.jpg",
+        "/src/assets/images/products/textile-tapestries-zebra-attributed-to-kerstin-backman-51-2.jpg",
+        "/src/assets/images/products/textile-tapestries-zebra-attributed-to-kerstin-backman-51-3.jpg"
+      ],
+      "material": "Textile",
+      "dimensions": "H 73 × W 52 cm",
+      "description": "Tapestry 'Zebra' attributed to Kerstin Bäckman, Sweden, 1970s. Small-format wall textile with a bold zebra motif.",
+      "inStock": true,
+      "rating": 4.3,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 291,
+      "name": "Wall hanging 'Fragment' by Anita Ullerstam, Sweden, 1991",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 863,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-wall-hanging-fragment-designed-by-anita-ullerstam-642-1.jpg",
+        "/src/assets/images/products/textile-tapestries-wall-hanging-fragment-designed-by-anita-ullerstam-642-2.jpg",
+        "/src/assets/images/products/textile-tapestries-wall-hanging-fragment-designed-by-anita-ullerstam-642-3.jpg"
+      ],
+      "material": "Printed & embroidered fabric",
+      "dimensions": "H 106 × W 157 cm",
+      "description": "Wall hanging 'Fragment' designed by Anita Ullerstam, Sweden 1991. Executed in six pieces of fabric sewn together, polychrome printed and embroidered.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 292,
+      "name": "Tapestry 'Källvatten' by Maria Hägglund, Sweden, 2000s",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 1772,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-kallvatten-designed-by-maria-hagglund-799-1.jpg",
+        "/src/assets/images/products/textile-tapestries-kallvatten-designed-by-maria-hagglund-799-2.jpg",
+        "/src/assets/images/products/textile-tapestries-kallvatten-designed-by-maria-hagglund-799-3.jpg"
+      ],
+      "material": "Handwoven tapestry",
+      "dimensions": "H 71.5 × W 55 cm",
+      "description": "Tapestry 'Källvatten' designed by Maria Hägglund, Sweden, 2000s. Executed as a handwoven tapestry; the title translates from Swedish as 'spring water'.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 293,
+      "name": "Tapestry 'Map' by Alan Davie, Scotland, 1976",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 7725,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-map-designed-by-alan-davie-2413-1.jpg",
+        "/src/assets/images/products/textile-tapestries-map-designed-by-alan-davie-2413-2.jpg",
+        "/src/assets/images/products/textile-tapestries-map-designed-by-alan-davie-2413-3.jpg"
+      ],
+      "material": "Wool, pile technique",
+      "dimensions": "H 201 × W 282 cm",
+      "description": "Tapestry 'Map' designed by Alan Davie, Scotland 1976. Handwoven wool in pile technique. Numbered 1/8. Signed by the artist.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 294,
+      "name": "Tapestry 'Forest Fragments' by Elsa Agélii, Sweden, 1988",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 1772,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-forest-fragments-by-elsa-agelii-2763-1.jpg",
+        "/src/assets/images/products/textile-tapestries-forest-fragments-by-elsa-agelii-2763-2.jpg",
+        "/src/assets/images/products/textile-tapestries-forest-fragments-by-elsa-agelii-2763-3.jpg"
+      ],
+      "material": "Textile",
+      "dimensions": "H 155 × W 135 cm",
+      "description": "Tapestry 'Forest Fragments' by Elsa Agélii, Sweden, 1988. Large-format wall textile.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 295,
+      "name": "Large tapestry by Leo Reis, Sweden, 1980s",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 2408,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-designed-by-leo-reis-2762-1.jpg",
+        "/src/assets/images/products/textile-tapestries-designed-by-leo-reis-2762-2.jpg",
+        "/src/assets/images/products/textile-tapestries-designed-by-leo-reis-2762-3.jpg"
+      ],
+      "material": "Textile",
+      "dimensions": "H 217 × W 190 cm",
+      "description": "Large tapestry designed by Leo Reis, Sweden, 1980s. An impressive wall piece at over two metres in height.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 296,
+      "name": "Tapestry 'The Adventure' by Lennart Rodhe, Sweden, 1972",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 6816,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-the-adventure-designed-by-lennart-rodhe-2843-1.jpg",
+        "/src/assets/images/products/textile-tapestries-the-adventure-designed-by-lennart-rodhe-2843-2.jpg",
+        "/src/assets/images/products/textile-tapestries-the-adventure-designed-by-lennart-rodhe-2843-3.jpg"
+      ],
+      "material": "Textile",
+      "dimensions": "H 155 × W 140 cm",
+      "description": "Tapestry 'The Adventure' designed by Lennart Rodhe, Sweden 1972. Woven by Handarbetets vänner. Signed. Formerly in the collection of Åke Huldt, former director of Swedish Form.",
+      "inStock": true,
+      "rating": 4.8,
+      "isNew": false,
+      "isFeatured": true
+    },
+    {
+      "id": 297,
+      "name": "Tapestry by Bodil Bödtker Naess, Denmark, 1980s",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 2681,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-by-bodil-bodtker-naess-2906-1.jpg",
+        "/src/assets/images/products/textile-tapestries-by-bodil-bodtker-naess-2906-2.jpg",
+        "/src/assets/images/products/textile-tapestries-by-bodil-bodtker-naess-2906-3.jpg"
+      ],
+      "material": "Wool, nylon cord",
+      "dimensions": "H 100 × W 279 cm",
+      "description": "Tapestry by Bodil Bödtker Naess, Denmark, 1980s. Executed in wool and nylon cord in an elongated horizontal format over 2.7 metres wide.",
+      "inStock": true,
+      "rating": 4.4,
+      "isNew": false,
+      "isFeatured": false
+    },
+    {
+      "id": 298,
+      "name": "Tapestry by Leo Reis, Sweden, 1980s",
+      "category": "textile",
+      "subcategory": "tapestries",
+      "price": 2227,
+      "oldPrice": null,
+      "images": [
+        "/src/assets/images/products/textile-tapestries-designed-by-leo-reis-2907-1.jpg",
+        "/src/assets/images/products/textile-tapestries-designed-by-leo-reis-2907-2.jpg",
+        "/src/assets/images/products/textile-tapestries-designed-by-leo-reis-2907-3.jpg"
+      ],
+      "material": "Textile",
+      "dimensions": "H 195 × W 176 cm",
+      "description": "Tapestry designed by Leo Reis, Sweden, 1980s. Generously scaled wall textile.",
+      "inStock": true,
+      "rating": 4.5,
+      "isNew": false,
       "isFeatured": false
     }
   ]
