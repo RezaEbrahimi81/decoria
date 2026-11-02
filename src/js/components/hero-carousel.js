@@ -6,6 +6,10 @@
 import { apiGet } from "../api/client.js";
 import { formatPrice, onCurrencyChange } from "../services/currency.js";
 
+// ids currently shown in the hero — home.js reads this so the
+// "Curator's Picks" grid below never repeats the same products
+export const heroPickIds = new Set();
+
 const PLACEHOLDER = "/src/assets/images/products/_placeholder.jpg";
 const VISIBLE = 6; // how many products to feature
 
@@ -107,6 +111,8 @@ export async function initHeroCarousel() {
   products = pickProducts(
     featured.length ? featured : await apiGet("/products"),
   );
+  heroPickIds.clear();
+  products.forEach((p) => heroPickIds.add(p.id));
   if (!products.length) {
     root.hidden = true;
     return;
