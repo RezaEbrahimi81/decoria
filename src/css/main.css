@@ -5,6 +5,7 @@
 @theme {
   --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-accent: "Instrument Serif", Georgia, serif;
 
   /* light theme */
   --color-surface: #f2f6f3;
@@ -137,6 +138,83 @@ html {
   }
 }
 
+/* ===== Hero gallery slideshow (modernity.se inspired) ===== */
+
+/* stacked frames: every slide sits on top of the last, cross-fading */
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+}
+.hero-slide.is-active {
+  opacity: 1;
+}
+
+/* product card entrance — replays every time the card changes piece */
+.hero-card.is-in {
+  animation: hero-card-in 0.55s ease both;
+}
+@keyframes hero-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* scene dots under the card */
+.hero-dot {
+  width: 1.5rem;
+  height: 6px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.35);
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    width 0.3s ease;
+}
+.hero-dot:hover {
+  background: rgba(255, 255, 255, 0.65);
+}
+.hero-dot.is-active {
+  background: #71e1ac;
+}
+
+/* autoplay hairline: restarts every slide via .is-running (re-added by JS) */
+.hero-progress-fill.is-running {
+  animation: hero-progress var(--hero-interval, 6500ms) linear forwards;
+}
+.hero-progress-fill.is-paused {
+  animation-play-state: paused;
+}
+@keyframes hero-progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide {
+    transition: none;
+  }
+  .hero-card.is-in {
+    animation: none;
+  }
+  .hero-progress-fill.is-running {
+    animation: none;
+  }
+}
+
 /* ===== Hidden scrollbar for the New Arrivals snap scroller ===== */
 .no-scrollbar {
   scrollbar-width: none; /* Firefox */
@@ -148,6 +226,24 @@ html {
 /* ===== Infinite marquee (fairs carousel) — slows down on hover ===== */
 .marquee {
   overflow: hidden;
+}
+/* soft-faded edges (as a plain class — see APPLY note: the Tailwind
+   arbitrary-property spelling of mask-image kept getting corrupted) */
+.marquee-fade {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 8%,
+    black 92%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 8%,
+    black 92%,
+    transparent
+  );
 }
 .marquee-track {
   display: flex;
